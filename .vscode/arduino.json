@@ -1,0 +1,6 @@
+{
+    "port": "COM17",
+    "board": "arduino:avr:leonardo",
+    "programmer": "arduino:arduinoisp",
+    "sketch": "Códigos\\main\\mechpad.ino"
+}

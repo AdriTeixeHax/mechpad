@@ -7283,7 +7283,7 @@
       (reference "SW40") (unit 1) (value "F10") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
     )
     (path "/f15b7890-7890-4f03-b09f-f68ac18a7833/0ef7c1d5-e54c-4433-90f4-119d5737cf2f"
-      (reference "SW41") (unit 1) (value "11") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
+      (reference "SW41") (unit 1) (value "F11") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
     )
     (path "/f15b7890-7890-4f03-b09f-f68ac18a7833/e05dc038-1908-443b-a127-cc5a0e7557bb"
       (reference "SW42") (unit 1) (value "F12") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")

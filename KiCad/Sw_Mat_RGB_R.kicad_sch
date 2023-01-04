@@ -3057,7 +3057,7 @@
     (in_bom yes) (on_board yes)
     (uuid 0ef7c1d5-e54c-4433-90f4-119d5737cf2f)
     (property "Reference" "SW41" (id 0) (at 295.91 64.77 0))
-    (property "Value" "11" (id 1) (at 295.91 66.675 0))
+    (property "Value" "F11" (id 1) (at 295.91 66.675 0))
     (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (id 2) (at 295.91 70.485 0)
       (effects (font (size 1.27 1.27)) hide)
     )
