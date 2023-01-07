@@ -1,6 +1,7 @@
 {
-    "port": "COM17",
-    "board": "arduino:avr:leonardo",
+    "port": "COM14",
+    "board": "arduino:avr:mega",
     "programmer": "arduino:arduinoisp",
-    "sketch": "Códigos\\main\\mechpad.ino"
+    "sketch": "Códigos\\main\\mechpad.ino",
+    "configuration": "cpu=atmega2560"
 }
