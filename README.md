@@ -1,4 +1,4 @@
-# Project MechPad:fire::snowflake:
+# :snowflake:Project MechPad:fire:
 DIY, modular, split, open source mechanical keyboard and macro-pad with per-key RGB lighting, based around the ATMEGA-32U4 microcontroller.
 
 ## Features:
