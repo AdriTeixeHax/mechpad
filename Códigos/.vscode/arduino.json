@@ -1,7 +1,6 @@
 {
-    "configuration": "cpu=atmega2560",
-    "board": "arduino:avr:mega",
-    "port": "COM14",
-    "programmer": "arduino:arduinoisp",
-    "sketch": "shiftRegister\\shiftRegister.ino"
+    "board": "arduino:avr:leonardo",
+    "port": "COM17",
+    "programmer": "arduino:arduinoasispatmega32u4",
+    "sketch": "main\\main.ino"
 }
