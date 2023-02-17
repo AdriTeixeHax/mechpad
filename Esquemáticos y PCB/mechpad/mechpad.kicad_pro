@@ -354,12 +354,20 @@
       "SWITCH_MATRIX_RGB_NUMPAD"
     ],
     [
-      "4f15a84c-e44b-4d16-b7ea-416cf1399598",
-      "74HC165_2"
+      "85c1e75e-627d-4c70-b3a6-c94424fb96f2",
+      "Shift Register 1"
     ],
     [
-      "85c1e75e-627d-4c70-b3a6-c94424fb96f2",
-      "74HC165_1"
+      "d63e8e91-ff03-43ba-ace3-25f666413cc4",
+      "USB Hub 1"
+    ],
+    [
+      "1990a11f-f2c4-461b-866d-a611527a6b0c",
+      "3.3V regulator"
+    ],
+    [
+      "53d96dd5-9295-4e1a-956c-f33aa696eb9b",
+      "ESP32 BLE"
     ]
   ],
   "text_variables": {}

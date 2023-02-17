@@ -2871,7 +2871,7 @@
   (symbol (lib_id "Device:C") (at 103.505 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 019e2934-d619-4127-9aa4-d6a9e6a5771d)
-    (property "Reference" "C52" (at 106.68 104.1399 0)
+    (property "Reference" "C59" (at 106.68 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 106.6799 0)
@@ -2888,7 +2888,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C52") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -2897,7 +2897,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 186.69 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 02a160a2-4517-4a3b-928d-ecab087b7245)
-    (property "Reference" "SW69" (at 186.69 133.985 0)
+    (property "Reference" "SW70" (at 186.69 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "N" (at 186.69 135.89 0)
@@ -2914,7 +2914,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW69") (unit 1)
+          (reference "SW70") (unit 1)
         )
       )
     )
@@ -2923,7 +2923,7 @@
   (symbol (lib_id "Device:R_US") (at 286.385 200.025 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 042f499d-997e-4bc8-9565-f0556af8d9a5)
-    (property "Reference" "R107" (at 284.48 194.945 90)
+    (property "Reference" "R25" (at 284.48 194.945 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 284.48 197.485 90)
@@ -2940,7 +2940,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R107") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2949,7 +2949,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 328.295 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0452a088-3b97-455d-830d-8ed4e8db8ee6)
-    (property "Reference" "SW78" (at 328.295 150.495 0)
+    (property "Reference" "SW83" (at 328.295 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DOWN" (at 328.295 152.4 0)
@@ -2966,7 +2966,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW78") (unit 1)
+          (reference "SW83") (unit 1)
         )
       )
     )
@@ -2975,7 +2975,7 @@
   (symbol (lib_id "Device:C") (at 103.505 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 045ddb5d-3e27-480b-89c3-83a329757651)
-    (property "Reference" "C40" (at 106.68 45.7199 0)
+    (property "Reference" "C47" (at 106.68 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 48.2599 0)
@@ -2992,7 +2992,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C40") (unit 1)
+          (reference "C47") (unit 1)
         )
       )
     )
@@ -3001,7 +3001,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 376.555 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 048c3eb7-08c6-4058-83a4-a18dcfe230b2)
-    (property "Reference" "SW82" (at 376.555 99.695 0)
+    (property "Reference" "SW61" (at 376.555 99.695 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MACRO2" (at 376.555 101.6 0)
@@ -3018,7 +3018,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW82") (unit 1)
+          (reference "SW61") (unit 1)
         )
       )
     )
@@ -3027,7 +3027,7 @@
   (symbol (lib_id "power:GND") (at 207.645 203.835 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0886b8d8-e7c7-40ec-84b0-a037fe21ddec)
-    (property "Reference" "#PWR0148" (at 213.995 203.835 0)
+    (property "Reference" "#PWR0184" (at 213.995 203.835 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 210.82 203.8349 90)
@@ -3043,7 +3043,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -3052,7 +3052,7 @@
   (symbol (lib_id "Device:C") (at 153.035 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08d83280-58e2-4cc1-9dd5-c5c0aa6e4704)
-    (property "Reference" "C48" (at 156.21 74.9299 0)
+    (property "Reference" "C55" (at 156.21 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 77.4699 0)
@@ -3069,7 +3069,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C48") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -3078,7 +3078,7 @@
   (symbol (lib_id "power:GND") (at 41.275 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09083624-fb1c-4c01-83bf-05669337fde0)
-    (property "Reference" "#PWR0129" (at 41.275 173.99 0)
+    (property "Reference" "#PWR0163" (at 41.275 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 172.085 0)
@@ -3094,7 +3094,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -3103,7 +3103,7 @@
   (symbol (lib_id "Device:D") (at 357.505 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 090da365-2ed0-477e-a4ff-77641e80ac90)
-    (property "Reference" "D44" (at 360.045 74.9299 90)
+    (property "Reference" "D47" (at 360.045 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 360.045 77.4699 90)
@@ -3120,7 +3120,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D44") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -3129,7 +3129,7 @@
   (symbol (lib_id "power:GND") (at 41.275 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09af7ae5-9d6a-4a7f-9068-c3a33199dbd8)
-    (property "Reference" "#PWR093" (at 41.275 86.36 0)
+    (property "Reference" "#PWR0127" (at 41.275 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 84.455 0)
@@ -3145,7 +3145,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -3154,7 +3154,7 @@
   (symbol (lib_id "Device:C") (at 128.27 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a346810-d57e-4bbc-986f-4e13f179f996)
-    (property "Reference" "C59" (at 131.445 133.3499 0)
+    (property "Reference" "C66" (at 131.445 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 135.8899 0)
@@ -3171,7 +3171,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C59") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -3180,7 +3180,7 @@
   (symbol (lib_id "power:GND") (at 115.57 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c4c0548-31a1-40ae-b680-d666ac151e65)
-    (property "Reference" "#PWR0108" (at 115.57 115.57 0)
+    (property "Reference" "#PWR0142" (at 115.57 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 113.665 0)
@@ -3196,7 +3196,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -3231,7 +3231,7 @@
   (symbol (lib_id "power:GND") (at 165.1 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 104b344f-cf76-4479-8513-9c48597a55b8)
-    (property "Reference" "#PWR0122" (at 165.1 144.78 0)
+    (property "Reference" "#PWR0156" (at 165.1 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 142.875 0)
@@ -3247,7 +3247,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -3256,7 +3256,7 @@
   (symbol (lib_id "Device:D") (at 238.76 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 108d95dd-6663-4fe0-9f82-eb38327b9b32)
-    (property "Reference" "D71" (at 241.3 142.2399 90)
+    (property "Reference" "D76" (at 241.3 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 144.7799 90)
@@ -3273,7 +3273,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D71") (unit 1)
+          (reference "D76") (unit 1)
         )
       )
     )
@@ -3310,7 +3310,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 125b5d48-e162-4cd6-8e24-e7ba6a03a474)
-    (property "Reference" "#PWR0152" (at 115.57 212.09 0)
+    (property "Reference" "#PWR0188" (at 115.57 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 203.835 0)
@@ -3326,7 +3326,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -3335,7 +3335,7 @@
   (symbol (lib_id "Device:R_US") (at 323.215 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 130ee1e4-8e80-46ff-b048-c15fbbdfa0ee)
-    (property "Reference" "R27" (at 317.5 59.055 0)
+    (property "Reference" "R21" (at 317.5 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 317.5 61.595 0)
@@ -3352,7 +3352,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R27") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -3361,7 +3361,7 @@
   (symbol (lib_id "power:GND") (at 41.275 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13481adb-7ab3-4dab-8d74-8de3a6318f67)
-    (property "Reference" "#PWR081" (at 41.275 57.15 0)
+    (property "Reference" "#PWR0106" (at 41.275 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 55.245 0)
@@ -3377,7 +3377,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -3386,7 +3386,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 134a3725-b836-422a-9f79-bbc73360b6a3)
-    (property "Reference" "#PWR075" (at 41.275 36.83 0)
+    (property "Reference" "#PWR0100" (at 41.275 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 28.575 0)
@@ -3402,7 +3402,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -3411,7 +3411,7 @@
   (symbol (lib_id "Device:C") (at 53.975 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13ea4110-08b2-4a56-822a-3a65fcb1e66d)
-    (property "Reference" "C56" (at 57.15 133.3499 0)
+    (property "Reference" "C63" (at 57.15 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 135.8899 0)
@@ -3428,7 +3428,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C56") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -3437,7 +3437,7 @@
   (symbol (lib_id "power:GND") (at 66.04 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15263f09-a34b-41ee-afea-3fff459b583b)
-    (property "Reference" "#PWR082" (at 66.04 57.15 0)
+    (property "Reference" "#PWR0107" (at 66.04 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 55.245 0)
@@ -3453,7 +3453,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -3490,7 +3490,7 @@
   (symbol (lib_id "power:GND") (at 90.805 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16852976-96e2-4b06-9277-d519aefdcd29)
-    (property "Reference" "#PWR0143" (at 90.805 203.2 0)
+    (property "Reference" "#PWR0177" (at 90.805 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 201.295 0)
@@ -3506,7 +3506,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -3543,7 +3543,7 @@
   (symbol (lib_id "Device:C") (at 29.21 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 171153ac-60cf-4023-9dea-5bc688baa9a7)
-    (property "Reference" "C43" (at 32.385 74.9299 0)
+    (property "Reference" "C50" (at 32.385 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 77.4699 0)
@@ -3560,7 +3560,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C43") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -3597,7 +3597,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 181d2b3e-8b8d-4690-9086-03ed8b19417e)
-    (property "Reference" "#PWR0163" (at 90.805 241.3 0)
+    (property "Reference" "#PWR0200" (at 90.805 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 233.045 0)
@@ -3613,7 +3613,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0163") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -3678,7 +3678,7 @@
   (symbol (lib_id "Device:D") (at 262.255 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 198e8736-e4eb-457e-b9cb-5f1ac3631f60)
-    (property "Reference" "D68" (at 264.795 158.7499 90)
+    (property "Reference" "D84" (at 264.795 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 161.2899 90)
@@ -3695,7 +3695,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D68") (unit 1)
+          (reference "D84") (unit 1)
         )
       )
     )
@@ -3704,7 +3704,7 @@
   (symbol (lib_id "Device:C") (at 78.74 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a6da933-dab7-4783-9031-dac41b120d95)
-    (property "Reference" "C57" (at 81.915 133.3499 0)
+    (property "Reference" "C64" (at 81.915 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 135.8899 0)
@@ -3721,7 +3721,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C57") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )
@@ -3756,7 +3756,7 @@
   (symbol (lib_id "power:GND") (at 90.805 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1b14f2ff-6d12-4728-a193-bd3cbbd3f9d1)
-    (property "Reference" "#PWR0107" (at 90.805 115.57 0)
+    (property "Reference" "#PWR0141" (at 90.805 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 113.665 0)
@@ -3772,7 +3772,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -3781,7 +3781,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c26d68e-38cb-40ec-a3a8-7bb1bbf52230)
-    (property "Reference" "#PWR090" (at 115.57 66.04 0)
+    (property "Reference" "#PWR0124" (at 115.57 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 57.785 0)
@@ -3797,7 +3797,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -3834,7 +3834,7 @@
   (symbol (lib_id "Device:D") (at 215.265 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cafbc21-92fb-474c-820e-db1a06bb8e6f)
-    (property "Reference" "D52" (at 217.805 158.7499 90)
+    (property "Reference" "D82" (at 217.805 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 161.2899 90)
@@ -3851,7 +3851,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D52") (unit 1)
+          (reference "D82") (unit 1)
         )
       )
     )
@@ -3860,7 +3860,7 @@
   (symbol (lib_id "Device:C") (at 53.975 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d43d89c-7988-472c-ac11-61a65d80a697)
-    (property "Reference" "C74" (at 57.15 220.9799 0)
+    (property "Reference" "C83" (at 57.15 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 223.5199 0)
@@ -3877,7 +3877,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C74") (unit 1)
+          (reference "C83") (unit 1)
         )
       )
     )
@@ -3886,7 +3886,7 @@
   (symbol (lib_id "Device:D") (at 215.265 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e51d772-226b-46b9-a239-489562a33b4a)
-    (property "Reference" "D46" (at 217.805 91.4399 90)
+    (property "Reference" "D50" (at 217.805 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 93.9799 90)
@@ -3903,7 +3903,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D46") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -3912,7 +3912,7 @@
   (symbol (lib_id "Device:R_US") (at 268.605 203.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1eb11340-7d5f-4951-a982-8fdb83933f23)
-    (property "Reference" "R105" (at 262.89 202.565 0)
+    (property "Reference" "R26" (at 262.89 202.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 262.89 205.105 0)
@@ -3929,7 +3929,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R105") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3938,7 +3938,7 @@
   (symbol (lib_id "power:GND") (at 165.1 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f01cb36-3d08-4342-918a-0fee8728eebe)
-    (property "Reference" "#PWR0146" (at 165.1 203.2 0)
+    (property "Reference" "#PWR0180" (at 165.1 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 201.295 0)
@@ -3954,7 +3954,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -4017,7 +4017,7 @@
   (symbol (lib_id "Device:D") (at 262.255 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21372717-95a3-4c6b-a57e-dc2f99468ebb)
-    (property "Reference" "D72" (at 264.795 142.2399 90)
+    (property "Reference" "D77" (at 264.795 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 145.4149 90)
@@ -4034,7 +4034,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D72") (unit 1)
+          (reference "D77") (unit 1)
         )
       )
     )
@@ -4043,7 +4043,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 280.67 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226ae8a2-2ef4-4695-9a88-38d4ec779979)
-    (property "Reference" "SW73" (at 280.67 133.985 0)
+    (property "Reference" "SW74" (at 280.67 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "/" (at 280.67 135.89 0)
@@ -4060,7 +4060,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW73") (unit 1)
+          (reference "SW74") (unit 1)
         )
       )
     )
@@ -4095,7 +4095,7 @@
   (symbol (lib_id "Device:D") (at 191.77 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 241bc1f6-21df-44f5-bed4-14b81bb45bad)
-    (property "Reference" "D37" (at 194.31 74.9299 90)
+    (property "Reference" "D40" (at 194.31 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 194.31 77.4699 90)
@@ -4112,7 +4112,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D37") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -4121,7 +4121,7 @@
   (symbol (lib_id "Device:C") (at 128.27 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24226552-0dd9-43a9-88c2-7811a2e0f0e7)
-    (property "Reference" "C71" (at 131.445 191.7699 0)
+    (property "Reference" "C78" (at 131.445 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 194.3099 0)
@@ -4138,7 +4138,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C71") (unit 1)
+          (reference "C78") (unit 1)
         )
       )
     )
@@ -4147,7 +4147,7 @@
   (symbol (lib_id "power:GND") (at 90.805 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 24a00c28-24ba-410a-bc94-ef5535aaa1af)
-    (property "Reference" "#PWR0119" (at 90.805 144.78 0)
+    (property "Reference" "#PWR0153" (at 90.805 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 142.875 0)
@@ -4163,7 +4163,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -4172,7 +4172,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24cd1ef8-b1aa-42ab-9d5f-bc3135eb9394)
-    (property "Reference" "#PWR0161" (at 41.275 241.3 0)
+    (property "Reference" "#PWR0198" (at 41.275 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 233.045 0)
@@ -4188,7 +4188,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
@@ -4197,7 +4197,7 @@
   (symbol (lib_id "Device:C") (at 128.27 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 258d1486-aeff-4d9f-bb97-d2d9dfab0758)
-    (property "Reference" "C53" (at 131.445 104.1399 0)
+    (property "Reference" "C60" (at 131.445 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 106.6799 0)
@@ -4214,7 +4214,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C53") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -4223,7 +4223,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.175 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25b8f2d0-6468-49de-a06e-81c6f3682704)
-    (property "Reference" "SW64" (at 257.175 116.205 0)
+    (property "Reference" "SW65" (at 257.175 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L" (at 257.175 118.11 0)
@@ -4240,7 +4240,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW64") (unit 1)
+          (reference "SW65") (unit 1)
         )
       )
     )
@@ -4249,7 +4249,7 @@
   (symbol (lib_id "Device:D") (at 285.75 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 261991fc-37b4-4a25-9add-7de3c0bbb349)
-    (property "Reference" "D49" (at 288.29 91.4399 90)
+    (property "Reference" "D53" (at 288.29 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 93.9799 90)
@@ -4266,7 +4266,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D49") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -4275,7 +4275,7 @@
   (symbol (lib_id "Device:D") (at 262.255 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2792810a-3af7-442c-8aa8-237b61e86c5c)
-    (property "Reference" "D56" (at 264.795 107.9499 90)
+    (property "Reference" "D60" (at 264.795 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 111.1249 90)
@@ -4292,7 +4292,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D56") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
@@ -4301,7 +4301,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2861cf8d-af78-4ba6-a34d-d7b3e99462e9)
-    (property "Reference" "#PWR0150" (at 66.04 212.09 0)
+    (property "Reference" "#PWR0186" (at 66.04 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 203.835 0)
@@ -4317,7 +4317,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -4326,7 +4326,7 @@
   (symbol (lib_id "Device:D") (at 238.76 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29ec2ef3-b2a3-4ded-a68e-f5973c001388)
-    (property "Reference" "D55" (at 241.3 107.9499 90)
+    (property "Reference" "D59" (at 241.3 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 110.4899 90)
@@ -4343,7 +4343,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D55") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
   (symbol (lib_id "Device:R_US") (at 228.6 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b2452e7-94bb-4f5d-95b3-dbf45ba374d7)
-    (property "Reference" "R23" (at 222.885 59.055 0)
+    (property "Reference" "R17" (at 222.885 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 222.885 61.595 0)
@@ -4397,7 +4397,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R23") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -4406,7 +4406,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b2e649d-9f42-4a4e-ac2d-c0edb3143106)
-    (property "Reference" "#PWR0149" (at 41.275 212.09 0)
+    (property "Reference" "#PWR0185" (at 41.275 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 203.835 0)
@@ -4422,7 +4422,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -4431,7 +4431,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 210.185 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b6cf0ec-17b3-4771-a88a-76760fb24e99)
-    (property "Reference" "SW62" (at 210.185 116.205 0)
+    (property "Reference" "SW63" (at 210.185 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "J" (at 210.185 118.11 0)
@@ -4448,7 +4448,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW62") (unit 1)
+          (reference "SW63") (unit 1)
         )
       )
     )
@@ -4457,7 +4457,7 @@
   (symbol (lib_id "Device:C") (at 103.505 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ba24573-f06b-4e4a-9a8e-1db205a63f0f)
-    (property "Reference" "C58" (at 106.68 133.3499 0)
+    (property "Reference" "C65" (at 106.68 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 135.8899 0)
@@ -4474,7 +4474,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C58") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -4483,7 +4483,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30859455-c55f-479f-97f5-5e7b4eac9af9)
-    (property "Reference" "#PWR079" (at 140.335 36.83 0)
+    (property "Reference" "#PWR0104" (at 140.335 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 28.575 0)
@@ -4499,7 +4499,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -4508,7 +4508,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 376.555 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 316311da-d151-415b-8fd4-13afec9709db)
-    (property "Reference" "SW108" (at 376.555 133.35 0)
+    (property "Reference" "SW77" (at 376.555 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MACRO4" (at 376.555 135.89 0)
@@ -4525,7 +4525,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW108") (unit 1)
+          (reference "SW77") (unit 1)
         )
       )
     )
@@ -4534,7 +4534,7 @@
   (symbol (lib_id "Device:D") (at 381.635 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e1467b-2c7b-4f9c-a71b-7e11e780cb41)
-    (property "Reference" "D81" (at 384.175 91.4399 90)
+    (property "Reference" "D56" (at 384.175 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 384.175 93.9799 90)
@@ -4551,7 +4551,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D81") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -4560,7 +4560,7 @@
   (symbol (lib_id "Device:D") (at 262.255 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 330081de-cf06-4268-baed-1a4b1b71d46f)
-    (property "Reference" "D64" (at 264.795 124.4599 90)
+    (property "Reference" "D69" (at 264.795 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 127.6349 90)
@@ -4577,7 +4577,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D64") (unit 1)
+          (reference "D69") (unit 1)
         )
       )
     )
@@ -4614,7 +4614,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 328.295 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3492758b-ce8e-46da-88b1-ddacd4e2517e)
-    (property "Reference" "SW75" (at 328.295 133.985 0)
+    (property "Reference" "SW76" (at 328.295 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UP" (at 328.295 135.89 0)
@@ -4631,7 +4631,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW75") (unit 1)
+          (reference "SW76") (unit 1)
         )
       )
     )
@@ -4640,7 +4640,7 @@
   (symbol (lib_id "power:GND") (at 165.1 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39c29ece-aaf7-4075-9166-3a611b3a4d48)
-    (property "Reference" "#PWR0134" (at 165.1 173.99 0)
+    (property "Reference" "#PWR0168" (at 165.1 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 172.085 0)
@@ -4656,7 +4656,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -4665,7 +4665,7 @@
   (symbol (lib_id "Device:D") (at 262.255 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a2b98b5-9082-4d44-b28f-0e81c36f3057)
-    (property "Reference" "D48" (at 264.795 91.4399 90)
+    (property "Reference" "D52" (at 264.795 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 94.6149 90)
@@ -4682,7 +4682,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D48") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -4691,7 +4691,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.175 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a6d9485-ff76-4b12-814a-6b75d9a7b166)
-    (property "Reference" "SW68" (at 257.175 150.495 0)
+    (property "Reference" "SW80" (at 257.175 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FN" (at 257.175 152.4 0)
@@ -4708,7 +4708,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW68") (unit 1)
+          (reference "SW80") (unit 1)
         )
       )
     )
@@ -4717,7 +4717,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c09384d-018f-4790-9204-d392217ae177)
-    (property "Reference" "#PWR088" (at 66.04 66.04 0)
+    (property "Reference" "#PWR0122" (at 66.04 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 57.785 0)
@@ -4733,7 +4733,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -4742,7 +4742,7 @@
   (symbol (lib_id "Device:D") (at 238.76 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c35721f-ae8a-4358-b3af-102d72c153f6)
-    (property "Reference" "D60" (at 241.3 158.7499 90)
+    (property "Reference" "D83" (at 241.3 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 161.2899 90)
@@ -4759,7 +4759,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D60") (unit 1)
+          (reference "D83") (unit 1)
         )
       )
     )
@@ -4768,7 +4768,7 @@
   (symbol (lib_id "power:GND") (at 140.335 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ccf283a-f25d-40e0-84fe-77eb44fa8263)
-    (property "Reference" "#PWR085" (at 140.335 57.15 0)
+    (property "Reference" "#PWR0110" (at 140.335 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 55.245 0)
@@ -4784,7 +4784,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -4793,7 +4793,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 304.165 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ceef672-5fb4-4965-ba7c-e64793344cd2)
-    (property "Reference" "SW77" (at 304.165 150.495 0)
+    (property "Reference" "SW82" (at 304.165 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LEFT" (at 304.165 152.4 0)
@@ -4810,7 +4810,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW77") (unit 1)
+          (reference "SW82") (unit 1)
         )
       )
     )
@@ -4819,7 +4819,7 @@
   (symbol (lib_id "power:GND") (at 165.1 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d0f63c8-2340-444a-8b3f-2bab8f0be0f2)
-    (property "Reference" "#PWR098" (at 165.1 86.36 0)
+    (property "Reference" "#PWR0132" (at 165.1 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 84.455 0)
@@ -4835,7 +4835,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -4844,7 +4844,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 376.555 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d2473b7-c7b4-4e76-b334-a80950dd11c5)
-    (property "Reference" "SW83" (at 376.555 116.205 0)
+    (property "Reference" "SW69" (at 376.555 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MACRO3" (at 376.555 118.11 0)
@@ -4861,7 +4861,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW83") (unit 1)
+          (reference "SW69") (unit 1)
         )
       )
     )
@@ -4870,7 +4870,7 @@
   (symbol (lib_id "Device:R_US") (at 252.095 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d39090d-9c80-4208-b1ce-6fc8c630286d)
-    (property "Reference" "R24" (at 246.38 59.055 0)
+    (property "Reference" "R18" (at 246.38 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 246.38 61.595 0)
@@ -4887,7 +4887,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R24") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -4896,7 +4896,7 @@
   (symbol (lib_id "Device:D") (at 238.76 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4009315c-08f7-45e8-a4c6-32f502dd2dbb)
-    (property "Reference" "D47" (at 241.3 91.4399 90)
+    (property "Reference" "D51" (at 241.3 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 93.9799 90)
@@ -4913,7 +4913,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D47") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -4922,7 +4922,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 409fe28e-56a0-45a9-b0e2-06e1bfef0c24)
-    (property "Reference" "#PWR0164" (at 115.57 241.3 0)
+    (property "Reference" "#PWR0201" (at 115.57 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 233.045 0)
@@ -4938,7 +4938,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -4947,7 +4947,7 @@
   (symbol (lib_id "power:GND") (at 66.04 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 420d1779-3242-4a16-8cb8-4b23c1e4d498)
-    (property "Reference" "#PWR0156" (at 66.04 232.41 0)
+    (property "Reference" "#PWR0193" (at 66.04 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 230.505 0)
@@ -4963,7 +4963,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0156") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
       )
     )
@@ -4972,7 +4972,7 @@
   (symbol (lib_id "Device:R_US") (at 275.59 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 426cdf82-a66b-4463-9617-c225ed5e6223)
-    (property "Reference" "R25" (at 269.875 59.055 0)
+    (property "Reference" "R19" (at 269.875 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 269.875 61.595 0)
@@ -4989,7 +4989,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R25") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -4998,7 +4998,7 @@
   (symbol (lib_id "Device:D") (at 238.76 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42dff029-0917-4ae0-bdbf-15e678d2d832)
-    (property "Reference" "D63" (at 241.3 124.4599 90)
+    (property "Reference" "D68" (at 241.3 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 126.9999 90)
@@ -5015,7 +5015,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D63") (unit 1)
+          (reference "D68") (unit 1)
         )
       )
     )
@@ -5024,7 +5024,7 @@
   (symbol (lib_id "Device:D") (at 309.245 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 440cdecf-7efd-4274-8679-481cf0428b64)
-    (property "Reference" "D50" (at 311.785 91.4399 90)
+    (property "Reference" "D54" (at 311.785 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 93.9799 90)
@@ -5041,7 +5041,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D50") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -5050,7 +5050,7 @@
   (symbol (lib_id "Device:C") (at 53.975 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44fb8153-95d6-48a3-a19e-5272567f45a4)
-    (property "Reference" "C80" (at 57.15 250.1899 0)
+    (property "Reference" "C89" (at 57.15 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 252.7299 0)
@@ -5067,7 +5067,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C80") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -5076,7 +5076,7 @@
   (symbol (lib_id "Device:D") (at 381.635 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 452eb5c5-a976-4830-ab08-1f5077616201)
-    (property "Reference" "D82" (at 384.175 107.9499 90)
+    (property "Reference" "D65" (at 384.175 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 384.175 110.4899 90)
@@ -5093,7 +5093,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D82") (unit 1)
+          (reference "D65") (unit 1)
         )
       )
     )
@@ -5102,7 +5102,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46dd1d24-1056-40cc-b89e-368a32ad32ac)
-    (property "Reference" "#PWR0137" (at 90.805 182.88 0)
+    (property "Reference" "#PWR0171" (at 90.805 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 174.625 0)
@@ -5118,7 +5118,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -5127,7 +5127,7 @@
   (symbol (lib_id "power:GND") (at 41.275 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4748636c-f7ce-46a3-8f8d-9aa5bfb64a5b)
-    (property "Reference" "#PWR0117" (at 41.275 144.78 0)
+    (property "Reference" "#PWR0151" (at 41.275 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 142.875 0)
@@ -5143,7 +5143,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -5152,7 +5152,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 475de406-6564-4a27-ae41-7e0265286c51)
-    (property "Reference" "#PWR0112" (at 66.04 124.46 0)
+    (property "Reference" "#PWR0146" (at 66.04 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 116.205 0)
@@ -5168,7 +5168,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -5177,7 +5177,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4777f97b-5b19-4d80-a3c5-56fbf3bfec20)
-    (property "Reference" "SW71" (at 233.68 133.985 0)
+    (property "Reference" "SW72" (at 233.68 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "," (at 233.68 135.89 0)
@@ -5194,7 +5194,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW71") (unit 1)
+          (reference "SW72") (unit 1)
         )
       )
     )
@@ -5203,7 +5203,7 @@
   (symbol (lib_id "Device:D") (at 285.75 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4933ce3c-32eb-49f1-9b53-32d12d3d7642)
-    (property "Reference" "D41" (at 288.29 74.9299 90)
+    (property "Reference" "D44" (at 288.29 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 77.4699 90)
@@ -5220,7 +5220,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D41") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -5229,7 +5229,7 @@
   (symbol (lib_id "power:GND") (at 66.04 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49e757cb-3bf5-4666-9770-fb473c4e4ddf)
-    (property "Reference" "#PWR0142" (at 66.04 203.2 0)
+    (property "Reference" "#PWR0176" (at 66.04 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 201.295 0)
@@ -5245,7 +5245,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -5254,7 +5254,7 @@
   (symbol (lib_id "Device:C") (at 153.035 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a573704-2ef5-4635-ba23-1067637382f6)
-    (property "Reference" "C42" (at 156.21 45.7199 0)
+    (property "Reference" "C49" (at 156.21 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 48.2599 0)
@@ -5271,7 +5271,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C42") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
     )
@@ -5280,7 +5280,7 @@
   (symbol (lib_id "power:GND") (at 165.1 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a7a8b06-f09a-460b-bb7a-bd8ed3b3d84d)
-    (property "Reference" "#PWR0172" (at 165.1 261.62 0)
+    (property "Reference" "#PWR0209" (at 165.1 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 259.715 0)
@@ -5296,7 +5296,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0172") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -5305,7 +5305,7 @@
   (symbol (lib_id "Device:D") (at 191.77 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c01e08c-f096-4d04-a710-1de33b819efc)
-    (property "Reference" "D69" (at 194.31 142.2399 90)
+    (property "Reference" "D74" (at 194.31 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 194.31 144.7799 90)
@@ -5322,7 +5322,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D69") (unit 1)
+          (reference "D74") (unit 1)
         )
       )
     )
@@ -5331,7 +5331,7 @@
   (symbol (lib_id "power:GND") (at 115.57 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c6c5686-2904-472c-9323-e59800a7b6c9)
-    (property "Reference" "#PWR0132" (at 115.57 173.99 0)
+    (property "Reference" "#PWR0166" (at 115.57 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 172.085 0)
@@ -5347,7 +5347,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -5384,7 +5384,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d31c761-9561-48d1-b081-e3e907a063b4)
-    (property "Reference" "#PWR0153" (at 140.335 212.09 0)
+    (property "Reference" "#PWR0189" (at 140.335 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 203.835 0)
@@ -5400,7 +5400,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
     )
@@ -5409,7 +5409,7 @@
   (symbol (lib_id "Device:C") (at 103.505 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fa93160-d865-4adf-977d-63ee4fd7acae)
-    (property "Reference" "C76" (at 106.68 220.9799 0)
+    (property "Reference" "C85" (at 106.68 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 223.5199 0)
@@ -5426,7 +5426,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C76") (unit 1)
+          (reference "C85") (unit 1)
         )
       )
     )
@@ -5435,7 +5435,7 @@
   (symbol (lib_id "Device:D") (at 285.75 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ff1371a-a33a-4111-9fa4-ebd060d43917)
-    (property "Reference" "D65" (at 288.29 124.4599 90)
+    (property "Reference" "D70" (at 288.29 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 126.9999 90)
@@ -5452,7 +5452,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D65") (unit 1)
+          (reference "D70") (unit 1)
         )
       )
     )
@@ -5461,7 +5461,7 @@
   (symbol (lib_id "Device:D") (at 215.265 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5136608a-d733-4efe-a4a7-c1706e2981a5)
-    (property "Reference" "D70" (at 217.805 142.2399 90)
+    (property "Reference" "D75" (at 217.805 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 144.7799 90)
@@ -5478,7 +5478,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D70") (unit 1)
+          (reference "D75") (unit 1)
         )
       )
     )
@@ -5487,7 +5487,7 @@
   (symbol (lib_id "Device:D") (at 191.77 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51c4e2e0-c9d0-4fa1-b4c8-4a96a21a6d51)
-    (property "Reference" "D53" (at 194.31 107.9499 90)
+    (property "Reference" "D57" (at 194.31 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 194.31 110.4899 90)
@@ -5504,7 +5504,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D53") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
@@ -5513,7 +5513,7 @@
   (symbol (lib_id "Device:D") (at 191.77 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53cfbccb-ca98-4f2a-9bde-17bb59f41c18)
-    (property "Reference" "D61" (at 194.31 124.4599 90)
+    (property "Reference" "D66" (at 194.31 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 194.31 126.9999 90)
@@ -5530,7 +5530,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D61") (unit 1)
+          (reference "D66") (unit 1)
         )
       )
     )
@@ -5539,7 +5539,7 @@
   (symbol (lib_id "Device:C") (at 29.21 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 541738c7-3250-4aa5-819c-73d82e16aed3)
-    (property "Reference" "C37" (at 32.385 45.7199 0)
+    (property "Reference" "C44" (at 32.385 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 48.2599 0)
@@ -5556,7 +5556,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C37") (unit 1)
+          (reference "C44") (unit 1)
         )
       )
     )
@@ -5621,7 +5621,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 588b78fd-3355-492f-8412-0165f96ebfe3)
-    (property "Reference" "#PWR0138" (at 115.57 182.88 0)
+    (property "Reference" "#PWR0172" (at 115.57 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 174.625 0)
@@ -5637,7 +5637,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -5674,7 +5674,7 @@
   (symbol (lib_id "Device:C") (at 103.505 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d79a740-48e6-46bf-8d4e-8b785f7f139d)
-    (property "Reference" "C82" (at 106.68 250.1899 0)
+    (property "Reference" "C91" (at 106.68 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 252.7299 0)
@@ -5691,7 +5691,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C82") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -5700,7 +5700,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e0d15ce-68ab-45ee-ae19-0604e7066232)
-    (property "Reference" "#PWR0102" (at 115.57 95.25 0)
+    (property "Reference" "#PWR0136" (at 115.57 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 86.995 0)
@@ -5716,7 +5716,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -5725,7 +5725,7 @@
   (symbol (lib_id "Device:C") (at 153.035 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ea47035-f776-42e2-aaad-291306aed24e)
-    (property "Reference" "C60" (at 156.21 133.3499 0)
+    (property "Reference" "C67" (at 156.21 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 135.8899 0)
@@ -5742,7 +5742,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C60") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -5751,7 +5751,7 @@
   (symbol (lib_id "power:GND") (at 140.335 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ebe0e6d-2491-47a9-b134-09dd6fd6ca46)
-    (property "Reference" "#PWR0109" (at 140.335 115.57 0)
+    (property "Reference" "#PWR0143" (at 140.335 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 113.665 0)
@@ -5767,7 +5767,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -5776,7 +5776,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6087e539-0bcd-46be-9aff-d7dbe04434bb)
-    (property "Reference" "#PWR0104" (at 165.1 95.25 0)
+    (property "Reference" "#PWR0138" (at 165.1 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 86.995 0)
@@ -5792,7 +5792,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -5801,7 +5801,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6269ee7a-f52b-48c1-b540-e5856239a188)
-    (property "Reference" "#PWR080" (at 165.1 36.83 0)
+    (property "Reference" "#PWR0105" (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 28.575 0)
@@ -5817,7 +5817,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -5826,7 +5826,7 @@
   (symbol (lib_id "power:GND") (at 41.275 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63f30e2d-2b31-4b68-9782-8baa98c6d2d5)
-    (property "Reference" "#PWR0105" (at 41.275 115.57 0)
+    (property "Reference" "#PWR0139" (at 41.275 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 113.665 0)
@@ -5842,7 +5842,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5851,7 +5851,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64a6b5c3-bcf6-4b2f-83f2-a44f630d5df3)
-    (property "Reference" "#PWR092" (at 165.1 66.04 0)
+    (property "Reference" "#PWR0126" (at 165.1 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 57.785 0)
@@ -5867,7 +5867,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -5876,7 +5876,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 656068ae-3172-48f0-9ad1-24831e043dcf)
-    (property "Reference" "#PWR078" (at 115.57 36.83 0)
+    (property "Reference" "#PWR0103" (at 115.57 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 28.575 0)
@@ -5892,7 +5892,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -5901,7 +5901,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 658c945a-04a1-4ba7-94a4-59687c2e8c80)
-    (property "Reference" "#PWR076" (at 66.04 36.83 0)
+    (property "Reference" "#PWR0101" (at 66.04 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 28.575 0)
@@ -5917,7 +5917,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -5980,7 +5980,7 @@
   (symbol (lib_id "power:GND") (at 41.275 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66b9e24e-27d3-4992-8e96-2da14ebf482a)
-    (property "Reference" "#PWR0167" (at 41.275 261.62 0)
+    (property "Reference" "#PWR0204" (at 41.275 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 259.715 0)
@@ -5996,7 +5996,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -6005,7 +6005,7 @@
   (symbol (lib_id "Device:D") (at 309.245 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66fd68b6-5563-4ca1-b9cd-cb1b934b8fe1)
-    (property "Reference" "D74" (at 311.785 142.2399 90)
+    (property "Reference" "D79" (at 311.785 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 144.7799 90)
@@ -6022,7 +6022,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D74") (unit 1)
+          (reference "D79") (unit 1)
         )
       )
     )
@@ -6031,7 +6031,7 @@
   (symbol (lib_id "Device:C") (at 29.21 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6aa26fe5-07c9-4df8-b959-788cd7dd700f)
-    (property "Reference" "C73" (at 32.385 220.9799 0)
+    (property "Reference" "C82" (at 32.385 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 223.5199 0)
@@ -6048,7 +6048,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C73") (unit 1)
+          (reference "C82") (unit 1)
         )
       )
     )
@@ -6057,7 +6057,7 @@
   (symbol (lib_id "Device:C") (at 78.74 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6af2c44b-c371-483b-9037-d914561c74bc)
-    (property "Reference" "C63" (at 81.915 162.5599 0)
+    (property "Reference" "C70" (at 81.915 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 165.0999 0)
@@ -6074,7 +6074,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C63") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -6083,7 +6083,7 @@
   (symbol (lib_id "Device:C") (at 153.035 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b54804c-b64e-4371-b7dd-9463e3f31a42)
-    (property "Reference" "C84" (at 156.21 250.1899 0)
+    (property "Reference" "C93" (at 156.21 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 252.7299 0)
@@ -6100,7 +6100,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C84") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -6109,7 +6109,7 @@
   (symbol (lib_id "power:GND") (at 140.335 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b5ca567-078f-4b66-b257-61557e8fdd2f)
-    (property "Reference" "#PWR0159" (at 140.335 232.41 0)
+    (property "Reference" "#PWR0196" (at 140.335 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 230.505 0)
@@ -6125,7 +6125,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0159") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
     )
@@ -6134,7 +6134,7 @@
   (symbol (lib_id "Device:D") (at 333.375 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cb1a847-f5a7-4785-8234-ba7668b0f874)
-    (property "Reference" "D59" (at 335.915 107.9499 90)
+    (property "Reference" "D63" (at 335.915 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 110.4899 90)
@@ -6151,7 +6151,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D59") (unit 1)
+          (reference "D63") (unit 1)
         )
       )
     )
@@ -6188,7 +6188,7 @@
   (symbol (lib_id "Device:D") (at 191.77 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6efa7519-42fc-4742-9419-72ff47624a01)
-    (property "Reference" "D45" (at 194.31 91.4399 90)
+    (property "Reference" "D49" (at 194.31 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 194.31 93.9799 90)
@@ -6205,7 +6205,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D45") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -6242,7 +6242,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 376.555 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6fbc2803-4d1b-4469-97d3-fbc8624dd542)
-    (property "Reference" "SW81" (at 376.555 83.185 0)
+    (property "Reference" "SW52" (at 376.555 83.185 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MACRO1" (at 376.555 85.09 0)
@@ -6259,7 +6259,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW81") (unit 1)
+          (reference "SW52") (unit 1)
         )
       )
     )
@@ -6268,7 +6268,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ff6cd8d-53ea-4280-941d-918d6f401a42)
-    (property "Reference" "#PWR0135" (at 41.275 182.88 0)
+    (property "Reference" "#PWR0169" (at 41.275 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 174.625 0)
@@ -6284,7 +6284,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -6293,7 +6293,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70f85e3c-2784-4384-9f9c-6fcff8c18314)
-    (property "Reference" "#PWR0114" (at 115.57 124.46 0)
+    (property "Reference" "#PWR0148" (at 115.57 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 116.205 0)
@@ -6309,7 +6309,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -6318,7 +6318,7 @@
   (symbol (lib_id "power:GND") (at 165.1 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 710c4123-0ff7-47f6-99aa-7ed52db5f8f9)
-    (property "Reference" "#PWR0160" (at 165.1 232.41 0)
+    (property "Reference" "#PWR0197" (at 165.1 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 230.505 0)
@@ -6334,7 +6334,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -6371,7 +6371,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71aa4e2a-f7f8-48a4-94f0-f0e225d9f67c)
-    (property "Reference" "#PWR0101" (at 90.805 95.25 0)
+    (property "Reference" "#PWR0135" (at 90.805 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 86.995 0)
@@ -6387,7 +6387,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -6396,7 +6396,7 @@
   (symbol (lib_id "Device:D") (at 381.635 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7240752b-8818-4bcc-a18a-d2e9639db022)
-    (property "Reference" "D83" (at 384.175 124.4599 90)
+    (property "Reference" "D73" (at 384.175 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 384.175 126.9999 90)
@@ -6413,7 +6413,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D83") (unit 1)
+          (reference "D73") (unit 1)
         )
       )
     )
@@ -6478,7 +6478,7 @@
   (symbol (lib_id "Device:C") (at 128.27 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 749c7fcf-c5a7-46ce-bafd-a20559e7be15)
-    (property "Reference" "C65" (at 131.445 162.5599 0)
+    (property "Reference" "C72" (at 131.445 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 165.0999 0)
@@ -6495,7 +6495,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C65") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -6504,7 +6504,7 @@
   (symbol (lib_id "Device:C") (at 153.035 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 756c36b2-0917-4d3a-9754-808db14ac67e)
-    (property "Reference" "C66" (at 156.21 162.5599 0)
+    (property "Reference" "C73" (at 156.21 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 165.0999 0)
@@ -6521,7 +6521,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C66") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -6530,7 +6530,7 @@
   (symbol (lib_id "power:GND") (at 90.805 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75eaa74d-3a98-4b82-a58a-ee1180f2247d)
-    (property "Reference" "#PWR095" (at 90.805 86.36 0)
+    (property "Reference" "#PWR0129" (at 90.805 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 84.455 0)
@@ -6546,7 +6546,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -6555,7 +6555,7 @@
   (symbol (lib_id "power:+5V") (at 115.57 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cb7dc86-b308-4090-b911-17d1741d6962)
-    (property "Reference" "#PWR0126" (at 115.57 153.67 0)
+    (property "Reference" "#PWR0160" (at 115.57 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 115.57 145.415 0)
@@ -6571,7 +6571,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -6580,7 +6580,7 @@
   (symbol (lib_id "Device:D") (at 285.75 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d113ae9-f4e3-4a42-82dc-ccf77285cd35)
-    (property "Reference" "D73" (at 288.29 142.2399 90)
+    (property "Reference" "D78" (at 288.29 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 144.7799 90)
@@ -6597,7 +6597,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D73") (unit 1)
+          (reference "D78") (unit 1)
         )
       )
     )
@@ -6606,7 +6606,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 352.425 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d7007c6-3939-4b68-ab2d-19786ae631c0)
-    (property "Reference" "SW80" (at 352.425 150.495 0)
+    (property "Reference" "SW84" (at 352.425 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RIGHT" (at 352.425 152.4 0)
@@ -6623,7 +6623,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW80") (unit 1)
+          (reference "SW84") (unit 1)
         )
       )
     )
@@ -6632,7 +6632,7 @@
   (symbol (lib_id "Device:D") (at 333.375 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e005700-39fa-4c6a-8bc5-a3a3f80e7426)
-    (property "Reference" "D43" (at 335.915 74.9299 90)
+    (property "Reference" "D46" (at 335.915 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 77.4699 90)
@@ -6649,7 +6649,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D43") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -6658,7 +6658,7 @@
   (symbol (lib_id "power:+5V") (at 252.095 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7eddfde6-3736-4d8c-914f-e6014928f433)
-    (property "Reference" "#PWR0235" (at 252.095 60.325 0)
+    (property "Reference" "#PWR0115" (at 252.095 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 252.095 52.07 0)
@@ -6674,7 +6674,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0235") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -6683,7 +6683,7 @@
   (symbol (lib_id "Device:C") (at 29.21 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81c939ce-ab6d-432f-8894-8649f17e7fbe)
-    (property "Reference" "C55" (at 32.385 133.3499 0)
+    (property "Reference" "C62" (at 32.385 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 135.8899 0)
@@ -6700,7 +6700,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C55") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -6709,7 +6709,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 820ce945-8a5b-4003-91c4-493a219728ef)
-    (property "Reference" "#PWR077" (at 90.805 36.83 0)
+    (property "Reference" "#PWR0102" (at 90.805 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 28.575 0)
@@ -6725,7 +6725,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -6734,7 +6734,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 257.175 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8237f923-b697-4f6e-bf53-d1f43fa5c67f)
-    (property "Reference" "SW72" (at 257.175 133.985 0)
+    (property "Reference" "SW73" (at 257.175 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "." (at 257.175 135.89 0)
@@ -6751,7 +6751,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW72") (unit 1)
+          (reference "SW73") (unit 1)
         )
       )
     )
@@ -6760,7 +6760,7 @@
   (symbol (lib_id "Device:D") (at 215.265 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 824942f2-e6e9-4380-af8c-c027afd36af7)
-    (property "Reference" "D62" (at 217.805 124.4599 90)
+    (property "Reference" "D67" (at 217.805 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 126.9999 90)
@@ -6777,7 +6777,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D62") (unit 1)
+          (reference "D67") (unit 1)
         )
       )
     )
@@ -6786,7 +6786,7 @@
   (symbol (lib_id "Device:C") (at 153.035 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 832ca8d5-cccc-4b2f-aa6f-a90ff8fac7b9)
-    (property "Reference" "C78" (at 156.21 220.9799 0)
+    (property "Reference" "C87" (at 156.21 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 223.5199 0)
@@ -6803,7 +6803,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C78") (unit 1)
+          (reference "C87") (unit 1)
         )
       )
     )
@@ -6812,7 +6812,7 @@
   (symbol (lib_id "Device:D") (at 309.245 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83455ce8-9ed6-4465-9fa6-adc207f2eca2)
-    (property "Reference" "D42" (at 311.785 74.9299 90)
+    (property "Reference" "D45" (at 311.785 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 77.4699 90)
@@ -6829,7 +6829,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D42") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -6838,7 +6838,7 @@
   (symbol (lib_id "Device:D") (at 333.375 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 837a083d-c921-4f35-a92f-77b5dc0d498e)
-    (property "Reference" "D51" (at 335.915 91.4399 90)
+    (property "Reference" "D55" (at 335.915 91.4399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 93.9799 90)
@@ -6855,7 +6855,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D51") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -6864,7 +6864,7 @@
   (symbol (lib_id "Device:R_US") (at 258.445 200.025 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 837ee00b-23b3-41e7-9b09-2d171c49db6e)
-    (property "Reference" "R104" (at 260.985 194.945 90)
+    (property "Reference" "R24" (at 260.985 194.945 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 260.35 197.485 90)
@@ -6881,7 +6881,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R104") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -6918,7 +6918,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83c074e1-6ef2-4661-a055-b68d745d45fa)
-    (property "Reference" "#PWR0124" (at 66.04 153.67 0)
+    (property "Reference" "#PWR0158" (at 66.04 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 145.415 0)
@@ -6934,7 +6934,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -6969,7 +6969,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8508c8b7-f2e4-4d0f-bc98-edd0d05680c2)
-    (property "Reference" "#PWR089" (at 90.805 66.04 0)
+    (property "Reference" "#PWR0123" (at 90.805 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 57.785 0)
@@ -6985,7 +6985,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -7022,7 +7022,7 @@
   (symbol (lib_id "Device:C") (at 128.27 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8724864d-19eb-47b0-bb9c-9f287480120b)
-    (property "Reference" "C41" (at 131.445 45.7199 0)
+    (property "Reference" "C48" (at 131.445 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 48.2599 0)
@@ -7039,7 +7039,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C41") (unit 1)
+          (reference "C48") (unit 1)
         )
       )
     )
@@ -7048,7 +7048,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87332f8e-a32d-4689-badf-c49fc4b9cbcb)
-    (property "Reference" "#PWR0100" (at 66.04 95.25 0)
+    (property "Reference" "#PWR0134" (at 66.04 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 86.995 0)
@@ -7064,7 +7064,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -7073,7 +7073,7 @@
   (symbol (lib_id "Device:R_US") (at 299.085 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87827632-efe2-464a-ad10-7a5f2e91c9e8)
-    (property "Reference" "R26" (at 293.37 59.055 0)
+    (property "Reference" "R20" (at 293.37 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 293.37 61.595 0)
@@ -7090,7 +7090,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R26") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -7099,7 +7099,7 @@
   (symbol (lib_id "power:GND") (at 90.805 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87ebf096-687f-4194-b2ff-ec65cbe2112f)
-    (property "Reference" "#PWR083" (at 90.805 57.15 0)
+    (property "Reference" "#PWR0108" (at 90.805 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 55.245 0)
@@ -7115,7 +7115,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -7124,7 +7124,7 @@
   (symbol (lib_id "Device:R_US") (at 347.345 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87f303be-570d-4a92-901f-031a3bba33bf)
-    (property "Reference" "R28" (at 341.63 59.055 0)
+    (property "Reference" "R22" (at 341.63 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 341.63 61.595 0)
@@ -7141,7 +7141,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R28") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -7178,7 +7178,7 @@
   (symbol (lib_id "Device:C") (at 29.21 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a887b58-432e-4260-89f4-705ea0632b34)
-    (property "Reference" "C79" (at 32.385 250.1899 0)
+    (property "Reference" "C88" (at 32.385 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 252.7299 0)
@@ -7195,7 +7195,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C79") (unit 1)
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -7204,7 +7204,7 @@
   (symbol (lib_id "Device:D") (at 215.265 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b276b01-54a7-49c8-8678-21a733b3b4d1)
-    (property "Reference" "D54" (at 217.805 107.9499 90)
+    (property "Reference" "D58" (at 217.805 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 110.4899 90)
@@ -7221,7 +7221,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D54") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
@@ -7230,7 +7230,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 328.295 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c4093c7-72bb-4741-8679-8f6cf40576aa)
-    (property "Reference" "SW67" (at 328.295 116.205 0)
+    (property "Reference" "SW68" (at 328.295 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ENTER" (at 328.295 118.11 0)
@@ -7247,7 +7247,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW67") (unit 1)
+          (reference "SW68") (unit 1)
         )
       )
     )
@@ -7256,7 +7256,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e004d54-85b3-4f67-9fd6-84c640ca23ea)
-    (property "Reference" "#PWR0113" (at 90.805 124.46 0)
+    (property "Reference" "#PWR0147" (at 90.805 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 116.205 0)
@@ -7272,7 +7272,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -7309,7 +7309,7 @@
   (symbol (lib_id "Device:C") (at 78.74 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f20e6d9-c4c0-4eeb-8eaf-b70985b392b9)
-    (property "Reference" "C51" (at 81.915 104.1399 0)
+    (property "Reference" "C58" (at 81.915 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 106.6799 0)
@@ -7326,7 +7326,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C51") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -7363,7 +7363,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fe3fb7a-8520-4a84-9b48-874b86d73b8e)
-    (property "Reference" "#PWR0166" (at 165.1 241.3 0)
+    (property "Reference" "#PWR0203" (at 165.1 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 233.045 0)
@@ -7379,7 +7379,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -7442,7 +7442,7 @@
   (symbol (lib_id "Device:C") (at 103.505 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 934cbb63-1143-4fa2-84ec-eaf672ca167b)
-    (property "Reference" "C70" (at 106.68 191.7699 0)
+    (property "Reference" "C77" (at 106.68 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 194.3099 0)
@@ -7459,7 +7459,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C70") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -7468,7 +7468,7 @@
   (symbol (lib_id "Device:D") (at 238.76 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 944cf6d8-6a73-4558-81d0-9f57ef11c0ae)
-    (property "Reference" "D39" (at 241.3 74.9299 90)
+    (property "Reference" "D42" (at 241.3 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 241.3 77.4699 90)
@@ -7485,7 +7485,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D39") (unit 1)
+          (reference "D42") (unit 1)
         )
       )
     )
@@ -7494,7 +7494,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95248964-9d32-4963-a9e3-2c75ee2723e8)
-    (property "Reference" "#PWR0162" (at 66.04 241.3 0)
+    (property "Reference" "#PWR0199" (at 66.04 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 233.045 0)
@@ -7510,7 +7510,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0162") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -7547,7 +7547,7 @@
   (symbol (lib_id "Device:C") (at 53.975 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96d0b923-6e66-4a6b-be40-deb981544d3a)
-    (property "Reference" "C44" (at 57.15 74.9299 0)
+    (property "Reference" "C51" (at 57.15 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 77.4699 0)
@@ -7564,7 +7564,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C44") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
     )
@@ -7573,7 +7573,7 @@
   (symbol (lib_id "power:GND") (at 115.57 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96ed8446-6fda-46e4-bcc0-27aeaa3c4a23)
-    (property "Reference" "#PWR084" (at 115.57 57.15 0)
+    (property "Reference" "#PWR0109" (at 115.57 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 55.245 0)
@@ -7589,7 +7589,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -7626,7 +7626,7 @@
   (symbol (lib_id "power:+5V") (at 371.475 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a1dc504-8478-4852-915e-1307cdf6c277)
-    (property "Reference" "#PWR0241" (at 371.475 60.325 0)
+    (property "Reference" "#PWR0120" (at 371.475 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 371.475 52.07 0)
@@ -7642,7 +7642,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0241") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -7651,7 +7651,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a3f63d4-0ba0-42d4-8cb4-17301ab4ba36)
-    (property "Reference" "#PWR0115" (at 140.335 124.46 0)
+    (property "Reference" "#PWR0149" (at 140.335 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 116.205 0)
@@ -7667,7 +7667,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -7676,7 +7676,7 @@
   (symbol (lib_id "power:GND") (at 90.805 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a690f07-08bd-4925-a2b1-7dd8783f1b51)
-    (property "Reference" "#PWR0169" (at 90.805 261.62 0)
+    (property "Reference" "#PWR0206" (at 90.805 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 259.715 0)
@@ -7692,7 +7692,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -7701,7 +7701,7 @@
   (symbol (lib_id "Device:C") (at 103.505 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c36e379-9172-4a7a-ac42-53f2484e50f4)
-    (property "Reference" "C64" (at 106.68 162.5599 0)
+    (property "Reference" "C71" (at 106.68 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 165.0999 0)
@@ -7718,7 +7718,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C64") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -7753,7 +7753,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9db38285-014f-4a00-9911-7603995f491f)
-    (property "Reference" "#PWR0151" (at 90.805 212.09 0)
+    (property "Reference" "#PWR0187" (at 90.805 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 203.835 0)
@@ -7769,7 +7769,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
     )
@@ -7832,7 +7832,7 @@
   (symbol (lib_id "Device:D") (at 357.505 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fdc6d23-95f3-40a1-b824-bf14827bc6b6)
-    (property "Reference" "D80" (at 360.045 158.7499 90)
+    (property "Reference" "D88" (at 360.045 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 360.045 161.2899 90)
@@ -7849,7 +7849,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D80") (unit 1)
+          (reference "D88") (unit 1)
         )
       )
     )
@@ -7858,7 +7858,7 @@
   (symbol (lib_id "Device:D") (at 262.255 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a008dec2-63eb-4218-8d95-b805ee493f93)
-    (property "Reference" "D40" (at 264.795 74.9299 90)
+    (property "Reference" "D43" (at 264.795 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 264.795 77.4699 90)
@@ -7875,7 +7875,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D40") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -7910,7 +7910,7 @@
   (symbol (lib_id "Device:C") (at 268.605 211.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2ed6ae6-de72-4931-bd08-0d8350ed89ac)
-    (property "Reference" "C183" (at 261.62 210.185 0)
+    (property "Reference" "C80" (at 261.62 210.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 261.62 212.725 0)
@@ -7927,7 +7927,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C183") (unit 1)
+          (reference "C80") (unit 1)
         )
       )
     )
@@ -7936,7 +7936,7 @@
   (symbol (lib_id "Device:C") (at 29.21 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a34a6b3e-416d-4e36-9d7d-447a9343e0ac)
-    (property "Reference" "C61" (at 32.385 162.5599 0)
+    (property "Reference" "C68" (at 32.385 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 165.0999 0)
@@ -7953,7 +7953,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C61") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -7962,7 +7962,7 @@
   (symbol (lib_id "Device:R_US") (at 371.475 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a656eaf3-012f-42f8-9561-c046b38a6042)
-    (property "Reference" "R29" (at 365.76 59.055 0)
+    (property "Reference" "R23" (at 365.76 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 365.76 61.595 0)
@@ -7979,7 +7979,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R29") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -7988,7 +7988,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a800ab36-867f-4bec-8ddc-5484d1facd8d)
-    (property "Reference" "#PWR087" (at 41.275 66.04 0)
+    (property "Reference" "#PWR0121" (at 41.275 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 57.785 0)
@@ -8004,7 +8004,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -8041,7 +8041,7 @@
   (symbol (lib_id "Device:C") (at 78.74 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa1163ce-30db-4815-a8bb-695f48b2f4dd)
-    (property "Reference" "C75" (at 81.915 220.9799 0)
+    (property "Reference" "C84" (at 81.915 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 223.5199 0)
@@ -8058,7 +8058,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C75") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
     )
@@ -8067,7 +8067,7 @@
   (symbol (lib_id "power:GND") (at 140.335 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa5f2f7a-eeae-4ad0-95a7-caf5c5957846)
-    (property "Reference" "#PWR0133" (at 140.335 173.99 0)
+    (property "Reference" "#PWR0167" (at 140.335 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 172.085 0)
@@ -8083,7 +8083,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -8118,7 +8118,7 @@
   (symbol (lib_id "power:GND") (at 115.57 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abee0529-2f0f-4dbe-a315-66b465a4bb68)
-    (property "Reference" "#PWR0120" (at 115.57 144.78 0)
+    (property "Reference" "#PWR0154" (at 115.57 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 142.875 0)
@@ -8134,7 +8134,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -8143,7 +8143,7 @@
   (symbol (lib_id "Device:C") (at 29.21 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ac94dcc2-fb48-4bd3-8da1-e0562f6cbaf0)
-    (property "Reference" "C67" (at 32.385 191.7699 0)
+    (property "Reference" "C74" (at 32.385 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 194.3099 0)
@@ -8160,7 +8160,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C67") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -8195,7 +8195,7 @@
   (symbol (lib_id "power:GND") (at 66.04 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acf6bc14-ae87-4426-b9ad-228564ae20d6)
-    (property "Reference" "#PWR094" (at 66.04 86.36 0)
+    (property "Reference" "#PWR0128" (at 66.04 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 84.455 0)
@@ -8211,7 +8211,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -8220,7 +8220,7 @@
   (symbol (lib_id "Device:C") (at 128.27 222.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad3731e6-5f43-476d-a92d-31135a651bbb)
-    (property "Reference" "C77" (at 131.445 220.9799 0)
+    (property "Reference" "C86" (at 131.445 220.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 223.5199 0)
@@ -8237,7 +8237,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C77") (unit 1)
+          (reference "C86") (unit 1)
         )
       )
     )
@@ -8246,7 +8246,7 @@
   (symbol (lib_id "power:GND") (at 140.335 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae204e42-8293-4179-a448-7fb217878fe1)
-    (property "Reference" "#PWR097" (at 140.335 86.36 0)
+    (property "Reference" "#PWR0131" (at 140.335 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 84.455 0)
@@ -8262,7 +8262,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -8271,7 +8271,7 @@
   (symbol (lib_id "power:+5V") (at 254.635 200.025 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae69bd54-5850-4f92-9e4a-a03c57f23222)
-    (property "Reference" "#PWR0238" (at 258.445 200.025 0)
+    (property "Reference" "#PWR0182" (at 258.445 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 249.555 200.025 90)
@@ -8287,7 +8287,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0238") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -8296,7 +8296,7 @@
   (symbol (lib_id "Device:C") (at 53.975 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aea5cc1a-7e58-4481-92ea-a272de27373c)
-    (property "Reference" "C68" (at 57.15 191.7699 0)
+    (property "Reference" "C75" (at 57.15 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 194.3099 0)
@@ -8313,7 +8313,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C68") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -8322,7 +8322,7 @@
   (symbol (lib_id "Device:C") (at 153.035 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aeb0dbbc-e232-4d2f-82e3-9296e9788d1e)
-    (property "Reference" "C72" (at 156.21 191.7699 0)
+    (property "Reference" "C79" (at 156.21 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 194.3099 0)
@@ -8339,7 +8339,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C72") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
     )
@@ -8348,7 +8348,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af4b23ba-050b-4d44-8f8a-8b5e67c4c9db)
-    (property "Reference" "#PWR0154" (at 165.1 212.09 0)
+    (property "Reference" "#PWR0190" (at 165.1 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 203.835 0)
@@ -8364,7 +8364,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )
@@ -8373,7 +8373,7 @@
   (symbol (lib_id "Device:D") (at 381.635 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af70fa0b-d252-4cdc-892a-51fea4c00334)
-    (property "Reference" "D132" (at 384.175 142.2399 90)
+    (property "Reference" "D81" (at 384.175 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 384.175 144.7799 90)
@@ -8390,7 +8390,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D132") (unit 1)
+          (reference "D81") (unit 1)
         )
       )
     )
@@ -8399,7 +8399,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 280.67 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b077658b-29cb-4062-a486-585f8eaceeef)
-    (property "Reference" "SW65" (at 280.67 116.205 0)
+    (property "Reference" "SW66" (at 280.67 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" ";" (at 280.67 118.11 0)
@@ -8416,7 +8416,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW65") (unit 1)
+          (reference "SW66") (unit 1)
         )
       )
     )
@@ -8425,7 +8425,7 @@
   (symbol (lib_id "power:+5V") (at 206.375 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b0b0fd00-6880-4e86-80b7-9299219b14c5)
-    (property "Reference" "#PWR0147" (at 206.375 202.565 0)
+    (property "Reference" "#PWR0181" (at 206.375 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 206.375 194.31 0)
@@ -8441,7 +8441,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -8450,7 +8450,7 @@
   (symbol (lib_id "Device:C") (at 153.035 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1cde15d-6665-4452-ba10-702ff1a6ad11)
-    (property "Reference" "C54" (at 156.21 104.1399 0)
+    (property "Reference" "C61" (at 156.21 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 156.21 106.6799 0)
@@ -8467,7 +8467,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C54") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -8476,7 +8476,7 @@
   (symbol (lib_id "power:GND") (at 66.04 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b32d2bfc-9c4f-408e-a84a-3dc9da176dc7)
-    (property "Reference" "#PWR0130" (at 66.04 173.99 0)
+    (property "Reference" "#PWR0164" (at 66.04 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 172.085 0)
@@ -8492,7 +8492,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -8501,7 +8501,7 @@
   (symbol (lib_id "Device:D") (at 309.245 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5016f2e-621c-4757-b534-ec132e67dd71)
-    (property "Reference" "D77" (at 311.785 158.7499 90)
+    (property "Reference" "D86" (at 311.785 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 161.9249 90)
@@ -8518,7 +8518,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D77") (unit 1)
+          (reference "D86") (unit 1)
         )
       )
     )
@@ -8527,7 +8527,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 280.67 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6f55e0f-29d9-49ef-9a22-00a83b1f7e8f)
-    (property "Reference" "SW76" (at 280.67 150.495 0)
+    (property "Reference" "SW81" (at 280.67 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_CTRL" (at 280.67 152.4 0)
@@ -8544,7 +8544,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW76") (unit 1)
+          (reference "SW81") (unit 1)
         )
       )
     )
@@ -8579,7 +8579,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 210.185 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8d1c25c-d2a3-45cf-8191-5d57bdbf1b8c)
-    (property "Reference" "SW70" (at 210.185 133.985 0)
+    (property "Reference" "SW71" (at 210.185 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "M" (at 210.185 135.89 0)
@@ -8596,7 +8596,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW70") (unit 1)
+          (reference "SW71") (unit 1)
         )
       )
     )
@@ -8605,7 +8605,7 @@
   (symbol (lib_id "Device:C") (at 53.975 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9aa8de7-8769-4fc9-9aff-77b9a9d0121f)
-    (property "Reference" "C38" (at 57.15 45.7199 0)
+    (property "Reference" "C45" (at 57.15 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 48.2599 0)
@@ -8622,7 +8622,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C38") (unit 1)
+          (reference "C45") (unit 1)
         )
       )
     )
@@ -8631,7 +8631,7 @@
   (symbol (lib_id "power:GND") (at 140.335 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9b9dc38-8d26-4a44-ac72-a7c4df94403b)
-    (property "Reference" "#PWR0121" (at 140.335 144.78 0)
+    (property "Reference" "#PWR0155" (at 140.335 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 142.875 0)
@@ -8647,7 +8647,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -8656,7 +8656,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9e96518-ac91-4e98-9033-fb09d57ef18c)
-    (property "Reference" "#PWR0111" (at 41.275 124.46 0)
+    (property "Reference" "#PWR0145" (at 41.275 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 116.205 0)
@@ -8672,7 +8672,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -8681,7 +8681,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb149791-84bf-4aae-8cd8-0bcd490f7a9a)
-    (property "Reference" "#PWR0123" (at 41.275 153.67 0)
+    (property "Reference" "#PWR0157" (at 41.275 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 145.415 0)
@@ -8697,7 +8697,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -8706,7 +8706,7 @@
   (symbol (lib_id "Device:D") (at 215.265 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc226bc8-b085-4dd7-ac5a-77a4834b4cb5)
-    (property "Reference" "D38" (at 217.805 74.9299 90)
+    (property "Reference" "D41" (at 217.805 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 217.805 77.4699 90)
@@ -8723,7 +8723,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D38") (unit 1)
+          (reference "D41") (unit 1)
         )
       )
     )
@@ -8732,7 +8732,7 @@
   (symbol (lib_id "power:GND") (at 165.1 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd427d47-a527-43ce-a345-e1d02f559e9a)
-    (property "Reference" "#PWR086" (at 165.1 57.15 0)
+    (property "Reference" "#PWR0111" (at 165.1 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 55.245 0)
@@ -8748,7 +8748,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -8757,7 +8757,7 @@
   (symbol (lib_id "Device:R_US") (at 181.61 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bda60661-c76d-4454-9fe2-291e4d1bd211)
-    (property "Reference" "R21" (at 175.895 59.055 0)
+    (property "Reference" "R15" (at 175.895 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 175.895 61.595 0)
@@ -8774,7 +8774,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R21") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -8811,7 +8811,7 @@
   (symbol (lib_id "power:GND") (at 90.805 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bee20042-2073-4854-868b-53ba3ac83027)
-    (property "Reference" "#PWR0157" (at 90.805 232.41 0)
+    (property "Reference" "#PWR0194" (at 90.805 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 230.505 0)
@@ -8827,7 +8827,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
       )
     )
@@ -8836,7 +8836,7 @@
   (symbol (lib_id "Device:C") (at 78.74 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf8c1d3a-8466-4042-ab6d-f5da40358bc4)
-    (property "Reference" "C45" (at 81.915 74.9299 0)
+    (property "Reference" "C52" (at 81.915 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 77.4699 0)
@@ -8853,7 +8853,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C45") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -8862,7 +8862,7 @@
   (symbol (lib_id "Device:RotaryEncoder_Switch") (at 272.415 189.865 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0621906-e78b-42d8-8ae7-5a6c1afb38bc)
-    (property "Reference" "RE5" (at 278.765 188.5949 90)
+    (property "Reference" "RE1" (at 278.765 188.5949 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "EC11" (at 278.765 191.1349 90)
@@ -8882,7 +8882,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "RE5") (unit 1)
+          (reference "RE1") (unit 1)
         )
       )
     )
@@ -8945,7 +8945,7 @@
   (symbol (lib_id "power:GND") (at 115.57 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5a75c7f-b46c-4afe-8e93-f8c45330603b)
-    (property "Reference" "#PWR0158" (at 115.57 232.41 0)
+    (property "Reference" "#PWR0195" (at 115.57 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 230.505 0)
@@ -8961,7 +8961,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0158") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
     )
@@ -8970,7 +8970,7 @@
   (symbol (lib_id "Device:C") (at 78.74 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6c90108-6f77-4a49-81b5-720115855806)
-    (property "Reference" "C81" (at 81.915 250.1899 0)
+    (property "Reference" "C90" (at 81.915 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 252.7299 0)
@@ -8987,7 +8987,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C81") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -8996,7 +8996,7 @@
   (symbol (lib_id "Device:D") (at 333.375 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c74be3e2-80ef-4bfc-99d3-9ec9aab03ce5)
-    (property "Reference" "D67" (at 335.915 124.4599 90)
+    (property "Reference" "D72" (at 335.915 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 127.6349 90)
@@ -9013,7 +9013,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D67") (unit 1)
+          (reference "D72") (unit 1)
         )
       )
     )
@@ -9022,7 +9022,7 @@
   (symbol (lib_id "power:GND") (at 115.57 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c85a548d-d710-421a-a86d-d040d5197bc5)
-    (property "Reference" "#PWR0170" (at 115.57 261.62 0)
+    (property "Reference" "#PWR0207" (at 115.57 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 259.715 0)
@@ -9038,7 +9038,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -9047,7 +9047,7 @@
   (symbol (lib_id "power:GND") (at 66.04 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f3bce4-ff35-43b4-89f7-00a46fc7cd8f)
-    (property "Reference" "#PWR0168" (at 66.04 261.62 0)
+    (property "Reference" "#PWR0205" (at 66.04 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 259.715 0)
@@ -9063,7 +9063,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -9072,7 +9072,7 @@
   (symbol (lib_id "power:+5V") (at 66.04 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9912090-44ab-4a7d-83a4-2b194efe4c67)
-    (property "Reference" "#PWR0136" (at 66.04 182.88 0)
+    (property "Reference" "#PWR0170" (at 66.04 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 66.04 174.625 0)
@@ -9088,7 +9088,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -9097,7 +9097,7 @@
   (symbol (lib_id "Device:R_US") (at 276.225 203.835 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca07317a-e276-40a2-ac0a-c7df3134c0fb)
-    (property "Reference" "R106" (at 278.13 202.5649 0)
+    (property "Reference" "R27" (at 278.13 202.5649 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 278.13 205.1049 0)
@@ -9114,7 +9114,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R106") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -9123,7 +9123,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cde4fa6e-6b59-4961-9750-992218575b55)
-    (property "Reference" "#PWR091" (at 140.335 66.04 0)
+    (property "Reference" "#PWR0125" (at 140.335 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 57.785 0)
@@ -9139,7 +9139,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -9148,7 +9148,7 @@
   (symbol (lib_id "power:GND") (at 41.275 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce43f150-3bb2-4b65-8809-5d4d7a3f9618)
-    (property "Reference" "#PWR0141" (at 41.275 203.2 0)
+    (property "Reference" "#PWR0175" (at 41.275 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 201.295 0)
@@ -9164,7 +9164,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -9199,7 +9199,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 352.425 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce7ae018-b2b1-43b2-91eb-63262f624458)
-    (property "Reference" "SW79" (at 352.425 99.695 0)
+    (property "Reference" "SW60" (at 352.425 99.695 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "\\" (at 352.425 101.6 0)
@@ -9216,7 +9216,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW79") (unit 1)
+          (reference "SW60") (unit 1)
         )
       )
     )
@@ -9225,7 +9225,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 210.185 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf009109-226e-4d04-93b1-ccff42c21741)
-    (property "Reference" "SW52" (at 210.185 150.495 0)
+    (property "Reference" "SW78" (at 210.185 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_SPACE" (at 210.185 152.4 0)
@@ -9242,7 +9242,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW52") (unit 1)
+          (reference "SW78") (unit 1)
         )
       )
     )
@@ -9251,7 +9251,7 @@
   (symbol (lib_id "Device:D") (at 285.75 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00bc54f-cb48-4bab-9320-6261bf3f35f4)
-    (property "Reference" "D76" (at 288.29 158.7499 90)
+    (property "Reference" "D85" (at 288.29 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 161.2899 90)
@@ -9268,7 +9268,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D76") (unit 1)
+          (reference "D85") (unit 1)
         )
       )
     )
@@ -9277,7 +9277,7 @@
   (symbol (lib_id "Device:C") (at 128.27 251.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0c484f0-81a5-447e-b019-de6091c2a4bb)
-    (property "Reference" "C83" (at 131.445 250.1899 0)
+    (property "Reference" "C92" (at 131.445 250.1899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 252.7299 0)
@@ -9294,7 +9294,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C83") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -9329,7 +9329,7 @@
   (symbol (lib_id "power:+5V") (at 290.195 200.025 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d1a34c29-0ade-4c50-8992-00648b429057)
-    (property "Reference" "#PWR0228" (at 286.385 200.025 0)
+    (property "Reference" "#PWR0183" (at 286.385 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 295.275 200.025 90)
@@ -9345,7 +9345,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -9354,7 +9354,7 @@
   (symbol (lib_id "Device:C") (at 78.74 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d44934fe-1531-4194-902f-6b72a8958e54)
-    (property "Reference" "C39" (at 81.915 45.7199 0)
+    (property "Reference" "C46" (at 81.915 45.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 48.2599 0)
@@ -9371,7 +9371,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C39") (unit 1)
+          (reference "C46") (unit 1)
         )
       )
     )
@@ -9380,7 +9380,7 @@
   (symbol (lib_id "Device:D") (at 309.245 125.73 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d50ef3cd-f4bc-41ef-9ac2-55f0085cf56d)
-    (property "Reference" "D66" (at 311.785 124.4599 90)
+    (property "Reference" "D71" (at 311.785 124.4599 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 126.9999 90)
@@ -9397,7 +9397,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D66") (unit 1)
+          (reference "D71") (unit 1)
         )
       )
     )
@@ -9406,7 +9406,7 @@
   (symbol (lib_id "Device:D") (at 333.375 143.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5633471-c449-466a-b1e1-64fbcf3c2390)
-    (property "Reference" "D75" (at 335.915 142.2399 90)
+    (property "Reference" "D80" (at 335.915 142.2399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 144.7799 90)
@@ -9423,7 +9423,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D75") (unit 1)
+          (reference "D80") (unit 1)
         )
       )
     )
@@ -9432,7 +9432,7 @@
   (symbol (lib_id "Device:R_US") (at 205.105 60.325 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d68e7577-1619-4a32-8a9e-f350b2652667)
-    (property "Reference" "R22" (at 199.39 59.055 0)
+    (property "Reference" "R16" (at 199.39 59.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 199.39 61.595 0)
@@ -9449,7 +9449,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "R22") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -9458,7 +9458,7 @@
   (symbol (lib_id "Device:C") (at 128.27 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6f35d87-7fd4-4c0d-9e82-3c01dc051f99)
-    (property "Reference" "C47" (at 131.445 74.9299 0)
+    (property "Reference" "C54" (at 131.445 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 131.445 77.4699 0)
@@ -9475,7 +9475,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C47") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -9484,7 +9484,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 186.69 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d769cb31-cb44-4158-8563-9a8134d6d016)
-    (property "Reference" "SW61" (at 186.69 116.205 0)
+    (property "Reference" "SW62" (at 186.69 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "H" (at 186.69 118.11 0)
@@ -9501,7 +9501,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW61") (unit 1)
+          (reference "SW62") (unit 1)
         )
       )
     )
@@ -9510,7 +9510,7 @@
   (symbol (lib_id "power:+5V") (at 299.085 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7e37df6-1deb-4f87-b561-c0509f514152)
-    (property "Reference" "#PWR0237" (at 299.085 60.325 0)
+    (property "Reference" "#PWR0117" (at 299.085 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 299.085 52.07 0)
@@ -9526,7 +9526,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0237") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -9535,7 +9535,7 @@
   (symbol (lib_id "Device:C") (at 53.975 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d82f4265-4b6f-4a1a-b1fb-f843c6b4e5c0)
-    (property "Reference" "C62" (at 57.15 162.5599 0)
+    (property "Reference" "C69" (at 57.15 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 165.0999 0)
@@ -9552,7 +9552,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C62") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -9561,7 +9561,7 @@
   (symbol (lib_id "power:+5V") (at 347.345 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d89749ec-2839-4c7f-8dd1-5e9814a703fb)
-    (property "Reference" "#PWR0240" (at 347.345 60.325 0)
+    (property "Reference" "#PWR0119" (at 347.345 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 347.345 52.07 0)
@@ -9577,7 +9577,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0240") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -9668,7 +9668,7 @@
   (symbol (lib_id "Device:C") (at 29.21 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de44b46e-64e1-4608-8965-ba9a0376857c)
-    (property "Reference" "C49" (at 32.385 104.1399 0)
+    (property "Reference" "C56" (at 32.385 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 32.385 106.6799 0)
@@ -9685,7 +9685,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C49") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -9722,7 +9722,7 @@
   (symbol (lib_id "Device:C") (at 53.975 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df21841c-59de-4a46-a002-8333d44c516a)
-    (property "Reference" "C50" (at 57.15 104.1399 0)
+    (property "Reference" "C57" (at 57.15 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 106.6799 0)
@@ -9739,7 +9739,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C50") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -9748,7 +9748,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 304.165 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df8c52e4-2352-4ce4-b25b-f674a594a0bb)
-    (property "Reference" "SW74" (at 304.165 133.985 0)
+    (property "Reference" "SW75" (at 304.165 133.985 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_SHIFT" (at 304.165 135.89 0)
@@ -9765,7 +9765,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW74") (unit 1)
+          (reference "SW75") (unit 1)
         )
       )
     )
@@ -9800,7 +9800,7 @@
   (symbol (lib_id "Device:C") (at 103.505 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e0635046-1115-4d4e-a618-20e0333e41ec)
-    (property "Reference" "C46" (at 106.68 74.9299 0)
+    (property "Reference" "C53" (at 106.68 74.9299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 77.4699 0)
@@ -9817,7 +9817,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C46") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -9852,7 +9852,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e14d93d7-9e5c-44bb-be2f-72776893c0f5)
-    (property "Reference" "SW63" (at 233.68 116.205 0)
+    (property "Reference" "SW64" (at 233.68 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "K" (at 233.68 118.11 0)
@@ -9869,7 +9869,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW63") (unit 1)
+          (reference "SW64") (unit 1)
         )
       )
     )
@@ -9878,7 +9878,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1d16a11-c5c5-42e4-a160-42590ae6ea28)
-    (property "Reference" "#PWR0103" (at 140.335 95.25 0)
+    (property "Reference" "#PWR0137" (at 140.335 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 86.995 0)
@@ -9894,7 +9894,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -9903,7 +9903,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e21d4b96-31cd-40d3-a2c0-3c3493023036)
-    (property "Reference" "#PWR0139" (at 140.335 182.88 0)
+    (property "Reference" "#PWR0173" (at 140.335 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 174.625 0)
@@ -9919,7 +9919,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -9954,7 +9954,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e375dd1c-3bb2-46b2-b9e3-ab6cddd13215)
-    (property "Reference" "#PWR0128" (at 165.1 153.67 0)
+    (property "Reference" "#PWR0162" (at 165.1 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 145.415 0)
@@ -9970,7 +9970,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -9979,7 +9979,7 @@
   (symbol (lib_id "Device:C") (at 276.225 211.455 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4bba9eb-644a-4f40-959e-397f4fb73c0c)
-    (property "Reference" "C184" (at 279.4 210.1849 0)
+    (property "Reference" "C81" (at 279.4 210.1849 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 279.4 212.7249 0)
@@ -9996,7 +9996,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C184") (unit 1)
+          (reference "C81") (unit 1)
         )
       )
     )
@@ -10005,7 +10005,7 @@
   (symbol (lib_id "power:+5V") (at 323.215 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e4ca21a4-ad58-48d3-9ca6-b53f216c765a)
-    (property "Reference" "#PWR0239" (at 323.215 60.325 0)
+    (property "Reference" "#PWR0118" (at 323.215 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 323.215 52.07 0)
@@ -10021,7 +10021,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0239") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -10030,7 +10030,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e624659d-4775-4351-8a48-60a2d5ae2d39)
-    (property "Reference" "#PWR0165" (at 140.335 241.3 0)
+    (property "Reference" "#PWR0202" (at 140.335 241.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 233.045 0)
@@ -10046,7 +10046,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0165") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -10055,7 +10055,7 @@
   (symbol (lib_id "Device:D") (at 381.635 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e66c3afa-adb0-4bec-b7b9-72dcb0e97c88)
-    (property "Reference" "D133" (at 384.175 74.9299 90)
+    (property "Reference" "D48" (at 384.175 74.9299 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 384.175 77.4699 90)
@@ -10072,7 +10072,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D133") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -10081,7 +10081,7 @@
   (symbol (lib_id "power:+5V") (at 90.805 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68d8127-6e0c-4156-b930-55e1f7c68170)
-    (property "Reference" "#PWR0125" (at 90.805 153.67 0)
+    (property "Reference" "#PWR0159" (at 90.805 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 90.805 145.415 0)
@@ -10097,7 +10097,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -10106,7 +10106,7 @@
   (symbol (lib_id "Device:C") (at 78.74 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e69214f8-67e6-411a-9f8e-b169ebe27dec)
-    (property "Reference" "C69" (at 81.915 191.7699 0)
+    (property "Reference" "C76" (at 81.915 191.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.915 194.3099 0)
@@ -10123,7 +10123,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "C69") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )
@@ -10132,7 +10132,7 @@
   (symbol (lib_id "power:+5V") (at 228.6 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e71a5314-0ada-481f-a0c5-b99fe69fa6f2)
-    (property "Reference" "#PWR0234" (at 228.6 60.325 0)
+    (property "Reference" "#PWR0114" (at 228.6 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 228.6 52.07 0)
@@ -10148,7 +10148,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -10157,7 +10157,7 @@
   (symbol (lib_id "power:GND") (at 140.335 255.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e78368a7-b99a-41d5-a2b5-072c9ba6dd21)
-    (property "Reference" "#PWR0171" (at 140.335 261.62 0)
+    (property "Reference" "#PWR0208" (at 140.335 261.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 259.715 0)
@@ -10173,7 +10173,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -10210,7 +10210,7 @@
   (symbol (lib_id "Device:D") (at 285.75 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e900afb2-41ac-45cb-9f70-55285e0d01be)
-    (property "Reference" "D57" (at 288.29 107.9499 90)
+    (property "Reference" "D61" (at 288.29 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 288.29 110.4899 90)
@@ -10227,7 +10227,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D57") (unit 1)
+          (reference "D61") (unit 1)
         )
       )
     )
@@ -10264,7 +10264,7 @@
   (symbol (lib_id "Device:D") (at 309.245 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea4fc6c6-338f-45c8-8665-4f6c698baec7)
-    (property "Reference" "D58" (at 311.785 107.9499 90)
+    (property "Reference" "D62" (at 311.785 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 311.785 110.4899 90)
@@ -10281,7 +10281,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D58") (unit 1)
+          (reference "D62") (unit 1)
         )
       )
     )
@@ -10290,7 +10290,7 @@
   (symbol (lib_id "power:GND") (at 165.1 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eac0e84b-ce4a-44fe-a9ae-a7ac1922ab5c)
-    (property "Reference" "#PWR0110" (at 165.1 115.57 0)
+    (property "Reference" "#PWR0144" (at 165.1 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 113.665 0)
@@ -10306,7 +10306,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -10371,7 +10371,7 @@
   (symbol (lib_id "power:GND") (at 41.275 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee3a06f4-b10b-4ab3-8319-3b497ac5664b)
-    (property "Reference" "#PWR0155" (at 41.275 232.41 0)
+    (property "Reference" "#PWR0192" (at 41.275 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 41.275 230.505 0)
@@ -10387,7 +10387,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
     )
@@ -10424,7 +10424,7 @@
   (symbol (lib_id "Device:D") (at 333.375 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef698ca1-bfce-4e29-8a5e-e13791e1f903)
-    (property "Reference" "D78" (at 335.915 158.7499 90)
+    (property "Reference" "D87" (at 335.915 158.7499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 335.915 161.2899 90)
@@ -10441,7 +10441,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D78") (unit 1)
+          (reference "D87") (unit 1)
         )
       )
     )
@@ -10478,7 +10478,7 @@
   (symbol (lib_id "power:GND") (at 66.04 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0711912-32f4-4130-87e1-ada3c9c90b56)
-    (property "Reference" "#PWR0106" (at 66.04 115.57 0)
+    (property "Reference" "#PWR0140" (at 66.04 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 113.665 0)
@@ -10494,7 +10494,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -10503,7 +10503,7 @@
   (symbol (lib_id "Device:D") (at 357.505 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f07e873e-e136-4d8b-ba87-0053904064ac)
-    (property "Reference" "D79" (at 360.045 107.9499 90)
+    (property "Reference" "D64" (at 360.045 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1N4148W" (at 360.045 110.4899 90)
@@ -10520,7 +10520,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "D79") (unit 1)
+          (reference "D64") (unit 1)
         )
       )
     )
@@ -10529,7 +10529,7 @@
   (symbol (lib_id "power:GND") (at 66.04 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0fae9c5-282b-46fa-a3cc-7741e37bc7f1)
-    (property "Reference" "#PWR0118" (at 66.04 144.78 0)
+    (property "Reference" "#PWR0152" (at 66.04 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 142.875 0)
@@ -10545,7 +10545,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -10580,7 +10580,7 @@
   (symbol (lib_id "power:GND") (at 115.57 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2f86ede-561f-45ce-87d7-f95e07e26035)
-    (property "Reference" "#PWR0144" (at 115.57 203.2 0)
+    (property "Reference" "#PWR0178" (at 115.57 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 201.295 0)
@@ -10596,7 +10596,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -10633,7 +10633,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3fe4ebf-605c-4c32-90e7-7be89a997c56)
-    (property "Reference" "#PWR0116" (at 165.1 124.46 0)
+    (property "Reference" "#PWR0150" (at 165.1 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 116.205 0)
@@ -10649,7 +10649,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -10658,7 +10658,7 @@
   (symbol (lib_id "power:+5V") (at 275.59 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f415ea1c-ff3f-4f6a-a9fa-4eab545e1338)
-    (property "Reference" "#PWR0236" (at 275.59 60.325 0)
+    (property "Reference" "#PWR0116" (at 275.59 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 275.59 52.07 0)
@@ -10674,7 +10674,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -10683,7 +10683,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 233.68 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f455aea6-5f42-4e63-9ded-0423da5a531f)
-    (property "Reference" "SW60" (at 233.68 150.495 0)
+    (property "Reference" "SW79" (at 233.68 150.495 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "R_ALT" (at 233.68 152.4 0)
@@ -10700,7 +10700,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW60") (unit 1)
+          (reference "SW79") (unit 1)
         )
       )
     )
@@ -10737,7 +10737,7 @@
   (symbol (lib_id "power:+5V") (at 41.275 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f486bc93-735d-45b8-a0cb-ce4db7a2d0f3)
-    (property "Reference" "#PWR099" (at 41.275 95.25 0)
+    (property "Reference" "#PWR0133" (at 41.275 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 41.275 86.995 0)
@@ -10753,7 +10753,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -10762,7 +10762,7 @@
   (symbol (lib_id "power:GND") (at 115.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5dedf0f-4981-41f0-87ba-ba95a6ea5172)
-    (property "Reference" "#PWR096" (at 115.57 86.36 0)
+    (property "Reference" "#PWR0130" (at 115.57 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.57 84.455 0)
@@ -10778,7 +10778,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -10787,7 +10787,7 @@
   (symbol (lib_id "power:+5V") (at 140.335 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f602d21b-7b76-4ffb-b388-dc1671ee68a4)
-    (property "Reference" "#PWR0127" (at 140.335 153.67 0)
+    (property "Reference" "#PWR0161" (at 140.335 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.335 145.415 0)
@@ -10803,7 +10803,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -10812,7 +10812,7 @@
   (symbol (lib_id "power:+5V") (at 205.105 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6a3538d-f92b-48c4-bd16-dab879f9db77)
-    (property "Reference" "#PWR0233" (at 205.105 60.325 0)
+    (property "Reference" "#PWR0113" (at 205.105 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 205.105 52.07 0)
@@ -10828,7 +10828,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0233") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -10837,7 +10837,7 @@
   (symbol (lib_id "power:+5V") (at 181.61 56.515 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6faf091-78af-4164-816e-c2f506d765c3)
-    (property "Reference" "#PWR0232" (at 181.61 60.325 0)
+    (property "Reference" "#PWR0112" (at 181.61 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 181.61 52.07 0)
@@ -10853,7 +10853,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -10862,7 +10862,7 @@
   (symbol (lib_id "power:GND") (at 90.805 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b01a51-b3be-4e52-9478-bb44c7a732d7)
-    (property "Reference" "#PWR0131" (at 90.805 173.99 0)
+    (property "Reference" "#PWR0165" (at 90.805 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.805 172.085 0)
@@ -10878,7 +10878,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -10915,7 +10915,7 @@
   (symbol (lib_id "power:GND") (at 140.335 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8d282af-f3a9-47a5-9cf2-77a3e5bd4a99)
-    (property "Reference" "#PWR0145" (at 140.335 203.2 0)
+    (property "Reference" "#PWR0179" (at 140.335 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.335 201.295 0)
@@ -10931,7 +10931,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -10996,7 +10996,7 @@
   (symbol (lib_id "power:GND") (at 272.415 215.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc3d44bb-66dd-440a-a2f4-114dcffe4ee0)
-    (property "Reference" "#PWR0243" (at 272.415 221.615 0)
+    (property "Reference" "#PWR0191" (at 272.415 221.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 272.415 219.71 0)
@@ -11012,7 +11012,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0243") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
     )
@@ -11047,7 +11047,7 @@
   (symbol (lib_id "power:+5V") (at 165.1 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd14d55c-a038-4e4c-b5ea-209e6918de59)
-    (property "Reference" "#PWR0140" (at 165.1 182.88 0)
+    (property "Reference" "#PWR0174" (at 165.1 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 165.1 174.625 0)
@@ -11063,7 +11063,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -11128,7 +11128,7 @@
   (symbol (lib_id "Switch:SW_SPST") (at 304.165 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffec812e-3f03-4484-b1ec-9a1ca05ca878)
-    (property "Reference" "SW66" (at 304.165 116.205 0)
+    (property "Reference" "SW67" (at 304.165 116.205 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "'" (at 304.165 118.11 0)
@@ -11145,7 +11145,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/8382c1bd-5e7c-4e65-9438-588a684ea9d8"
-          (reference "SW66") (unit 1)
+          (reference "SW67") (unit 1)
         )
       )
     )

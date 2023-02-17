@@ -199,11 +199,8 @@
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b"
           (reference "U1") (unit 1)
         )
-        (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4f15a84c-e44b-4d16-b7ea-416cf1399598"
-          (reference "U2") (unit 1)
-        )
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/85c1e75e-627d-4c70-b3a6-c94424fb96f2"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )

@@ -809,14 +809,14 @@
   (junction (at 152.4 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 2397c596-6cd4-4517-9611-b54dd24465c9)
   )
+  (junction (at 140.97 53.34) (diameter 0) (color 0 0 0 0)
+    (uuid 4709591b-8a49-4905-b947-da5061098e36)
+  )
   (junction (at 97.79 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 51cc42f0-2a6c-470e-a78b-f3dd64b7fe1f)
   )
   (junction (at 90.17 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 5d82afe1-1f39-4713-8016-174bc01b4d9c)
-  )
-  (junction (at 141.605 53.34) (diameter 0) (color 0 0 0 0)
-    (uuid 5fa431fd-0c25-4d0e-a525-f3657f632a78)
   )
   (junction (at 65.405 70.485) (diameter 0) (color 0 0 0 0)
     (uuid 677b3cfd-49cd-4781-977c-046315ff8a65)
@@ -871,7 +871,7 @@
     (stroke (width 0) (type default))
     (uuid 030c7cdd-267c-4358-8777-e1dba404bafc)
   )
-  (wire (pts (xy 141.605 53.34) (xy 142.875 53.34))
+  (wire (pts (xy 140.97 53.34) (xy 142.24 53.34))
     (stroke (width 0) (type default))
     (uuid 06c27e0d-b2f8-489a-b554-6c44e4e2acd9)
   )
@@ -951,7 +951,7 @@
     (stroke (width 0) (type default))
     (uuid 60bce849-fa05-4ae5-b584-6ef63222b7dc)
   )
-  (wire (pts (xy 141.605 53.34) (xy 141.605 55.88))
+  (wire (pts (xy 140.97 53.34) (xy 140.97 55.245))
     (stroke (width 0) (type default))
     (uuid 631327f9-bb0c-4126-b21c-663137b88dc9)
   )
@@ -966,6 +966,10 @@
   (wire (pts (xy 74.93 70.485) (xy 76.835 70.485))
     (stroke (width 0) (type default))
     (uuid 66b953db-edd6-458a-8ec5-7445b472ec94)
+  )
+  (wire (pts (xy 117.475 83.82) (xy 110.49 83.82))
+    (stroke (width 0) (type default))
+    (uuid 677f9d9a-5d1e-4009-bcc4-d71a0718b40d)
   )
   (wire (pts (xy 67.31 81.28) (xy 65.405 81.28))
     (stroke (width 0) (type default))
@@ -1015,17 +1019,13 @@
     (stroke (width 0) (type default))
     (uuid bb0f2c55-e049-4f8f-854a-30bb12160d97)
   )
-  (wire (pts (xy 142.875 55.88) (xy 141.605 55.88))
+  (wire (pts (xy 142.24 55.245) (xy 140.97 55.245))
     (stroke (width 0) (type default))
     (uuid bea14748-bbc6-4020-af2c-d198f4b7c949)
   )
   (wire (pts (xy 82.55 60.96) (xy 65.405 60.96))
     (stroke (width 0) (type default))
     (uuid beb3f77a-a74c-4d50-808f-98d0ba3a7eb8)
-  )
-  (wire (pts (xy 110.49 53.34) (xy 141.605 53.34))
-    (stroke (width 0) (type default))
-    (uuid bfb6b9d7-2cf8-4f8f-a05e-6a30d840d195)
   )
   (wire (pts (xy 149.225 83.82) (xy 152.4 83.82))
     (stroke (width 0) (type default))
@@ -1051,6 +1051,10 @@
     (stroke (width 0) (type default))
     (uuid d8295589-c9a1-4cb3-bb4c-291cbab436ee)
   )
+  (wire (pts (xy 110.49 53.34) (xy 140.97 53.34))
+    (stroke (width 0) (type default))
+    (uuid e3c00458-2c17-4790-beca-5b91e2b8f977)
+  )
   (wire (pts (xy 139.065 83.82) (xy 141.605 83.82))
     (stroke (width 0) (type default))
     (uuid e7934d57-f43e-47a9-907b-78d4e3614b47)
@@ -1072,46 +1076,70 @@
     (uuid ff7c1f0c-cd0c-4124-b1e5-2436b4d13fde)
   )
 
-  (global_label "TX_LED" (shape input) (at 110.49 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 18ac4b6a-a893-4d8f-8ddd-1745a9daef67)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.495 83.7406 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+  (label "~{RESET}" (at 163.195 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 192b2042-ab4c-482d-b657-7cf7b08f569c)
   )
-  (global_label "RX_LED" (shape input) (at 142.875 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 2ccdf4fd-cbeb-40d8-9fe3-ee510b025ad9)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 152.1824 55.8006 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
+  (label "MISO" (at 163.195 67.31 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 31e391f1-36c9-4269-8695-d86a12a2c036)
   )
-  (global_label "RX_LED" (shape input) (at 158.75 107.95 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 73501012-ee9c-4b78-8aad-cddcb2ce36af)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 158.6706 98.6426 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "TX_LED" (shape input) (at 145.415 107.95 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d59508e0-4640-48a2-9608-4db54ef9fd04)
+  (label "TX_LED" (at 145.415 107.95 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 44767362-daa1-4432-ba1d-00875bb64d0c)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 145.3356 98.945 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-
-  (hierarchical_label "SCK" (shape input) (at 134.62 55.88 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 01ef488c-8ad1-4e8c-b232-8bebd0bf5ed2)
+  (label "MISO" (at 116.84 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4e0e76f5-5231-4856-8a7e-e6d615059c3d)
   )
+  (label "MOSI" (at 125.73 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 51202d67-249e-4c64-95d8-d1a450153d61)
+  )
+  (label "RX_LED" (at 158.75 107.95 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 56653cfc-3c01-4886-b32a-49c180e0042f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 158.6706 98.6426 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (label "TX_LED" (at 117.475 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5ad1c043-4cb0-4116-b067-bd0395477bad)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.48 83.7406 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (label "SCK" (at 163.195 69.85 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 62e6c761-9ad7-4be8-9bb3-6799c62bd326)
+  )
+  (label "SCK" (at 134.62 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 96f3a872-9f4e-4bb4-bc5a-16eec76c383f)
+  )
+  (label "RX_LED" (at 142.24 53.34 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9815cec5-e803-4871-a70a-46b0cb383fa8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.5474 56.4356 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (label "MOSI" (at 175.895 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c30f20cf-55ec-463d-a26b-fa6693f21149)
+  )
+  (label "~{RESET}" (at 125.095 124.46 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ff6a1838-51c6-406f-95bb-d453f6a8c2a6)
+  )
+
   (hierarchical_label "D12" (shape input) (at 110.49 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 06324bd9-5db1-40e7-b07c-3a823402fb1d)
-  )
-  (hierarchical_label "SCK" (shape input) (at 163.195 69.85 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 0ad92d04-5186-4f7a-a795-366500f1e40f)
   )
   (hierarchical_label "D+" (shape input) (at 125.095 50.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1121,29 +1149,21 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0d2bad11-432d-4c72-8955-d54996460faf)
   )
-  (hierarchical_label "D17" (shape input) (at 142.875 53.34 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 0dce657d-978f-4109-a95c-5446cfdd327d)
-  )
   (hierarchical_label "A1" (shape input) (at 110.49 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2d02dcec-1c28-41c6-a7ba-de60478f9134)
   )
-  (hierarchical_label "D11" (shape input) (at 110.49 71.12 0) (fields_autoplaced)
+  (hierarchical_label "D11~" (shape input) (at 110.49 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 340e5773-f209-4fad-83d9-760b0c90e6aa)
   )
-  (hierarchical_label "D16" (shape input) (at 125.73 60.325 0) (fields_autoplaced)
+  (hierarchical_label "D16-MOSI" (shape input) (at 125.73 60.325 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 420ad676-3750-46b7-8bd5-b03facc6ebc9)
   )
   (hierarchical_label "UVCC" (shape input) (at 97.79 43.18 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 532928ed-82a5-4ce1-a2fc-eec1bd3abe0a)
-  )
-  (hierarchical_label "MISO" (shape input) (at 116.84 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 6bac6872-84b1-4028-86a0-bf5c22c6699e)
   )
   (hierarchical_label "A4" (shape input) (at 110.49 109.22 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1157,7 +1177,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 731ca449-20e5-40a6-bfae-80f93954d8a9)
   )
-  (hierarchical_label "D9" (shape input) (at 110.49 66.04 0) (fields_autoplaced)
+  (hierarchical_label "D9~" (shape input) (at 110.49 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 73e68e47-7644-4164-80bc-37a22f0ccfdb)
   )
@@ -1165,15 +1185,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7416fb4b-aa7c-411e-a4c0-feb1d4c5ce34)
   )
-  (hierarchical_label "MISO" (shape input) (at 163.195 67.31 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 7822d08b-1887-40d7-ae84-761a90c1cd1f)
-  )
-  (hierarchical_label "D15" (shape input) (at 134.62 57.785 0) (fields_autoplaced)
+  (hierarchical_label "D15-SCK" (shape input) (at 134.62 57.785 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7cda488c-b8c5-4e03-8eb9-ea773bcb9acb)
   )
-  (hierarchical_label "D6" (shape input) (at 110.49 91.44 0) (fields_autoplaced)
+  (hierarchical_label "D6~" (shape input) (at 110.49 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 82bd0c5c-6abc-4eaa-a389-21c8d226fc00)
   )
@@ -1181,17 +1197,9 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 85a23d77-d6ea-4b28-a150-ddb0a9444c87)
   )
-  (hierarchical_label "MOSI" (shape input) (at 125.73 58.42 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 8fe67f5a-ef39-43ce-8e79-312d76b0c05c)
-  )
   (hierarchical_label "D8" (shape input) (at 110.49 63.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 919a0271-b831-4998-a3fb-a9f199f379b8)
-  )
-  (hierarchical_label "~{RESET}" (shape input) (at 163.195 72.39 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 93dd9687-d4bd-4a11-9537-c47394aedebd)
   )
   (hierarchical_label "A5" (shape input) (at 110.49 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
@@ -1205,11 +1213,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a7e8df27-9db3-41aa-b17e-93932dbf5cbf)
   )
-  (hierarchical_label "D14" (shape input) (at 116.84 62.865 0) (fields_autoplaced)
+  (hierarchical_label "D14-MISO" (shape input) (at 116.84 62.865 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a8db75f2-9269-486f-8eb5-3ca87305d1f4)
   )
-  (hierarchical_label "D5" (shape input) (at 110.49 93.98 0) (fields_autoplaced)
+  (hierarchical_label "D5~" (shape input) (at 110.49 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b8b652f1-d03e-44df-a106-c240afc5591e)
   )
@@ -1221,7 +1229,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bb38cb6d-6f1c-46c0-aba6-4951b94ffbff)
   )
-  (hierarchical_label "D3-SCL" (shape input) (at 110.49 73.66 0) (fields_autoplaced)
+  (hierarchical_label "D3-SCL~" (shape input) (at 110.49 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c34f7e32-54eb-4680-b719-4c2c15adb51c)
   )
@@ -1241,26 +1249,22 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e81f5ffe-0017-4c5e-9585-84c6b8663c0b)
   )
-  (hierarchical_label "MOSI" (shape input) (at 175.895 69.85 0) (fields_autoplaced)
+  (hierarchical_label "D17-RX_LED" (shape input) (at 142.24 55.245 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f432450c-7b35-4e25-a598-4b123d3424d3)
+    (uuid e8cb3101-9e06-4f3c-b072-1a509ec2d174)
   )
-  (hierarchical_label "D10" (shape input) (at 110.49 68.58 0) (fields_autoplaced)
+  (hierarchical_label "D10~" (shape input) (at 110.49 68.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fe65502a-46ef-40d2-8751-0f44b423ab7a)
-  )
-  (hierarchical_label "~{RESET}" (shape input) (at 125.095 124.46 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ff439e0a-7b91-4204-87ac-bab33a75bbff)
   )
 
   (symbol (lib_id "power:GND") (at 158.75 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06090f20-d78c-46fa-a3fa-0b8af76c65d1)
-    (property "Reference" "#PWR?" (at 158.75 129.54 0)
+    (property "Reference" "#PWR015" (at 158.75 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 156.845 127.635 0)
+    (property "Value" "GND" (at 157.48 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 158.75 123.19 0)
@@ -1273,19 +1277,19 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C_Polarized_US") (at 152.4 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ed9dda6-ac51-4827-a347-99250dc1802f)
-    (property "Reference" "PC?" (at 155.575 85.7249 0)
+    (property "Reference" "PC1" (at 156.21 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 155.575 88.2649 0)
+    (property "Value" "10uF" (at 156.21 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 152.4 87.63 0)
@@ -1299,7 +1303,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "PC?") (unit 1)
+          (reference "PC1") (unit 1)
         )
       )
     )
@@ -1308,7 +1312,7 @@
   (symbol (lib_id "Device:C") (at 77.47 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15162e03-26ef-4e16-b060-4b55c4c7f2a9)
-    (property "Reference" "C?" (at 81.28 121.9199 0)
+    (property "Reference" "C6" (at 81.28 121.9199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 81.28 124.4599 0)
@@ -1325,7 +1329,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1334,10 +1338,10 @@
   (symbol (lib_id "power:GND") (at 152.4 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1605ce2c-669f-45b3-9790-bb8e343a2b03)
-    (property "Reference" "#PWR?" (at 152.4 97.79 0)
+    (property "Reference" "#PWR06" (at 152.4 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 150.495 95.885 0)
+    (property "Value" "GND" (at 151.13 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 152.4 91.44 0)
@@ -1350,7 +1354,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1359,7 +1363,7 @@
   (symbol (lib_id "Device:R_US") (at 121.285 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17a5f96b-3695-40fb-9c7c-bdc7878a17e7)
-    (property "Reference" "R?" (at 121.285 36.195 90)
+    (property "Reference" "R1" (at 121.285 36.195 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 121.285 38.735 90)
@@ -1376,7 +1380,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1385,7 +1389,7 @@
   (symbol (lib_id "Device:R_US") (at 158.75 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e9ddb64-7374-4585-9675-c3b25d904a32)
-    (property "Reference" "R?" (at 161.29 110.4899 0)
+    (property "Reference" "R6" (at 161.29 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 161.29 113.0299 0)
@@ -1402,7 +1406,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1411,7 +1415,7 @@
   (symbol (lib_id "Device:C") (at 76.835 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2027bf00-0f56-4904-91f6-8c2a284a52d2)
-    (property "Reference" "C?" (at 80.645 86.9949 0)
+    (property "Reference" "C5" (at 80.645 86.9949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 80.645 89.5349 0)
@@ -1428,7 +1432,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1437,7 +1441,7 @@
   (symbol (lib_id "Device:C") (at 174.625 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2064ff76-0263-4e09-9581-3556953624d3)
-    (property "Reference" "C?" (at 177.8 86.3599 0)
+    (property "Reference" "C3" (at 177.8 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 177.8 88.8999 0)
@@ -1454,7 +1458,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1463,10 +1467,10 @@
   (symbol (lib_id "power:GND") (at 174.625 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20ae81e4-04f3-45cf-b909-e178b8dfa8fe)
-    (property "Reference" "#PWR?" (at 174.625 97.79 0)
+    (property "Reference" "#PWR08" (at 174.625 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 172.72 95.885 0)
+    (property "Value" "GND" (at 173.355 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 174.625 91.44 0)
@@ -1479,7 +1483,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1488,7 +1492,7 @@
   (symbol (lib_id "Device:R_US") (at 145.415 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33d609e6-9631-4dd5-825f-a8556da3cf4c)
-    (property "Reference" "R?" (at 147.955 110.4899 0)
+    (property "Reference" "R5" (at 147.955 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 147.955 113.0299 0)
@@ -1505,7 +1509,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1514,7 +1518,7 @@
   (symbol (lib_id "power:VCC") (at 87.63 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 345341c7-b481-41a7-9e99-36bd1d41f0fa)
-    (property "Reference" "#PWR?" (at 87.63 46.99 0)
+    (property "Reference" "#PWR01" (at 87.63 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 87.63 38.735 0)
@@ -1530,7 +1534,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1539,7 +1543,7 @@
   (symbol (lib_id "power:GND") (at 186.055 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41827f7d-9a39-47d4-af81-d1695a051636)
-    (property "Reference" "#PWR?" (at 186.055 105.41 0)
+    (property "Reference" "#PWR011" (at 186.055 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 103.505 0)
@@ -1555,7 +1559,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1564,10 +1568,10 @@
   (symbol (lib_id "power:GND") (at 77.47 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c010666-75f0-457d-9f7e-1fd6ba3570f3)
-    (property "Reference" "#PWR?" (at 77.47 133.35 0)
+    (property "Reference" "#PWR016" (at 77.47 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 75.565 131.445 0)
+    (property "Value" "GND" (at 76.2 131.445 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 77.47 127 0)
@@ -1580,7 +1584,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1589,7 +1593,7 @@
   (symbol (lib_id "Device:LED") (at 158.75 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4da0d6a8-e3d3-4639-9329-64dec20d56ac)
-    (property "Reference" "D?" (at 161.925 119.38 90)
+    (property "Reference" "D3" (at 161.925 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 161.925 121.92 90)
@@ -1606,7 +1610,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "D?") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1615,7 +1619,7 @@
   (symbol (lib_id "power:VCC") (at 186.055 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4efabcf3-f44f-4708-95d0-9440c796faf9)
-    (property "Reference" "#PWR?" (at 186.055 87.63 0)
+    (property "Reference" "#PWR04" (at 186.055 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 186.055 79.375 0)
@@ -1631,7 +1635,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1640,10 +1644,10 @@
   (symbol (lib_id "power:GND") (at 139.065 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 528af7b7-5cdc-43fe-bf4b-7062dc0421cd)
-    (property "Reference" "#PWR?" (at 139.065 97.79 0)
+    (property "Reference" "#PWR05" (at 139.065 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 137.16 95.885 0)
+    (property "Value" "GND" (at 137.795 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 139.065 91.44 0)
@@ -1656,7 +1660,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1665,10 +1669,10 @@
   (symbol (lib_id "power:GND") (at 92.71 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 532c6818-5835-47da-ae24-2aca1e59d8d9)
-    (property "Reference" "#PWR?" (at 92.71 138.43 0)
+    (property "Reference" "#PWR017" (at 92.71 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 90.805 136.525 0)
+    (property "Value" "GND" (at 91.44 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 92.71 132.08 0)
@@ -1681,7 +1685,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1690,7 +1694,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Odd_Even") (at 168.275 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 569dfaa3-7d68-4acc-9c2c-01a766e91a19)
-    (property "Reference" "J?" (at 169.545 60.96 0)
+    (property "Reference" "J1" (at 169.545 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ICSP" (at 169.545 63.5 0)
@@ -1711,7 +1715,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1720,7 +1724,7 @@
   (symbol (lib_id "power:GND") (at 175.895 72.39 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6528e4d7-f3f5-4663-9e8c-9359119b9e11)
-    (property "Reference" "#PWR?" (at 182.245 72.39 0)
+    (property "Reference" "#PWR03" (at 182.245 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 72.39 90)
@@ -1736,7 +1740,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1745,7 +1749,7 @@
   (symbol (lib_id "Device:R_US") (at 71.12 70.485 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 793d81cb-f150-4fc6-87f2-f73c8ea064f8)
-    (property "Reference" "R?" (at 71.12 64.77 90)
+    (property "Reference" "R3" (at 71.12 64.77 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 71.12 67.31 90)
@@ -1762,7 +1766,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1771,10 +1775,10 @@
   (symbol (lib_id "power:GND") (at 65.405 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82784925-1fe9-40d4-85f3-ef6347a17d5b)
-    (property "Reference" "#PWR?" (at 65.405 98.425 0)
+    (property "Reference" "#PWR09" (at 65.405 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 63.5 96.52 0)
+    (property "Value" "GND" (at 64.135 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 65.405 92.075 0)
@@ -1787,7 +1791,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1796,7 +1800,7 @@
   (symbol (lib_id "power:VCC") (at 175.895 67.31 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88b4c151-a2ec-4bd8-ab4d-b183175f1e82)
-    (property "Reference" "#PWR?" (at 172.085 67.31 0)
+    (property "Reference" "#PWR02" (at 172.085 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 180.975 67.31 90)
@@ -1812,7 +1816,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1821,7 +1825,7 @@
   (symbol (lib_id "Device:Crystal") (at 71.12 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98bff5ce-bb11-4ba4-bdbc-686f3e2cc586)
-    (property "Reference" "Y?" (at 71.12 73.66 0)
+    (property "Reference" "Y1" (at 71.12 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "16MHz" (at 71.12 76.2 0)
@@ -1838,7 +1842,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "Y?") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -1847,7 +1851,7 @@
   (symbol (lib_id "Device:C") (at 139.065 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d21e920-969c-4d3e-b462-b842e6f98918)
-    (property "Reference" "C?" (at 142.875 86.3599 0)
+    (property "Reference" "C1" (at 142.875 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 142.875 88.8999 0)
@@ -1864,7 +1868,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1873,7 +1877,7 @@
   (symbol (lib_id "dk_Embedded-Microcontrollers:ATMEGA32U4-AU") (at 95.25 81.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9e4e1318-9c34-4218-b8db-ca28e80ef1ab)
-    (property "Reference" "U?" (at 106.68 42.545 0)
+    (property "Reference" "U1" (at 106.68 42.545 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "ATMEGA32U4" (at 106.68 45.085 0)
@@ -1959,7 +1963,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -1968,10 +1972,10 @@
   (symbol (lib_id "power:GND") (at 163.83 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f8127aa-53f0-4853-91b6-d0edf58169ea)
-    (property "Reference" "#PWR?" (at 163.83 97.79 0)
+    (property "Reference" "#PWR07" (at 163.83 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 161.925 95.885 0)
+    (property "Value" "GND" (at 162.56 95.885 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 163.83 91.44 0)
@@ -1984,7 +1988,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1993,7 +1997,7 @@
   (symbol (lib_id "Device:C") (at 65.405 88.265 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a12f3352-c908-4ceb-b85e-aebafa339e4d)
-    (property "Reference" "C?" (at 69.215 86.9949 0)
+    (property "Reference" "C4" (at 69.215 86.9949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "20pF" (at 69.215 89.5349 0)
@@ -2010,7 +2014,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2019,7 +2023,7 @@
   (symbol (lib_id "Device:C") (at 163.83 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acaba4a4-0bc5-40c5-bf52-3b16920b1506)
-    (property "Reference" "C?" (at 167.64 86.3599 0)
+    (property "Reference" "C2" (at 167.64 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 167.64 88.8999 0)
@@ -2036,7 +2040,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2045,7 +2049,7 @@
   (symbol (lib_id "power:GND") (at 110.49 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae2d2399-b9b2-4f24-be46-3b08e00f13b4)
-    (property "Reference" "#PWR?" (at 116.84 114.3 0)
+    (property "Reference" "#PWR012" (at 116.84 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 114.2999 90)
@@ -2061,7 +2065,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2070,7 +2074,7 @@
   (symbol (lib_id "Device:R_US") (at 186.055 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b11aaf90-74ce-42f8-94c3-d48ecf3d424b)
-    (property "Reference" "R?" (at 188.595 86.3599 0)
+    (property "Reference" "R4" (at 188.595 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1K" (at 188.595 88.8999 0)
@@ -2087,7 +2091,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2096,7 +2100,7 @@
   (symbol (lib_id "Device:R_US") (at 121.285 50.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf7dd01b-ebba-4864-9856-29200fbc6989)
-    (property "Reference" "R?" (at 121.285 45.085 90)
+    (property "Reference" "R2" (at 121.285 45.085 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22" (at 121.285 47.625 90)
@@ -2113,7 +2117,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2122,7 +2126,7 @@
   (symbol (lib_id "Device:Fuse") (at 145.415 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5ae83f9-77a7-4bb8-9f11-1f4d9490dbbd)
-    (property "Reference" "F?" (at 145.415 77.47 90)
+    (property "Reference" "F1" (at 145.415 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500mA" (at 145.415 80.01 90)
@@ -2139,7 +2143,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "F?") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
     )
@@ -2148,10 +2152,10 @@
   (symbol (lib_id "power:GND") (at 145.415 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cdb7b8b7-a31b-4e13-a3d0-409aad83f654)
-    (property "Reference" "#PWR?" (at 145.415 129.54 0)
+    (property "Reference" "#PWR014" (at 145.415 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 143.51 127.635 0)
+    (property "Value" "GND" (at 144.145 127.635 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 145.415 123.19 0)
@@ -2164,7 +2168,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2173,7 +2177,7 @@
   (symbol (lib_id "power:VCC") (at 125.095 116.205 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce75ecf4-82e0-435a-82b0-aad0fd38e0c2)
-    (property "Reference" "#PWR?" (at 125.095 120.015 0)
+    (property "Reference" "#PWR013" (at 125.095 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 125.095 111.76 0)
@@ -2189,7 +2193,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2198,7 +2202,7 @@
   (symbol (lib_id "Device:LED") (at 186.055 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc3f7a84-a53a-4882-99a9-7edcc51dfc73)
-    (property "Reference" "D?" (at 189.865 95.5674 90)
+    (property "Reference" "D1" (at 189.865 95.5674 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GREEN" (at 189.865 98.1074 90)
@@ -2215,7 +2219,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2224,7 +2228,7 @@
   (symbol (lib_id "Device:R_US") (at 121.285 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e32a23a6-6fe7-4bcc-abc6-728931027205)
-    (property "Reference" "R?" (at 121.285 116.205 90)
+    (property "Reference" "R7" (at 121.285 116.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 121.285 118.745 90)
@@ -2241,7 +2245,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2250,10 +2254,10 @@
   (symbol (lib_id "power:GND") (at 110.49 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8bafd8-6b9c-4e34-a727-534409037a25)
-    (property "Reference" "#PWR?" (at 110.49 138.43 0)
+    (property "Reference" "#PWR018" (at 110.49 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 108.585 136.525 0)
+    (property "Value" "GND" (at 109.22 136.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 110.49 132.08 0)
@@ -2266,7 +2270,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -2275,7 +2279,7 @@
   (symbol (lib_id "Device:C") (at 110.49 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ecffcac5-84a3-49bb-9511-ac8c4511fa01)
-    (property "Reference" "C?" (at 113.665 126.9999 0)
+    (property "Reference" "C7" (at 113.665 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 113.665 129.5399 0)
@@ -2292,7 +2296,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2301,10 +2305,10 @@
   (symbol (lib_id "power:GND") (at 76.835 92.075 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee0cea4a-c24e-4e9a-a58e-2a65837142d9)
-    (property "Reference" "#PWR?" (at 76.835 98.425 0)
+    (property "Reference" "#PWR010" (at 76.835 98.425 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 74.93 96.52 0)
+    (property "Value" "GND" (at 75.565 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 76.835 92.075 0)
@@ -2317,7 +2321,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2326,7 +2330,7 @@
   (symbol (lib_id "Device:LED") (at 145.415 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd5efbcb-a1c2-451b-861a-3dfbdcda42a8)
-    (property "Reference" "D?" (at 148.59 119.38 90)
+    (property "Reference" "D2" (at 148.59 119.38 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 148.59 121.92 90)
@@ -2343,7 +2347,7 @@
     (instances
       (project "mechpad"
         (path "/2d068e7d-d024-48f7-a9a1-e9ed75f7807b/4d7295d1-9e80-4685-a721-c4add29ba6d6"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
