@@ -7,20 +7,21 @@ CRGBArray<NUM_LEDS> leds;
 
 void setup()
 {
+
+  pinMode(A0, INPUT);
   FastLED.addLeds<NEOPIXEL,LED_PIN>(leds, NUM_LEDS);
   FastLED.setBrightness(GLOBAL_BRIGHTNESS);
 }
 
 void loop(){ 
   static uint8_t hue = 0;
-  for(int i = 0; i < NUM_LEDS; i++) {   
-    // fade everything out
-    //leds.fadeToBlackBy(40);
+  for(int i = 0; i < NUM_LEDS; i++)
+  {   
+    leds.fadeToBlackBy(0); // Fades an LED to black by the argument's value.
 
-    // let's set an led value
-    leds[i] = CHSV(hue++,255,255);
+    leds[i] = CHSV(hue++,255,255); // Sets an led value
 
     leds(NUM_LEDS,NUM_LEDS-1) = leds(NUM_LEDS - 1 ,0);
-    FastLED.delay(3);
+    FastLED.delay(analogRead(A0));
   }
 }

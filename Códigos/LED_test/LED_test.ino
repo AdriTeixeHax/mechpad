@@ -1,42 +1,34 @@
-#include            "FastLED.h"
-#define LED_TYPE     WS2812
-#define DATA_PIN     3
-#define CLOCK_PIN    13
-#define NUM_LEDS     29
-#define COLOR_ORDER  GRB
-#define BRIGHTNESS   25
+#include <FastLED.h>
 
-void setup() 
-{
-  uint8_t gHue      = 0; // Used to cycle through rainbow.
-  uint8_t moveSpeed = 6; // Higher value moves pixel faster.
-  CRGB leds[NUM_LEDS];
+#define LED_PIN     6
+#define LED_COUNT  29
 
-  delay(300);
+CRGB leds[LED_COUNT];
 
-  FastLED.addLeds<LED_TYPE, DATA_PIN, CLOCK_PIN, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(BRIGHTNESS);
+int speed = 50;         // Change this value to adjust the speed of the rainbow effect
+int length = 10;        // Starting value for the length of the rainbow effect
+int hue = 0;            // Starting hue value
 
+void setup() {
+  FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, LED_COUNT);
+  FastLED.setBrightness(100);
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
 }
 
-void loop()
-{
-  EVERY_N_MILLISECONDS(50)
-  {
-    gHue++;
-  } // Slowly cycle through the rainbow.
+void loop() {
+  rainbowCycle();
+}
 
-  uint8_t fadeRate = 10; // Use lower value to give a fading tail.
-
-  EVERY_N_MILLISECONDS(5) 
-  {
-    fadeToBlackBy(leds, NUM_LEDS, fadeRate);
-  } // Fade out pixels.
-
-  uint16_t pos = beat8(moveSpeed) % NUM_LEDS; // Module the position to be within NUM_LEDS
-  leds[pos] = CHSV(gHue, 200, 255);
-
-  FastLED.show(); // Display the pixels.
+void rainbowCycle() {
+  length = map(analogRead(A0), 0, 1023, 1, LED_COUNT);  // Change the length of the rainbow effect based on the analog input
+  speed = analogRead(A1);
+  EVERY_N_MILLISECONDS(20) {
+    hue += speed;           // Change this value to adjust the speed at which the hue changes
+    for (int i = 0; i < LED_COUNT; i++) {
+      int pixelHue = map(i, 0, length, hue, hue + 170);  // Map the hue value based on the length of the rainbow effect
+      leds[i] = CHSV(pixelHue % 256, 255, 255);
+    }
+    FastLED.show();
+  }
 }

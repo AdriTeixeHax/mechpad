@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:leonardo",
     "port": "COM5",
-    "programmer": "arduino:arduinoasispatmega32u4",
-    "sketch": "LED_test\\RGBSetDemo\\RGBSetDemo.ino"
+    "programmer": "arduino:arduinoisp",
+    "sketch": "main\\main.ino"
 }
