@@ -2,5 +2,5 @@
     "board": "arduino:avr:leonardo",
     "port": "COM17",
     "programmer": "avrisp",
-    "sketch": "Pruebaclases\\Pruebaclases.ino"
+    "sketch": "main\\main.ino"
 }
