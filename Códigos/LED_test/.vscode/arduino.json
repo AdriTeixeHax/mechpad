@@ -1,6 +1,0 @@
-{
-    "board": "arduino:avr:leonardo",
-    "programmer": "avrisp",
-    "port": "COM5",
-    "sketch": "LED_test.ino"
-}
