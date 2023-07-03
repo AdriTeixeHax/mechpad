@@ -10,14 +10,13 @@ RotaryEncoder::RotaryEncoder(uint pinA, uint pinB, uint pinSwitch) :
     _counter(0),
     _resolution(1),
     _maxResolution(10),
-    _delayTime(250)
 {
     pinMode(this->_pinA,      INPUT);
     pinMode(this->_pinB,      INPUT);
-    pinMode(this->_pinSwitch, INPUT_PULLUP);
+    pinMode(this->_pinSwitch, INPUT);
 
     this->_lastState = digitalRead(_pinA);
-}
+} 
 
 bool RotaryEncoder::incrCounter(int incr)
 {
@@ -56,23 +55,16 @@ ReadingData RotaryEncoder::reading(void)
 
 bool RotaryEncoder::switchUpdate(void)
 {
-    if (errorChecking()) return false;
-
-    static bool temp = digitalRead(_pinSwitch);
-
-    if (digitalRead(_pinSwitch))
-        this->_switchPressed = true;
-    else
-        this->_switchPressed = false;
-
-    if (digitalRead(_pinSwitch) == temp)
+    static bool flag = false;
+    
+    if (digitalRead(_pinSwitch) != flag)
     {
-        temp = digitalRead(_pinSwitch);
-        return false;
-    }
-    else
-    {
-        temp = digitalRead(_pinSwitch);
+        flag = !flag;
+
+        if (!digitalRead(_pinSwitch)) this->_switchPressed = true;
+        else this->_switchPressed = false;
+
         return true;
     }
+    else return false;
 }

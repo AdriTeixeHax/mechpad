@@ -5,17 +5,20 @@
 
 void Coordinator::loop(void)
 {
-    ReadingData encoderReadingData = this->_rotaryEncoder.reading();
+    static ReadingData encoderReadingData = ReadingData(false, false);
+    static bool encoderSwitchFlag = false;
+    encoderReadingData = this->_rotaryEncoder.reading();
+
     if (encoderReadingData._hasBeenRotated)
     {
-        if (encoderReadingData._direction)
+        if (!encoderReadingData._direction)
             Consumer.write(MEDIA_VOL_UP);
         else
             Consumer.write(MEDIA_VOL_DOWN);
     }
-    if (_rotaryEncoder.switchUpdate())
+
+    if (_rotaryEncoder.switchUpdate() && _rotaryEncoder.getSwitchPressed())
     {
-        if (_rotaryEncoder.getSwitchPressed())
-            Consumer.write(MEDIA_PLAY_PAUSE);
+        Consumer.write(MEDIA_PLAY_PAUSE);
     }
 }

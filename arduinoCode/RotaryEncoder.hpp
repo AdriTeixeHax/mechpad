@@ -31,11 +31,9 @@ private:
 	// Resolution for some actions.
 	uint _resolution;
 	uint _maxResolution;
-	// Switch delay.
-	uint _delayTime;
 
 public:
-	/* CONSTRUCTOR */
+	/* INITIALIZATION */
 	RotaryEncoder(uint pinA, uint pinB, uint pinSwitch);
 
 	/* ERROR CHECKING */
