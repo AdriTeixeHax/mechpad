@@ -1,12 +1,15 @@
 #include "RGBStrip.hpp"
 
+#define everySetMillis EVERY_N_MILLISECONDS
+
 RGBStrip::RGBStrip(const uint pin, const uint rowCount, const uint colCount) :
     _pin(pin),
     _rowCount(rowCount),
     _colCount(colCount),
-    _brightness(20),
     _LEDCount(rowCount * colCount),
-    _strip(new CRGB[_LEDCount])
+    _brightness(20),
+    _strip(new CRGB[_LEDCount]),
+    _effects(3)
 {
     switch(_pin)
     {
@@ -39,13 +42,12 @@ RGBStrip::RGBStrip(const uint pin, const uint rowCount, const uint colCount) :
         break;
     }
 
-    _rainbowData.speed = 3;
-    _rainbowData.length = 3;
+    _effects.addElem()
 }
 
 void RGBStrip::effectRainbow(void)
 {
-    EVERY_N_MILLISECONDS(20)
+    everySetMillis(20)
     {
         FastLED.setBrightness(_brightness);
 

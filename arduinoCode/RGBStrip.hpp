@@ -4,13 +4,11 @@
 #include "Globals.hpp"
 #include <FastLED.h>
 
-struct EffectData
-{ 
-    uint length, speed, hue;
-    void reset(void) { length = 0; speed = 0; hue = 0; }
-};
+class Effect
+{
+    ParamList<byte> _data;
 
-enum class Effect { none, startup, rainbow, rain, lava };
+};
 
 class RGBStrip
 {
@@ -21,29 +19,30 @@ private:
     const uint _LEDCount;
     const byte _brightness;
     CRGB*      _strip;
-    EffectData _startupData = { 0 };
-    EffectData _rainbowData = { 0 };
-    EffectData _rainData    = { 0 };
-    EffectData _lavaData    = { 0 };
+    Effect _startupEffect;
+    Effect _rainbowEffect;
+    Effect _rainEffect;
+    Effect _lavaEffect;
+    ParamList<ParamList<Effect>*> _effects;
 
 public:
     /* CONSTRUCTOR */
     RGBStrip(const uint pin, const uint rowCount, const uint colCount);
 
     /* DESTRUCTOR */
-    ~RGBStrip(void) { delete _strip; }
+    ~RGBStrip(void) { delete _strip; _effects.clear(); }
 
     /* SETTERS */
-    void increaseEffectSpeed(const int increment)
+    void increaseEffectSpeed(const int increment, StripConfigState state)
     {
-        switch()
+
     }
 
     /* EFFECTS */
+    void effectStartup(void);
     void effectRainbow(void);
     void effectRain(void);
     void effectLava(void);
-    void effectStartup(void);
 };
 
 #endif

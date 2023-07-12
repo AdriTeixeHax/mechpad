@@ -14,7 +14,7 @@ RotaryEncoder::RotaryEncoder(uint pinA, uint pinB, uint pinSwitch) :
     _lastReadData()
 {
     pinMode(_pinA,      INPUT);
-    pinMode(_pinB,      INPUT);
+    pinMode(_pinB,      INPUT); 
     pinMode(_pinSwitch, INPUT);
 
     _lastState = digitalRead(_pinA);

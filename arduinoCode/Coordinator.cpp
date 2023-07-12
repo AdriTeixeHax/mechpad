@@ -18,29 +18,34 @@ Coordinator::Coordinator(void) :
 void Coordinator::loop(void)
 {
 /* STATE TRANSITIONS */
-    if (_machineState == MachineState::startup)
+    switch (_machineState)
     {
+    case MachineState::startup:
         static unsigned long elapsedTime = millis();
         if (millis() - elapsedTime > 1000)
             _machineState = MachineState::running;
+        break;
+
+    default:
+        break;
     }
 
 /* ACTIONS ACCORDING TO STATE */
-    // Startup //
-    if (_machineState == MachineState::startup)
+    switch (_machineState)
     {
+    case MachineState::startup:
         // LCD Update //
         if (!_stateFlags._startup)
         {
             _LCDScreen.print("MechPad Project", "State: startup");
         }
+
         // RGB Control //
         _RGBStrip.effectStartup();
-    }
 
-    // Running //
-    if (_machineState == MachineState::running)
-    {
+        break;
+
+    case MachineState::running:
         // LCD Update //
         if (!_stateFlags._running)
         {
@@ -66,11 +71,10 @@ void Coordinator::loop(void)
 
         // RGB Control //
         _RGBStrip.effectRainbow();
-    }
 
-    // Strip Configuration //
-    if (_machineState == MachineState::stripConfig)
-    {
+        break;
+
+    case MachineState::stripConfig:
         // LCD Update //
         if (!_stateFlags._stripConfig)
         {
@@ -83,11 +87,14 @@ void Coordinator::loop(void)
         {
             if (!_rotaryEncoder.getLastData().direction)
             {
-                switch (stripConfigState)
+                switch (_stripConfigState)
                 {
                 case StripConfigState::speed:
                     _RGBStrip.increaseEffectSpeed(_rotaryEncoder.getResolution());
                     break;
+
+                case StripConfigState::length:
+                    _RGBStrip.increaseEffectSpeed
                 }
             }
             else
@@ -103,6 +110,11 @@ void Coordinator::loop(void)
 
         // RGB Control //
         _RGBStrip.effectRainbow();
+
+        break;
+
+    default:
+        break;
     }
 
 /* FLAG RESETTING */
