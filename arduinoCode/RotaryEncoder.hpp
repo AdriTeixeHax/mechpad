@@ -1,36 +1,34 @@
 #ifndef __ROTARYENCODER_HPP__
 #define __ROTARYENCODER_HPP__
 
-#include <Arduino.h>
-
-using uint = unsigned int;
-using byte = unsigned char;
+#include "Globals.hpp"
 
 struct ReadingData
 {
-	bool _hasBeenRotated;
-	bool _direction; // true == clockwise, false == anticlockwise.
+	bool hasBeenRotated;
+	bool direction; // true == clockwise, false == anticlockwise.
+	uint counter;
 
-	explicit ReadingData(bool hasBeenRotated, bool direction) : _hasBeenRotated(hasBeenRotated), _direction(direction) {}
-	void reset(void) { this->_hasBeenRotated = false; }
+	ReadingData(void) : hasBeenRotated(false), direction(false), counter(0) {}
+	void reset(void) { hasBeenRotated = false; }
 };
 
 class RotaryEncoder
 {
 private:
 	// Encoder pins.
-	uint _pinA;
-	uint _pinB;
-	uint _pinSwitch;
+	const uint _pinA;
+	const uint _pinB;
+	const uint _pinSwitch;
 	// States for reading.
 	bool _currentState;
 	bool _lastState;
 	bool _switchPressed;
-	// Counter for various functions.
-    uint _counter;
 	// Resolution for some actions.
 	uint _resolution;
 	uint _maxResolution;
+	// Reading data for the LCD
+	ReadingData _lastReadData;
 
 public:
 	/* INITIALIZATION */
@@ -40,22 +38,21 @@ public:
 	bool errorChecking(void) { if (this == nullptr) return true; else return false; }
 
 	/* GETTERS */
-	uint getPinA	 	 (void) { if (!errorChecking()) return this->_pinA; }
-	uint getPinB	 	 (void) { if (!errorChecking()) return this->_pinB; }
-	uint getPinSwitch	 (void) { if (!errorChecking()) return this->_pinSwitch; }
-	bool getCurrentState (void) { if (!errorChecking()) return this->_currentState; }
-	bool getLastState	 (void) { if (!errorChecking()) return this->_lastState; }
-	bool getSwitchPressed(void) { if (!errorChecking()) return this->_switchPressed; }
-	uint getCounter	  	 (void) { if (!errorChecking()) return this->_counter; }
-	uint getResolution	 (void) { if (!errorChecking()) return this->_resolution; }
-	uint getDelayTime 	 (void) { if (!errorChecking()) return this->_delayTime; }
+	uint getPinA	 	 (void) { if (!errorChecking()) return _pinA; }
+	uint getPinB	 	 (void) { if (!errorChecking()) return _pinB; }
+	uint getPinSwitch	 (void) { if (!errorChecking()) return _pinSwitch; }
+	bool getCurrentState (void) { if (!errorChecking()) return _currentState; }
+	bool getLastState	 (void) { if (!errorChecking()) return _lastState; }
+	bool getSwitchPressed(void) { if (!errorChecking()) return _switchPressed; }
+	uint getResolution	 (void) { if (!errorChecking()) return _resolution; }
+	ReadingData getLastData(void) { if (!errorChecking()) return _lastReadData; }
 
 	/* SETTERS */
-	bool setMaxResolution(uint maxResolution) { this->_maxResolution = maxResolution; return true;}
+	bool setMaxResolution(uint maxResolution) { _maxResolution = maxResolution; return true;}
 	bool incrCounter(int incr);
 
 	/* FUNCTIONS */
-	ReadingData reading(void);
+	void reading(void);
 	bool switchUpdate(void);
 };
 
