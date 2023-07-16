@@ -26,6 +26,9 @@ public:
     /* DESTRUCTOR */
     ~RGBStrip(void) { delete _strip; _effectList.clear(); }
 
+    /* GETTERS */
+    RainbowEffect* getRainbowEffect(void) { return &_rainbowEffect; }
+
     /* FUNCTIONS */
     void effectState(MachineState state);
 };

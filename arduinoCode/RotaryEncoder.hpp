@@ -43,8 +43,6 @@ public:
 	uint getPinA	 	 (void) { if (!errorChecking()) return _pinA; }
 	uint getPinB	 	 (void) { if (!errorChecking()) return _pinB; }
 	uint getPinSwitch	 (void) { if (!errorChecking()) return _pinSwitch; }
-	bool getCurrentState (void) { if (!errorChecking()) return _currentState; }
-	bool getLastState	 (void) { if (!errorChecking()) return _lastState; }
 	bool getSwitchPressed(void) { if (!errorChecking()) return _switchPressed; }
 	uint getTimePressed  (void) { if (!errorChecking()) return _timePressed; }
 	uint getResolution	 (void) { if (!errorChecking()) return _resolution; }

@@ -8,6 +8,7 @@
 Coordinator::Coordinator(void) :
     _machineState(MachineState::startup),
     _stateFlags(),
+    _stripConfigState(StripConfigState::brightness),
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B, ENCODER_PIN_SW),
     _RGBStrip(STRIP_PIN, 6, 4)
@@ -41,10 +42,9 @@ void Coordinator::loop(void)
     case MachineState::stripConfig:
         if (_rotaryEncoder.getSwitchPressed() && _rotaryEncoder.getTimePressed() > 500)
         {
-            _machineState = MachineState::running;
             _rotaryEncoder.resetTimePressed();
+            _machineState = MachineState::running;
         }
-        break;
 
     default:
         break;
@@ -53,70 +53,85 @@ void Coordinator::loop(void)
 /* ACTIONS ACCORDING TO STATE */
     switch (_machineState)
     {
-    case MachineState::startup:
-        // LCD Update //
-        if (!_stateFlags._startup)
-        {
-            //_LCDScreen.print("MechPad Project", "State: startup");
-        }
-
-        break;
-
     case MachineState::running:
         // LCD Update //
-        if (!_stateFlags._running)
-        {
-            //_LCDScreen.print("MechPad Project", "State: running");
-        } 
+        _LCDScreen.printOnce("MechPad Project", "Running");
         
         // Encoder rotation reading //
         _rotaryEncoder.reading();
         if (_rotaryEncoder.getLastData().hasBeenRotated)
         {
-            if (!_rotaryEncoder.getLastData().direction)
+            if (!_rotaryEncoder.getLastData().direction) // Clockwise
                 Consumer.write(MEDIA_VOL_UP);
             else
                 Consumer.write(MEDIA_VOL_DOWN);
         }
 
         // Encoder switch reading //
-        if (_rotaryEncoder.switchUpdate())
-        {
-            if (_rotaryEncoder.getSwitchPressed())
-                Consumer.write(MEDIA_PLAY_PAUSE);
-        }
+        if (_rotaryEncoder.switchUpdate() && _rotaryEncoder.getSwitchPressed())
+            Consumer.write(MEDIA_PLAY_PAUSE);
 
         break;
 
-    case MachineState::stripConfig:
-        // LCD Update //
-        if (!_stateFlags._stripConfig)
-        {
-            //_LCDScreen.print("MechPad Project", "State: LED Conf.");
-        } 
-        
+    case MachineState::stripConfig:      
+
+        static string bottomLine = "";
+
         // Encoder rotation reading //
         _rotaryEncoder.reading();
         if (_rotaryEncoder.getLastData().hasBeenRotated)
         {
-            if (!_rotaryEncoder.getLastData().direction)
-            {
-                // switch (_stripConfigState)
-                // {
-                // case StripConfigState::speed:
-                //     _RGBStrip.increaseEffectSpeed(_rotaryEncoder.getResolution());
-                //     break;
+            static short int sign = 0;
+            if (_rotaryEncoder.getLastData().direction) sign = -1;
+            else sign = 0;
 
-                // case StripConfigState::length:
-                //     _RGBStrip.increaseEffectSpeed
-                // }
+            switch (_stripConfigState)
+            {
+            case StripConfigState::speed:
+                _RGBStrip.getRainbowEffect()->incrementSpeed(sign * _rotaryEncoder.getResolution());
+                break;
+
+            case StripConfigState::length:
+                _RGBStrip.getRainbowEffect()->incrementLength(sign * _rotaryEncoder.getResolution());
+                break;
+
+            case StripConfigState::brightness:
+                _RGBStrip.getRainbowEffect()->incrementBrightness(sign * _rotaryEncoder.getResolution());
+                break;
+
+            default:
+                break;
             }
-            else
-                /* Consumer.write(MEDIA_VOL_DOWN)*/;
         }
 
         // Encoder switch reading //
-        _rotaryEncoder.switchUpdate();
+        if (_rotaryEncoder.switchUpdate() && _rotaryEncoder.getSwitchPressed())
+        {
+            switch (_stripConfigState)
+            {
+            case StripConfigState::brightness:
+                bottomLine = "Brightness";
+                _stripConfigState = StripConfigState::length;
+                break;
+
+            case StripConfigState::length:
+                bottomLine = "Length";
+                _stripConfigState = StripConfigState::speed;
+                break;
+            
+            case StripConfigState::speed:
+                bottomLine = "Speed";
+                _stripConfigState = StripConfigState::brightness;
+                _machineState = MachineState::running;
+                break;
+
+            default:
+                break;
+            }
+        }
+
+        // LCD Update //
+        _LCDScreen.printOnce("LED Config.", bottomLine);
 
         break;
 

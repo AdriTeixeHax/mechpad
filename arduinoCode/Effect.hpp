@@ -11,7 +11,7 @@
 class Effect
 {
 protected:
-    string  _name;
+    string _name;
     uint   _LEDCount;
     byte   _brightness;
     byte   _speed;
@@ -50,6 +50,28 @@ public:
     RainbowEffect(string name, const uint LEDCount, ParamList<Effect*>* effectList) :
         Effect(name, LEDCount, effectList), _hue(3), _length(3)
     { }
+
+    /* SETTERS */
+    void incrementSpeed(const int incr)
+    {
+        if      (_speed + incr <= 0)   _speed = 0;
+        else if (_speed + incr >= 255) _speed = 255;
+        else     _speed += incr;
+    }
+
+    void incrementLength(const int incr)
+    {
+        if      (_length + incr <= 0)   _length = 0;
+        else if (_length + incr >= 255) _length = 255;
+        else     _length += incr;
+    }
+
+    void incrementBrightness(const int incr)
+    {
+        if      (_brightness + incr <= 0)   _brightness = 0;
+        else if (_brightness + incr >= 255) _brightness = 255;
+        else     _brightness += incr;
+    }
 
     /* FUNCTIONS */
     void effectAction(CRGB* strip) override;

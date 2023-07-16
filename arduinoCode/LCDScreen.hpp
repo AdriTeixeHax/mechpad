@@ -38,20 +38,29 @@ public:
         _screen.print(bottomLine);
     }
 
-    void print(bool topLine, uint bottomLine)
-    {
-        _screen.clear();
-        _screen.setCursor(0, 0);
-        _screen.print(topLine);
-        _screen.setCursor(0, 1);
-        _screen.print(bottomLine);
-    }
-
     void print(string message, int column, int row)
     {
         _screen.clear();
         _screen.setCursor(column, row);
         _screen.print(message);
+    }
+
+    void printOnce(string message, int column, int row)
+    {
+        static string temp = "";
+        if (temp == message) return;
+        this->print(message, column, row);
+        temp = message;
+    }
+
+    void printOnce(string topLine, string bottomLine)
+    {
+        static string tempTop = "";
+        static string tempBot = "";
+        if (tempTop == topLine && tempBot == bottomLine) return;
+        this->print(topLine, bottomLine);
+        tempTop = topLine;
+        tempBot = bottomLine;
     }
 };
 
