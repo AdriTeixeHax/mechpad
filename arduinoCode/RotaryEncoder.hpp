@@ -24,6 +24,8 @@ private:
 	bool _currentState;
 	bool _lastState;
 	bool _switchPressed;
+	// Time the switch has been pressed for
+	uint _timePressed;
 	// Resolution for some actions.
 	uint _resolution;
 	uint _maxResolution;
@@ -44,12 +46,14 @@ public:
 	bool getCurrentState (void) { if (!errorChecking()) return _currentState; }
 	bool getLastState	 (void) { if (!errorChecking()) return _lastState; }
 	bool getSwitchPressed(void) { if (!errorChecking()) return _switchPressed; }
+	uint getTimePressed  (void) { if (!errorChecking()) return _timePressed; }
 	uint getResolution	 (void) { if (!errorChecking()) return _resolution; }
 	ReadingData getLastData(void) { if (!errorChecking()) return _lastReadData; }
 
 	/* SETTERS */
 	bool setMaxResolution(uint maxResolution) { _maxResolution = maxResolution; return true;}
 	bool incrCounter(int incr);
+	void resetTimePressed(void) { _timePressed = 0; }
 
 	/* FUNCTIONS */
 	void reading(void);

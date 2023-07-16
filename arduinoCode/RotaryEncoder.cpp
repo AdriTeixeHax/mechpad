@@ -59,7 +59,20 @@ void RotaryEncoder::reading(void)
 bool RotaryEncoder::switchUpdate(void)
 {
     static bool flag = false;
+    static bool timeFlag = false;
     static unsigned long elapsedTime = 0;
+    static unsigned long timePressed = 0;
+
+    if (!digitalRead(_pinSwitch))
+    {
+        if (!timeFlag)
+        {
+            timePressed = millis();
+            timeFlag = !timeFlag;
+        }
+        _timePressed = millis() - timePressed;
+    }
+    else timeFlag = false;
     
     if (digitalRead(_pinSwitch) != flag && millis() - elapsedTime > PRESET_DELAY)
     {

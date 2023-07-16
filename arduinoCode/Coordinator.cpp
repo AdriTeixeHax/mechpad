@@ -18,12 +18,32 @@ Coordinator::Coordinator(void) :
 void Coordinator::loop(void)
 {
 /* STATE TRANSITIONS */
+
     switch (_machineState)
     {
     case MachineState::startup:
         static unsigned long elapsedTime = millis();
         if (millis() - elapsedTime > 1000)
+        {
             _machineState = MachineState::running;
+            elapsedTime = millis();
+        }
+        break;
+
+    case MachineState::running:
+        if (_rotaryEncoder.getSwitchPressed() && _rotaryEncoder.getTimePressed() > 500)
+        {
+            _rotaryEncoder.resetTimePressed();
+            _machineState = MachineState::stripConfig;
+        }
+        break;
+
+    case MachineState::stripConfig:
+        if (_rotaryEncoder.getSwitchPressed() && _rotaryEncoder.getTimePressed() > 500)
+        {
+            _machineState = MachineState::running;
+            _rotaryEncoder.resetTimePressed();
+        }
         break;
 
     default:
@@ -37,7 +57,7 @@ void Coordinator::loop(void)
         // LCD Update //
         if (!_stateFlags._startup)
         {
-            _LCDScreen.print("MechPad Project", "State: startup");
+            //_LCDScreen.print("MechPad Project", "State: startup");
         }
 
         break;
@@ -46,7 +66,7 @@ void Coordinator::loop(void)
         // LCD Update //
         if (!_stateFlags._running)
         {
-            _LCDScreen.print("MechPad Project", "State: running");
+            //_LCDScreen.print("MechPad Project", "State: running");
         } 
         
         // Encoder rotation reading //
@@ -72,7 +92,7 @@ void Coordinator::loop(void)
         // LCD Update //
         if (!_stateFlags._stripConfig)
         {
-            _LCDScreen.print("MechPad Project", "State: LED Conf.");
+            //_LCDScreen.print("MechPad Project", "State: LED Conf.");
         } 
         
         // Encoder rotation reading //
@@ -92,15 +112,11 @@ void Coordinator::loop(void)
                 // }
             }
             else
-                Consumer.write(MEDIA_VOL_DOWN);
+                /* Consumer.write(MEDIA_VOL_DOWN)*/;
         }
 
         // Encoder switch reading //
-        if (_rotaryEncoder.switchUpdate())
-        {
-            if (_rotaryEncoder.getSwitchPressed())
-                Consumer.write(MEDIA_PLAY_PAUSE);
-        }
+        _rotaryEncoder.switchUpdate();
 
         break;
 
