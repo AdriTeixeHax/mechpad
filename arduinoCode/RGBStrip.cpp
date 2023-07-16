@@ -1,15 +1,16 @@
 #include "RGBStrip.hpp"
 
-#define everySetMillis EVERY_N_MILLISECONDS
-
 RGBStrip::RGBStrip(const uint pin, const uint rowCount, const uint colCount) :
     _pin(pin),
     _rowCount(rowCount),
     _colCount(colCount),
     _LEDCount(rowCount * colCount),
-    _brightness(20),
     _strip(new CRGB[_LEDCount]),
-    _effects(3)
+    _effectList(10),
+    _startupEffect("Startup Effect", _LEDCount, &_effectList),
+    _rainbowEffect("Rainbow Effect", _LEDCount, &_effectList),
+    _rainEffect("Rain Effect", _LEDCount, &_effectList),
+    _lavaEffect("Lava Effect", _LEDCount, &_effectList)
 {
     switch(_pin)
     {
@@ -41,39 +42,33 @@ RGBStrip::RGBStrip(const uint pin, const uint rowCount, const uint colCount) :
         FastLED.addLeds<WS2812B, PWM_PINS[6], GRB>(_strip, _LEDCount);
         break;
     }
-
-    _effects.addElem()
 }
 
-void RGBStrip::effectRainbow(void)
+void RGBStrip::effectState(MachineState state)
 {
-    everySetMillis(20)
+    switch (state)
     {
-        FastLED.setBrightness(_brightness);
+    case MachineState::startup:
+        _startupEffect.effectAction(_strip);
+        break;
 
-        _rainbowData.hue += _rainbowData.speed;
-        for (int i = 0; i < _LEDCount; i++)
-        {
-            int pixelHue = map(i, 0, _rainbowData.length, _rainbowData.hue, _rainbowData.hue + 170);
-            _strip[i] = CHSV(pixelHue % 256, 255, 255);
-        }
-        FastLED.show();
+    case MachineState::running:
+        _rainbowEffect.effectAction(_strip);
+        break;
+
+    case MachineState::stripConfig:
+        _rainbowEffect.effectAction(_strip);
+        break;
+
+    case MachineState::encoderConfig:
+        _rainbowEffect.effectAction(_strip);
+        break;
+
+    case MachineState::error:
+        _rainbowEffect.effectAction(_strip);
+        break;
+    
+    default:
+        break;        
     }
-}
-
-void RGBStrip::effectRain(void)
-{
-    
-}
-
-void RGBStrip::effectLava(void)
-{
-    
-}
-
-void RGBStrip::effectStartup(void)
-{
-    FastLED.setBrightness(_brightness);
-
-
 }

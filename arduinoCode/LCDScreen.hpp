@@ -8,11 +8,9 @@
 class LCDScreen
 {
 private:
-    const uint _address;
-    const uint _rows;
-    const uint _columns;
-    String _topLine;
-    String _bottomLine;
+    const uint  _address;
+    const uint  _rows;
+    const uint  _columns;
     LiquidCrystal_I2C _screen;
 
 public:
@@ -21,8 +19,6 @@ public:
         _address(address),
         _rows(rows),
         _columns(columns),
-        _topLine(""),
-        _bottomLine(""),
         _screen(LiquidCrystal_I2C(_address, _columns, _rows))
     {
         _screen.init();
@@ -33,7 +29,7 @@ public:
     /* FUNCTIONS */
     void clear(void) { this->_screen.setCursor(0, 0); this->_screen.clear(); }
 
-    void print(const String& topLine, const String& bottomLine)
+    void print(string topLine, string bottomLine)
     {
         _screen.clear();
         _screen.setCursor(0, 0);
@@ -51,23 +47,11 @@ public:
         _screen.print(bottomLine);
     }
 
-    void print(const String& message, int column, int row)
+    void print(string message, int column, int row)
     {
         _screen.clear();
         _screen.setCursor(column, row);
         _screen.print(message);
-    }
-
-    void printOnce(const String& topLine, const String& bottomLine)
-    {
-        if (topLine == _topLine && bottomLine == _bottomLine) return;
-        else
-        {
-            _topLine    = topLine;
-            _bottomLine = bottomLine;
-
-            this->print(topLine, bottomLine);
-        }
     }
 };
 

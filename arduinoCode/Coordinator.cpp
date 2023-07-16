@@ -40,9 +40,6 @@ void Coordinator::loop(void)
             _LCDScreen.print("MechPad Project", "State: startup");
         }
 
-        // RGB Control //
-        _RGBStrip.effectStartup();
-
         break;
 
     case MachineState::running:
@@ -69,9 +66,6 @@ void Coordinator::loop(void)
                 Consumer.write(MEDIA_PLAY_PAUSE);
         }
 
-        // RGB Control //
-        _RGBStrip.effectRainbow();
-
         break;
 
     case MachineState::stripConfig:
@@ -87,15 +81,15 @@ void Coordinator::loop(void)
         {
             if (!_rotaryEncoder.getLastData().direction)
             {
-                switch (_stripConfigState)
-                {
-                case StripConfigState::speed:
-                    _RGBStrip.increaseEffectSpeed(_rotaryEncoder.getResolution());
-                    break;
+                // switch (_stripConfigState)
+                // {
+                // case StripConfigState::speed:
+                //     _RGBStrip.increaseEffectSpeed(_rotaryEncoder.getResolution());
+                //     break;
 
-                case StripConfigState::length:
-                    _RGBStrip.increaseEffectSpeed
-                }
+                // case StripConfigState::length:
+                //     _RGBStrip.increaseEffectSpeed
+                // }
             }
             else
                 Consumer.write(MEDIA_VOL_DOWN);
@@ -108,14 +102,14 @@ void Coordinator::loop(void)
                 Consumer.write(MEDIA_PLAY_PAUSE);
         }
 
-        // RGB Control //
-        _RGBStrip.effectRainbow();
-
         break;
 
     default:
         break;
     }
+
+/* RGB CONTROL */
+    _RGBStrip.effectState(_machineState);
 
 /* FLAG RESETTING */
     _stateFlags.resetExcept(_machineState);

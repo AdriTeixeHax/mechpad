@@ -6,9 +6,6 @@
 #include "LCDScreen.hpp"
 #include "RGBStrip.hpp"
 
-enum class MachineState { startup, running, stripConfig, encoderConfig, error };
-enum class StripConfigState { speed, length, brightness };
-
 struct StateFlags
 {
     bool _startup       = false;
