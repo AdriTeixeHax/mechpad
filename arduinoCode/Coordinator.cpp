@@ -74,16 +74,34 @@ void Coordinator::loop(void)
         break;
 
     case MachineState::stripConfig:      
-
+        // LCD Update //
         static string bottomLine = "";
+        switch (_stripConfigState)
+        {
+        case StripConfigState::brightness:
+            bottomLine = "Brightness";
+            break;
+
+        case StripConfigState::length:
+            bottomLine = "Length";
+            break;
+        
+        case StripConfigState::speed:
+            bottomLine = "Speed";
+            break;
+
+        default:
+            break;
+        }
+        _LCDScreen.printOnce("LED Config.", bottomLine);
 
         // Encoder rotation reading //
         _rotaryEncoder.reading();
         if (_rotaryEncoder.getLastData().hasBeenRotated)
         {
-            static short int sign = 0;
+            static short int sign = 1;
             if (_rotaryEncoder.getLastData().direction) sign = -1;
-            else sign = 0;
+            else sign = 1;
 
             switch (_stripConfigState)
             {
@@ -110,17 +128,14 @@ void Coordinator::loop(void)
             switch (_stripConfigState)
             {
             case StripConfigState::brightness:
-                bottomLine = "Brightness";
                 _stripConfigState = StripConfigState::length;
                 break;
 
             case StripConfigState::length:
-                bottomLine = "Length";
                 _stripConfigState = StripConfigState::speed;
                 break;
             
             case StripConfigState::speed:
-                bottomLine = "Speed";
                 _stripConfigState = StripConfigState::brightness;
                 _machineState = MachineState::running;
                 break;
@@ -129,9 +144,6 @@ void Coordinator::loop(void)
                 break;
             }
         }
-
-        // LCD Update //
-        _LCDScreen.printOnce("LED Config.", bottomLine);
 
         break;
 

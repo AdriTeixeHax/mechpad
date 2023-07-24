@@ -43,7 +43,7 @@ class RainbowEffect : public Effect
 {
 private:
     byte _hue;
-    uint _length;
+    byte _length;
 
 public:
     /* CONSTRUCTOR */
