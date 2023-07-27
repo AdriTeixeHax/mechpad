@@ -7,13 +7,17 @@ using uint = unsigned int;
 using string = const char*;
 
 enum class MachineState { startup, running, stripConfig, encoderConfig, error };
-enum class StripConfigState { speed, length, brightness };
+enum class StripConfigState { none, speed, length, brightness };
 
 constexpr byte PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
 constexpr byte ENCODER_PIN_A  = 3;
 constexpr byte ENCODER_PIN_B  = 4;
 constexpr byte ENCODER_PIN_SW = 5;
 constexpr byte STRIP_PIN = 6;
+constexpr byte SR_PIN_LOAD = 8;
+constexpr byte SR_PIN_EN   = 9;
+constexpr byte SR_PIN_DATA = 10;
+constexpr byte SR_PIN_CLK  = 11;
 
 // template<typename Type>
 // struct ParamData

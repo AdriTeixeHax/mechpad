@@ -51,6 +51,11 @@ public:
         Effect(name, LEDCount, effectList), _hue(3), _length(3)
     { }
 
+    /* GETTERS */
+    byte getBrightness(void) { return _brightness; }
+    byte getLength    (void) { return _length; }
+    byte getSpeed     (void) { return _speed; }
+
     /* SETTERS */
     void incrementSpeed(const int incr)
     {

@@ -1,4 +1,4 @@
-#include "RotaryEncoder.hpp"
+#include "RotaryEncoder.h"
 
 constexpr uint PRESET_DELAY = 20;
 
@@ -36,7 +36,7 @@ void RotaryEncoder::reading(void)
     // Reads the pin A and assigns a corresponding value to the _currentState variable.
     _currentState = digitalRead(_pinA);
 
-    // If the last and current state of the rotary encoder's pin A are different, then a pulse occurred
+    // If the last and current state of the rotary encoder's pin A are different, then a pulse occurred.
     if (_currentState != _lastState && _currentState == 1)
     {
         _lastReadData.hasBeenRotated = true;
@@ -58,11 +58,14 @@ void RotaryEncoder::reading(void)
 
 bool RotaryEncoder::switchUpdate(void)
 {
+    // Flags to prevent double counting.
     static bool flag = false;
     static bool timeFlag = false;
+    // Time variables for debouncing and counting how much time since the switch was pressed.
     static unsigned long elapsedTime = 0;
     static unsigned long timePressed = 0;
 
+    // Stores the time the switch has been pressed.
     if (!digitalRead(_pinSwitch))
     {
         if (!timeFlag)
@@ -74,6 +77,7 @@ bool RotaryEncoder::switchUpdate(void)
     }
     else timeFlag = false;
     
+    // Reads and stores the state of the switch.
     if (digitalRead(_pinSwitch) != flag && millis() - elapsedTime > PRESET_DELAY)
     {
         flag = !flag;

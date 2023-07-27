@@ -23,7 +23,7 @@ public:
     {
         _screen.init();
         _screen.backlight();
-        this->print("Mechpad Project", "by AdriTeixeHax");
+        this->printOnce("Mechpad Project", "by AdriTeixeHax");
     }
 
     /* FUNCTIONS */
@@ -58,7 +58,9 @@ public:
         static string tempTop = "";
         static string tempBot = "";
         if (tempTop == topLine && tempBot == bottomLine) return;
+        
         this->print(topLine, bottomLine);
+
         tempTop = topLine;
         tempBot = bottomLine;
     }

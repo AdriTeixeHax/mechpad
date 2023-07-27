@@ -3,36 +3,36 @@
 #include <HID-Project.h>
 #include <HID-Settings.h>
 
-#define DEBUG
-
 Coordinator::Coordinator(void) :
     _machineState(MachineState::startup),
     _stateFlags(),
     _stripConfigState(StripConfigState::brightness),
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B, ENCODER_PIN_SW),
-    _RGBStrip(STRIP_PIN, 6, 4)
+    _RGBStrip(STRIP_PIN, 6, 4),
+    _shiftRegister(SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK)
 {
     Consumer.begin();
+    Serial.begin(9600);
 }
 
 void Coordinator::loop(void)
-{
+{ 
 /* STATE TRANSITIONS */
-
     switch (_machineState)
     {
     case MachineState::startup:
         static unsigned long elapsedTime = millis();
-        if (millis() - elapsedTime > 1000)
+        if (millis() - elapsedTime > STARTUP_TIMEOUT)
         {
+            _rotaryEncoder.resetTimePressed();
             _machineState = MachineState::running;
             elapsedTime = millis();
         }
         break;
 
     case MachineState::running:
-        if (_rotaryEncoder.getSwitchPressed() && _rotaryEncoder.getTimePressed() > 500)
+        if (_rotaryEncoder.switchLongPress())
         {
             _rotaryEncoder.resetTimePressed();
             _machineState = MachineState::stripConfig;
@@ -40,11 +40,13 @@ void Coordinator::loop(void)
         break;
 
     case MachineState::stripConfig:
-        if (_rotaryEncoder.getSwitchPressed() && _rotaryEncoder.getTimePressed() > 500)
+        if (_rotaryEncoder.switchLongPress())
         {
             _rotaryEncoder.resetTimePressed();
             _machineState = MachineState::running;
+            _stripConfigState = StripConfigState::brightness;
         }
+        break;
 
     default:
         break;
@@ -68,12 +70,15 @@ void Coordinator::loop(void)
         }
 
         // Encoder switch reading //
-        if (_rotaryEncoder.switchUpdate() && _rotaryEncoder.getSwitchPressed())
+        if (_rotaryEncoder.switchPress())
             Consumer.write(MEDIA_PLAY_PAUSE);
+
+        // Shift Register Reading
+        _shiftRegister.reading();
 
         break;
 
-    case MachineState::stripConfig:      
+    case MachineState::stripConfig:
         // LCD Update //
         static string bottomLine = "";
         switch (_stripConfigState)
@@ -123,7 +128,7 @@ void Coordinator::loop(void)
         }
 
         // Encoder switch reading //
-        if (_rotaryEncoder.switchUpdate() && _rotaryEncoder.getSwitchPressed())
+        if (_rotaryEncoder.switchPress())
         {
             switch (_stripConfigState)
             {
