@@ -10,7 +10,6 @@ Coordinator::Coordinator(void) :
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B, ENCODER_PIN_SW),
     _RGBStrip(STRIP_PIN, 6, 4),
-    _shiftRegister(SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK)
 {
     Consumer.begin();
     Serial.begin(9600);
