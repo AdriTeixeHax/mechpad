@@ -9,7 +9,8 @@ Coordinator::Coordinator(void) :
     _stripConfigState(StripConfigState::brightness),
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B, ENCODER_PIN_SW),
-    _RGBStrip(STRIP_PIN, 6, 4),
+    _RGBStrip(STRIP_PIN, 6, 4)
+    //_keyboardMatrix(NUM_COLS, PINS_COLS, SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK)
 {
     Consumer.begin();
     Serial.begin(9600);
@@ -72,8 +73,12 @@ void Coordinator::loop(void)
         if (_rotaryEncoder.switchPress())
             Consumer.write(MEDIA_PLAY_PAUSE);
 
-        // Shift Register Reading
-        _shiftRegister.reading();
+        // Keyboard matrix reading //
+        // KeyboardData* keyboardData = _keyboardMatrix.keypress();
+        // for (byte i = 0; i < keyboardData->getNumElem(); i++)
+        // {
+        //     Consumer.write(static_cast<ConsumerKeycode>((*keyboardData)[i]));
+        // }
 
         break;
 

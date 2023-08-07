@@ -1,8 +1,8 @@
 #include "RotaryEncoder.h"
 
-constexpr uint PRESET_DELAY = 20;
+constexpr uint8_t PRESET_DELAY = 20;
 
-RotaryEncoder::RotaryEncoder(uint pinA, uint pinB, uint pinSwitch) :
+RotaryEncoder::RotaryEncoder(uint8_t pinA, uint8_t pinB, uint8_t pinSwitch) :
     _pinA(pinA),
     _pinB(pinB),
     _pinSwitch(pinSwitch),

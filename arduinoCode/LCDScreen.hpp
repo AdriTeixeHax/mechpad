@@ -8,14 +8,14 @@
 class LCDScreen
 {
 private:
-    const uint  _address;
-    const uint  _rows;
-    const uint  _columns;
+    const uint16_t _address;
+    const uint8_t  _rows;
+    const uint8_t  _columns;
     LiquidCrystal_I2C _screen;
 
 public:
     /* CONSTRUCTOR */
-    LCDScreen(int address, uint columns, uint rows) :
+    LCDScreen(uint16_t address, uint8_t columns, uint8_t rows) :
         _address(address),
         _rows(rows),
         _columns(columns),
@@ -35,7 +35,7 @@ public:
         _screen.setCursor(0, 0);
         _screen.print(topLine);
         _screen.setCursor(0, 1);
-        _screen.print(bottomLine);
+        _screen.print(bottomLine); 
     }
 
     void print(string message, int column, int row)

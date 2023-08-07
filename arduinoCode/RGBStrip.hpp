@@ -8,10 +8,10 @@
 class RGBStrip
 {
 private:
-    const uint _pin;
-    const uint _rowCount;
-    const uint _colCount;
-    const uint _LEDCount;
+    const uint8_t _pin;
+    const uint8_t _rowCount;
+    const uint8_t _colCount;
+    const uint8_t _LEDCount;
     CRGB*      _strip;
     ParamList<Effect*> _effectList;
     CirclingEffect     _startupEffect;
@@ -21,7 +21,7 @@ private:
 
 public:
     /* CONSTRUCTOR */
-    RGBStrip(const uint pin, const uint rowCount, const uint colCount);
+    RGBStrip(const uint8_t pin, const uint8_t rowCount, const uint8_t colCount);
 
     /* DESTRUCTOR */
     ~RGBStrip(void) { delete _strip; _effectList.clear(); }

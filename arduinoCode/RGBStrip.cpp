@@ -1,6 +1,6 @@
 #include "RGBStrip.hpp"
 
-RGBStrip::RGBStrip(const uint pin, const uint rowCount, const uint colCount) :
+RGBStrip::RGBStrip(const uint8_t pin, const uint8_t rowCount, const uint8_t colCount) :
     _pin(pin),
     _rowCount(rowCount),
     _colCount(colCount),

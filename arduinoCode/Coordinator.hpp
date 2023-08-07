@@ -2,7 +2,7 @@
 #define _COORDINATOR__HPP_
 
 #include "RotaryEncoder.h"
-// #include "KeyboardMatrix.hpp"
+#include "KeyboardMatrix.h"
 #include "ShiftRegister.h"
 #include "LCDScreen.hpp"
 #include "RGBStrip.hpp"
@@ -61,9 +61,8 @@ private:
 
     LCDScreen      _LCDScreen;
     RotaryEncoder  _rotaryEncoder;
-    // KeyboardMatrix _keyboardMatrix;
-    ShiftRegister  _shiftRegister;
     RGBStrip       _RGBStrip;
+    //KeyboardMatrix _keyboardMatrix;
 
 public:
     Coordinator(void);

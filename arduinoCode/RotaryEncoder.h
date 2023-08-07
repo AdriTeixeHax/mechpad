@@ -3,17 +3,17 @@
 
 #include "Globals.hpp"
 
-constexpr uint MAX_SWITCH_TIME = 500;
-constexpr uint MIN_SWITCH_TIME = 50;
-constexpr uint STARTUP_TIMEOUT = 1000;
+constexpr uint16_t MAX_SWITCH_TIME = 500;
+constexpr uint16_t MIN_SWITCH_TIME = 50;
+constexpr uint16_t STARTUP_TIMEOUT = 1000;
 
-struct ReadingData
+struct EncoderData
 {
 	bool hasBeenRotated;
 	bool direction; // true == clockwise, false == anticlockwise.
-	uint counter;
+	uint16_t counter;
 
-	ReadingData(void) : hasBeenRotated(false), direction(false), counter(0) {}
+	EncoderData(void) : hasBeenRotated(false), direction(false), counter(0) {}
 	void reset(void) { hasBeenRotated = false; }
 };
 
@@ -21,33 +21,33 @@ class RotaryEncoder
 {
 private:
 	// Encoder pins.
-	const uint _pinA;
-	const uint _pinB;
-	const uint _pinSwitch;
+	const uint8_t _pinA;
+	const uint8_t _pinB;
+	const uint8_t _pinSwitch;
 	// States for reading.
 	bool _currentState;
 	bool _lastState;
 	bool _switchPressed;
 	// Time the switch has been pressed for
-	uint _timePressed;
+	uint16_t _timePressed;
 	// Resolution for some actions.
-	uint _resolution;
-	uint _maxResolution;
+	uint16_t _resolution;
+	uint16_t _maxResolution;
 	// Reading data for the LCD
-	ReadingData _lastReadData;
+	EncoderData _lastReadData;
 
 public:
 	/* INITIALIZATION */
-	RotaryEncoder(uint pinA, uint pinB, uint pinSwitch);
+	RotaryEncoder(uint8_t pinA, uint8_t pinB, uint8_t pinSwitch);
 
 	/* GETTERS */
 	bool 		getSwitchPressed(void) { return _switchPressed; }
-	uint 		getTimePressed  (void) { return _timePressed; }
-	uint 		getResolution	(void) { return _resolution; }
-	ReadingData getLastData		(void) { return _lastReadData; }
+	uint16_t	getTimePressed  (void) { return _timePressed; }
+	uint16_t	getResolution   (void) { return _resolution; }
+	EncoderData getLastData	    (void) { return _lastReadData; }
 
 	/* SETTERS */
-	bool setMaxResolution(uint maxResolution) { _maxResolution = maxResolution; return true;}
+	bool setMaxResolution(uint16_t maxResolution) { _maxResolution = maxResolution; return true;}
 	bool incrCounter(int incr);
 	void resetTimePressed(void) { _timePressed = 0; }
 	void resetSwitchPressed(void) { _switchPressed = false; }

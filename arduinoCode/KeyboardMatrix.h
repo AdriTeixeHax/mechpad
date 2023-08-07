@@ -6,23 +6,29 @@
 
 struct PinArray
 {
-    const uint _pinCount;
-    byte* _pins;
+    const uint8_t _pinCount;
+    uint8_t* _pins;
 
-    explicit PinArray(const uint pinCount, byte* pins) : _pinCount(pinCount), _pins(pins) {}
+    explicit PinArray(const uint8_t pinCount, uint8_t* pins) : _pinCount(pinCount), _pins(pins) {}
     ~PinArray(void) { delete _pins; }
 
-    byte operator[](uint i) { return _pins[i]; }
+    uint8_t operator[](uint8_t i) { return _pins[i]; }
 };
 
-struct KeyboardReading
+class KeyboardData
 {
-    uint _numElem;
-    int* _keypresses;
+private:
+    const uint16_t _maxElem;
+    uint16_t  _numElem;
+    uint16_t* _keypresses;
 
-    KeyboardReading(void) : _numElem(0), _keypresses(nullptr) {}
-    ~KeyboardReading(void) { this->reset(); }
+public:
+    KeyboardData(void) : _maxElem(10), _numElem(0), _keypresses(new uint16_t[_maxElem]) {}
+    ~KeyboardData(void) { this->reset(); }
     void reset(void) { _numElem = 0; _keypresses = nullptr; }
+    void addElem(uint16_t elem) { if ((_numElem + 1) <= _maxElem) _keypresses[++_numElem] = elem; }
+    uint16_t getNumElem(void) { return _numElem; }
+    uint16_t operator[](int i) { return _keypresses[i]; }
 };
 
 class KeyboardMatrix
@@ -32,18 +38,18 @@ private:
     ShiftRegister _shiftRegister;
 
 public:
-    KeyboardMatrix(const uint colPinCount, byte* colPins) :
+    KeyboardMatrix(const uint8_t colPinCount, uint8_t* colPins, const uint8_t SRPinLoad, const uint8_t SRPinEnable, const uint8_t SRPinData, const uint8_t SRPinCLK) :
         _colPins(colPinCount, colPins),
-        _shiftRegister(SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK)
+        _shiftRegister(SRPinLoad, SRPinEnable, SRPinData, SRPinCLK)
     {
-        for (uint i = 0; i < _colPins._pinCount; i++)
+        for (uint16_t i = 0; i < _colPins._pinCount; i++)
         {
             pinMode(_colPins[i], OUTPUT);
             digitalWrite(_colPins[i], HIGH);
         }
     }
 
-    KeyboardReading* keypress(void);
+    KeyboardData* keypress(void);
 
 };
 

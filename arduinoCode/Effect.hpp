@@ -11,13 +11,13 @@
 class Effect
 {
 protected:
-    string _name;
-    uint   _LEDCount;
-    byte   _brightness;
-    byte   _speed;
+    string   _name;
+    uint16_t _LEDCount;
+    uint8_t  _brightness;
+    uint8_t  _speed;
 
     /* CONSTRUCTOR */
-    Effect(string name, const uint LEDCount, ParamList<Effect*>* effectList) :
+    Effect(string name, const uint16_t LEDCount, ParamList<Effect*>* effectList) :
         _name(name), _LEDCount(LEDCount), _brightness(20), _speed(3)
     { effectList->addElem(this); }
 
@@ -33,7 +33,7 @@ class CirclingEffect : public Effect
 {
 public:
     /* CONSTRUCTOR */
-    CirclingEffect(string name, const uint LEDCount, ParamList<Effect*>* effectList) : Effect(name, LEDCount, effectList) { }
+    CirclingEffect(string name, const uint16_t LEDCount, ParamList<Effect*>* effectList) : Effect(name, LEDCount, effectList) { }
 
     /* FUNCTIONS */
     void effectAction(CRGB* strip) override;
@@ -42,19 +42,19 @@ public:
 class RainbowEffect : public Effect
 {
 private:
-    byte _hue;
-    byte _length;
+    uint8_t _hue;
+    uint8_t _length;
 
 public:
     /* CONSTRUCTOR */
-    RainbowEffect(string name, const uint LEDCount, ParamList<Effect*>* effectList) :
+    RainbowEffect(string name, const uint16_t LEDCount, ParamList<Effect*>* effectList) :
         Effect(name, LEDCount, effectList), _hue(3), _length(3)
     { }
 
     /* GETTERS */
-    byte getBrightness(void) { return _brightness; }
-    byte getLength    (void) { return _length; }
-    byte getSpeed     (void) { return _speed; }
+    uint8_t getBrightness(void) { return _brightness; }
+    uint8_t getLength    (void) { return _length; }
+    uint8_t getSpeed     (void) { return _speed; }
 
     /* SETTERS */
     void incrementSpeed(const int incr)
@@ -86,7 +86,7 @@ class RainEffect : public Effect
 {
 public:
     /* CONSTRUCTOR */
-    RainEffect(string name, const uint LEDCount, ParamList<Effect*>* effectList) : Effect(name, LEDCount, effectList) { }  
+    RainEffect(string name, const uint16_t LEDCount, ParamList<Effect*>* effectList) : Effect(name, LEDCount, effectList) { }  
 
     /* FUNCTIONS */
     void effectAction(CRGB* strip) override;
