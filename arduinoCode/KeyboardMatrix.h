@@ -4,15 +4,18 @@
 #include "Globals.hpp"
 #include "ShiftRegister.h"
 
-struct PinArray
+class PinArray
 {
+private:
     const uint8_t _pinCount;
     uint8_t* _pins;
 
+public:
     explicit PinArray(const uint8_t pinCount, uint8_t* pins) : _pinCount(pinCount), _pins(pins) {}
     ~PinArray(void) { delete _pins; }
 
     uint8_t operator[](uint8_t i) { return _pins[i]; }
+    uint8_t pinCount(void) { return _pinCount; }
 };
 
 class KeyboardData
@@ -28,29 +31,28 @@ public:
     void reset(void) { _numElem = 0; _keypresses = nullptr; }
     void addElem(uint16_t elem) { if ((_numElem + 1) <= _maxElem) _keypresses[++_numElem] = elem; }
     uint16_t getNumElem(void) { return _numElem; }
-    uint16_t operator[](int i) { return _keypresses[i]; }
+    uint16_t operator[](uint8_t i) { return _keypresses[i]; }
 };
 
 class KeyboardMatrix
 {
 private:
-    PinArray _colPins;
+    PinArray _rowPins;
     ShiftRegister _shiftRegister;
 
 public:
-    KeyboardMatrix(const uint8_t colPinCount, uint8_t* colPins, const uint8_t SRPinLoad, const uint8_t SRPinEnable, const uint8_t SRPinData, const uint8_t SRPinCLK) :
-        _colPins(colPinCount, colPins),
+    KeyboardMatrix(const PinArray& rowPins, uint8_t SRPinLoad, uint8_t SRPinEnable, uint8_t SRPinData, uint8_t SRPinCLK) :
+        _rowPins(rowPins),
         _shiftRegister(SRPinLoad, SRPinEnable, SRPinData, SRPinCLK)
     {
-        for (uint16_t i = 0; i < _colPins._pinCount; i++)
-        {
-            pinMode(_colPins[i], OUTPUT);
-            digitalWrite(_colPins[i], HIGH);
-        }
+        for (uint8_t i = 0; i < COL_COUNT; i++)
+            pinMode(BASE_COL_PIN + i, INPUT);
+
+        for (uint8_t i = 0; i < ROW_COUNT; i++)
+            pinMode(BASE_ROW_PIN + i, OUTPUT);
     }
 
-    KeyboardData* keypress(void);
-
+    KeyboardData keypress(void);
 };
 
 #endif

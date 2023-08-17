@@ -1,21 +1,16 @@
 #include "RotaryEncoder.h"
 
-constexpr uint8_t PRESET_DELAY = 20;
-
-RotaryEncoder::RotaryEncoder(uint8_t pinA, uint8_t pinB, uint8_t pinSwitch) :
+RotaryEncoder::RotaryEncoder(uint8_t pinA, uint8_t pinB) :
     _pinA(pinA),
     _pinB(pinB),
-    _pinSwitch(pinSwitch),
     _currentState(false),
     _lastState(false),
-    _switchPressed(false),
     _resolution(1),
     _maxResolution(10),
     _lastReadData()
 {
-    pinMode(_pinA,      INPUT);
-    pinMode(_pinB,      INPUT); 
-    pinMode(_pinSwitch, INPUT);
+    pinMode(_pinA, INPUT);
+    pinMode(_pinB, INPUT); 
 
     _lastState = digitalRead(_pinA);
 } 
@@ -54,40 +49,4 @@ void RotaryEncoder::reading(void)
     }
     // Save the state of the current operation to compare it to the next one.
     _lastState = _currentState;
-}
-
-bool RotaryEncoder::switchUpdate(void)
-{
-    // Flags to prevent double counting.
-    static bool flag = false;
-    static bool timeFlag = false;
-    // Time variables for debouncing and counting how much time since the switch was pressed.
-    static unsigned long elapsedTime = 0;
-    static unsigned long timePressed = 0;
-
-    // Stores the time the switch has been pressed.
-    if (!digitalRead(_pinSwitch))
-    {
-        if (!timeFlag)
-        {
-            timePressed = millis();
-            timeFlag = !timeFlag;
-        }
-        _timePressed = millis() - timePressed;
-    }
-    else timeFlag = false;
-    
-    // Reads and stores the state of the switch.
-    if (digitalRead(_pinSwitch) != flag && millis() - elapsedTime > PRESET_DELAY)
-    {
-        flag = !flag;
-
-        if (!digitalRead(_pinSwitch)) _switchPressed = true;
-        else _switchPressed = false;
-
-        elapsedTime = millis();
-
-        return true;
-    }
-    else return false;
 }

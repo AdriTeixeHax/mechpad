@@ -1,23 +1,25 @@
-#ifndef _RGBSTRIP__HPP_
-#define _RGBSTRIP__HPP_
+#ifndef _RGBSTRIP__H_
+#define _RGBSTRIP__H_
 
 #include "Globals.hpp"
 #include "ParamList.hpp"
-#include "Effect.hpp"
+#include "Effect.h"
 
 class RGBStrip
 {
 private:
     const uint8_t _pin;
-    const uint8_t _rowCount;
-    const uint8_t _colCount;
     const uint8_t _LEDCount;
-    CRGB*      _strip;
+    CRGB*         _strip;
+
     ParamList<Effect*> _effectList;
     CirclingEffect     _startupEffect;
     RainbowEffect      _rainbowEffect;
     RainEffect         _rainEffect;
     RainEffect         _lavaEffect;
+    
+public:
+    LEDMatrix matrix;
 
 public:
     /* CONSTRUCTOR */
@@ -31,6 +33,7 @@ public:
 
     /* FUNCTIONS */
     void effectState(MachineState state);
+    void reset(void) { FastLED.setBrightness(0); for (uint16_t i = 0; i < _LEDCount; i++) _strip[i] = CRGB::Black; FastLED.show();}
 };
 
 #endif

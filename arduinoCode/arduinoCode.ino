@@ -2,12 +2,12 @@
 
 //#define GET_I2C_DEVICES
 
-#ifndef GET_I2C_DEVICES
-#include "Coordinator.hpp"
+#include "Coordinator.h"
 
 void setup(void)
 {
 	Coordinator coordinator;
+	Serial.begin(9600);
 
 	while(true) // Main loop
 	{
@@ -16,8 +16,6 @@ void setup(void)
 }
 
 void loop(void) { /* UNUSED LOOP */ }
-
-#endif
 
 #ifdef GET_I2C_DEVICES
 

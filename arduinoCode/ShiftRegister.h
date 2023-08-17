@@ -21,7 +21,7 @@ public:
         pinMode(_pinClk,    OUTPUT);
     }
 
-    byte reading(void);
+    uint8_t reading(void);
 
 };
 

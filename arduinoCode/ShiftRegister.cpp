@@ -2,7 +2,7 @@
 
 constexpr uint8_t SHIFT_REGISTER_DELAY = 20;
 
-byte ShiftRegister::reading(void)
+uint8_t ShiftRegister::reading(void)
 {
     static unsigned long elapsedTime = millis();
     
@@ -10,14 +10,14 @@ byte ShiftRegister::reading(void)
     {       
         // Writes a pulse to the load pin.
         digitalWrite(_pinLoad, LOW);
-        delayMicroseconds(5);
+        //delayMicroseconds(1);
         digitalWrite(_pinLoad, HIGH);
-        delayMicroseconds(5);
+        //delayMicroseconds(1);
         
         // Gets data from the Shift Register.
         digitalWrite(_pinClk, HIGH);
         digitalWrite(_pinEnable, LOW);
-        byte incoming = shiftIn(_pinData, _pinClk, LSBFIRST);
+        uint8_t incoming = shiftIn(_pinData, _pinClk, LSBFIRST);
         digitalWrite(_pinEnable, HIGH);
         
         // Returns the read code.

@@ -7,8 +7,9 @@
 #include <HID-Settings.h>
 
 //#define LEFT_LAYOUT
-#define RIGHT_LAYOUT
+//#define RIGHT_LAYOUT
 //#define NUMPAD_LAYOUT
+#define TESTING_LAYOUT
 
 using string = const char*;
 
@@ -16,14 +17,19 @@ enum class MachineState { startup, running, stripConfig, encoderConfig, error };
 enum class StripConfigState { none, speed, length, brightness };
 
 constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
-constexpr uint8_t ENCODER_PIN_A  = 3;
-constexpr uint8_t ENCODER_PIN_B  = 4;
-constexpr uint8_t ENCODER_PIN_SW = 5;
-constexpr uint8_t STRIP_PIN = 6;
-constexpr uint8_t SR_PIN_LOAD = 8;
-constexpr uint8_t SR_PIN_EN   = 9;
-constexpr uint8_t SR_PIN_DATA = 10;
-constexpr uint8_t SR_PIN_CLK  = 11;
+
+constexpr uint8_t ENCODER_PIN_A = 6;
+constexpr uint8_t ENCODER_PIN_B = 7;
+
+constexpr uint8_t STRIP_PIN     = 5;
+
+constexpr uint8_t SR_PIN_LOAD   = 8;
+constexpr uint8_t SR_PIN_EN     = 9;
+constexpr uint8_t SR_PIN_DATA   = 10;
+constexpr uint8_t SR_PIN_CLK    = 11;
+
+#define BASE_COL_PIN 8
+#define BASE_ROW_PIN A0
 
 struct KeyCodes
 {
@@ -127,14 +133,13 @@ struct KeyCodes
     static const uint16_t KEY_MODIFIER     = 900U;
 };
 
-constexpr uint8_t MATRIX_ROWS = 6;
-constexpr uint8_t MATRIX_COLS = 9;
-
 #ifdef RIGHT_LAYOUT
-constexpr uint8_t NUM_COLS = 9;
-#define PINS_COLS[NUM_COLS] { A0, A1, A2, A3, A4, A5, A5, 12, 13 }
+constexpr uint8_t ROW_COUNT = 6;
+constexpr uint8_t COL_COUNT = 9;
 
-constexpr uint16_t KEYCODE_MATRIX[MATRIX_ROWS][MATRIX_COLS] =
+static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2, A3, A4, A5 };
+
+static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 {
     { KeyCodes::KEY_F7, KeyCodes::KEY_F8,          KeyCodes::KEY_F9,        KeyCodes::KEY_F10,      KeyCodes::KEY_F11,        KeyCodes::KEY_F12,         KeyCodes::KEY_PRINT,       KeyCodes::KEY_DEL,       KeyCodes::KEY_RESERVED },
     { KeyCodes::KEY_7,  KeyCodes::KEY_8,           KeyCodes::KEY_9,         KeyCodes::KEY_0,        KeyCodes::KEY_MINUS,      KeyCodes::KEY_EQUAL,       KeyCodes::KEY_BACKSPACE,   NULL,                    KeyCodes::KEY_RESERVED },
@@ -146,32 +151,57 @@ constexpr uint16_t KEYCODE_MATRIX[MATRIX_ROWS][MATRIX_COLS] =
 #endif
 
 #ifdef LEFT_LAYOUT
-constexpr uint8_t NUM_COLS = 7;
-#define PINS_COLS[NUM_COLS] { A0, A1, A2, A3, A4, A5, A5 }
+constexpr uint8_t ROW_COUNT = 6;
+constexpr uint8_t COL_COUNT = 7;
 
-uint KEYCODE_MATRIX[MATRIX_ROWS][MATRIX_COLS] =
+static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2, A3, A4, A5 };
+
+static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 {
-    { KeyCodes::KEY_ESC,        KeyCodes::KEY_F1, KeyCodes::KEY_F2,       KeyCodes::KEY_F3,         KeyCodes::KEY_F4, KeyCodes::KEY_F5, KeyCodes::KEY_F6, NULL, NULL },
-    { KeyCodes::KEY_TILDE,      KeyCodes::KEY_1,  KeyCodes::KEY_2,        KeyCodes::KEY_3,          KeyCodes::KEY_4,  KeyCodes::KEY_5,  KeyCodes::KEY_6,  NULL, NULL },
-    { KeyCodes::KEY_TAB,        KeyCodes::KEY_Q,  KeyCodes::KEY_W,        KeyCodes::KEY_E,          KeyCodes::KEY_R,  KeyCodes::KEY_T,  NULL,             NULL, NULL },
-    { KeyCodes::KEY_CAPS_LOCK,  KeyCodes::KEY_A,  KeyCodes::KEY_S,        KeyCodes::KEY_D,          KeyCodes::KEY_F,  KeyCodes::KEY_G,  NULL,             NULL, NULL },
-    { KeyCodes::KEY_LEFT_SHIFT, KeyCodes::KEY_Z,  KeyCodes::KEY_X,        KeyCodes::KEY_C,          KeyCodes::KEY_V,  KeyCodes::KEY_B,  NULL,             NULL, NULL },
-    { KeyCodes::KEY_LEFT_CTRL,  KeyCodes::KEY_OS, KeyCodes::KEY_LEFT_ALT, KeyCodes::KEY_LEFT_SPACE, NULL,             NULL,             NULL,             NULL, NULL }
+    { KeyCodes::KEY_ESC,        KeyCodes::KEY_F1, KeyCodes::KEY_F2,       KeyCodes::KEY_F3,         KeyCodes::KEY_F4, KeyCodes::KEY_F5, KeyCodes::KEY_F6},
+    { KeyCodes::KEY_TILDE,      KeyCodes::KEY_1,  KeyCodes::KEY_2,        KeyCodes::KEY_3,          KeyCodes::KEY_4,  KeyCodes::KEY_5,  KeyCodes::KEY_6},
+    { KeyCodes::KEY_TAB,        KeyCodes::KEY_Q,  KeyCodes::KEY_W,        KeyCodes::KEY_E,          KeyCodes::KEY_R,  KeyCodes::KEY_T,  NULL           },
+    { KeyCodes::KEY_CAPS_LOCK,  KeyCodes::KEY_A,  KeyCodes::KEY_S,        KeyCodes::KEY_D,          KeyCodes::KEY_F,  KeyCodes::KEY_G,  NULL           },
+    { KeyCodes::KEY_LEFT_SHIFT, KeyCodes::KEY_Z,  KeyCodes::KEY_X,        KeyCodes::KEY_C,          KeyCodes::KEY_V,  KeyCodes::KEY_B,  NULL           },
+    { KeyCodes::KEY_LEFT_CTRL,  KeyCodes::KEY_OS, KeyCodes::KEY_LEFT_ALT, KeyCodes::KEY_LEFT_SPACE, NULL,             NULL,             NULL           }
 };
 #endif
 
 #ifdef NUMPAD_LAYOUT
-constexpr uint8_t NUM_COLS = 4;
-#define PINS_COLS[NUM_COLS] { A0, A1, A2, A3 }
+constexpr uint8_t ROW_COUNT = 6;
+constexpr uint8_t COL_COUNT = 4;
 
-uint KEYCODE_MATRIX[MATRIX_ROWS][MATRIX_COLS] =
+static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2, A3, A4, A5 };
+
+static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 {
-    { KeyCodes::KEY_RESERVED, KeyCodes::KEY_RESERVED,   KeyCodes::KEY_RESERVED,    KeyCodes::KEY_RESERVED,     NULL, NULL, NULL, NULL, NULL },
-    { KeyCodes::KEY_NUM_LOCK, KeyCodes::KEY_NUMPAD_DIV, KeyCodes::KEY_NUMPAD_MULT, KeyCodes::KEY_NUMPAD_SUBS,  NULL, NULL, NULL, NULL, NULL },
-    { KeyCodes::KEY_NUMPAD_7, KeyCodes::KEY_NUMPAD_8,   KeyCodes::KEY_NUMPAD_9,    KeyCodes::KEY_NUMPAD_ADD,   NULL, NULL, NULL, NULL, NULL },
-    { KeyCodes::KEY_NUMPAD_4, KeyCodes::KEY_NUMPAD_5,   KeyCodes::KEY_NUMPAD_6,    KeyCodes::KEY_NUMPAD_ADD,   NULL, NULL, NULL, NULL, NULL },
-    { KeyCodes::KEY_NUMPAD_1, KeyCodes::KEY_NUMPAD_2,   KeyCodes::KEY_NUMPAD_3,    KeyCodes::KEY_NUMPAD_ENTER, NULL, NULL, NULL, NULL, NULL },
-    { KeyCodes::KEY_NUMPAD_0, KeyCodes::KEY_NUMPAD_0,   KeyCodes::KEY_NUMPAD_DOT,  KeyCodes::KEY_NUMPAD_ENTER, NULL, NULL, NULL, NULL, NULL }
+    { KeyCodes::KEY_RESERVED, KeyCodes::KEY_RESERVED,   KeyCodes::KEY_RESERVED,    KeyCodes::KEY_RESERVED    },
+    { KeyCodes::KEY_NUM_LOCK, KeyCodes::KEY_NUMPAD_DIV, KeyCodes::KEY_NUMPAD_MULT, KeyCodes::KEY_NUMPAD_SUBS },
+    { KeyCodes::KEY_NUMPAD_7, KeyCodes::KEY_NUMPAD_8,   KeyCodes::KEY_NUMPAD_9,    KeyCodes::KEY_NUMPAD_ADD  },
+    { KeyCodes::KEY_NUMPAD_4, KeyCodes::KEY_NUMPAD_5,   KeyCodes::KEY_NUMPAD_6,    KeyCodes::KEY_NUMPAD_ADD  },
+    { KeyCodes::KEY_NUMPAD_1, KeyCodes::KEY_NUMPAD_2,   KeyCodes::KEY_NUMPAD_3,    KeyCodes::KEY_NUMPAD_ENTER},
+    { KeyCodes::KEY_NUMPAD_0, KeyCodes::KEY_NUMPAD_0,   KeyCodes::KEY_NUMPAD_DOT,  KeyCodes::KEY_NUMPAD_ENTER}
+};
+#endif
+
+#ifdef TESTING_LAYOUT
+constexpr uint8_t ROW_COUNT = 3;
+constexpr uint8_t COL_COUNT = 4;
+
+static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2 };
+
+// static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
+// {
+//     { KeyCodes::KEY_A, KeyCodes::KEY_B, KeyCodes::KEY_C, KeyCodes::KEY_D },
+//     { KeyCodes::KEY_E, KeyCodes::KEY_F, KeyCodes::KEY_G, KeyCodes::KEY_H },
+//     { KeyCodes::KEY_I, KeyCodes::KEY_J, KeyCodes::KEY_K, KeyCodes::KEY_L }
+// };
+
+static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
+{
+    { 0, 1, 2, 3 },
+    { 4, 5, 6, 7 },
+    { 8, 9, 10, 11 }
 };
 #endif
 
@@ -184,12 +214,15 @@ inline bool* charToBoolArray(const uint8_t incomingByte)
     return result;
 }
 
-inline uint16_t indicesToKeystroke(int i, int j)
+inline uint16_t indicesToKeystroke(uint8_t i, uint8_t j)
 {
-    if (i < MATRIX_ROWS && i >= 0 && j < MATRIX_COLS && i >= 0)
+    if (i < ROW_COUNT && i >= 0 && j < COL_COUNT && j >= 0)
         return KEYCODE_MATRIX[i][j];
     else
+    {
+        #pragma error "Invalid index inside indicesToKeystroke function."
         return -1;
+    }  
 }
 
 #endif
