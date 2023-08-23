@@ -28,8 +28,8 @@ constexpr uint8_t SR_PIN_EN     = 9;
 constexpr uint8_t SR_PIN_DATA   = 10;
 constexpr uint8_t SR_PIN_CLK    = 11;
 
-#define BASE_COL_PIN 8
-#define BASE_ROW_PIN A0
+constexpr uint8_t BASE_COL_PIN  = 8;
+constexpr uint8_t BASE_ROW_PIN  = A0;
 
 struct KeyCodes
 {
@@ -130,6 +130,13 @@ struct KeyCodes
     static const uint16_t KEY_NUMPAD_SUBS  = 0x56;
     static const uint16_t KEY_NUMPAD_ADD   = 0x57;
     static const uint16_t KEY_NUMPAD_ENTER = 0x58;
+
+    static const uint16_t THRESHOLD        = 500U;
+    static const uint16_t KEY_ENCODER_0    = 800U;
+    static const uint16_t KEY_ENCODER_1    = 801U;
+    static const uint16_t KEY_ENCODER_2    = 802U;
+    static const uint16_t KEY_ENCODER_3    = 803U;
+    static const uint16_t KEY_ENCODER_4    = 804U;
     static const uint16_t KEY_MODIFIER     = 900U;
 };
 
@@ -190,18 +197,11 @@ constexpr uint8_t COL_COUNT = 4;
 
 static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2 };
 
-// static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
-// {
-//     { KeyCodes::KEY_A, KeyCodes::KEY_B, KeyCodes::KEY_C, KeyCodes::KEY_D },
-//     { KeyCodes::KEY_E, KeyCodes::KEY_F, KeyCodes::KEY_G, KeyCodes::KEY_H },
-//     { KeyCodes::KEY_I, KeyCodes::KEY_J, KeyCodes::KEY_K, KeyCodes::KEY_L }
-// };
-
 static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 {
-    { 0, 1, 2, 3 },
-    { 4, 5, 6, 7 },
-    { 8, 9, 10, 11 }
+    { KeyCodes::KEY_A, KeyCodes::KEY_B, KeyCodes::KEY_C, KeyCodes::KEY_ENCODER_0 },
+    { KeyCodes::KEY_E, KeyCodes::KEY_F, KeyCodes::KEY_G, KeyCodes::KEY_H },
+    { KeyCodes::KEY_I, KeyCodes::KEY_J, KeyCodes::KEY_K, KeyCodes::KEY_L }
 };
 #endif
 
@@ -212,17 +212,6 @@ inline bool* charToBoolArray(const uint8_t incomingByte)
         result[i] = (incomingByte & (1 << i)) != 0;
 
     return result;
-}
-
-inline uint16_t indicesToKeystroke(uint8_t i, uint8_t j)
-{
-    if (i < ROW_COUNT && i >= 0 && j < COL_COUNT && j >= 0)
-        return KEYCODE_MATRIX[i][j];
-    else
-    {
-        #pragma error "Invalid index inside indicesToKeystroke function."
-        return -1;
-    }  
 }
 
 #endif

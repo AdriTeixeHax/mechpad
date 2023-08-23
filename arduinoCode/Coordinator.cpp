@@ -9,9 +9,11 @@ Coordinator::Coordinator(void) :
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B),
     _RGBStrip(STRIP_PIN, 6, 4),
-    _keyboardMatrix(PinArray(ROW_COUNT, ROW_PINS), SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK)
+    _keyboardMatrix(SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK),
+    _modeSwitching()
 {
     Consumer.begin();
+    Keyboard.begin();
     _RGBStrip.reset();
 }
 
@@ -53,22 +55,22 @@ void Coordinator::stateTransitions(void)
         }
         break;
 
-    // case MachineState::running:
-    //     if (_rotaryEncoder.switchLongPress())
-    //     {
-    //         _rotaryEncoder.resetTimePressed();
-    //         _machineState = MachineState::stripConfig;
-    //     }
-    //     break;
+    case MachineState::running:
+        if (_modeSwitching.switchLongPress())
+        {
+            _modeSwitching.resetTimePressed();
+            _machineState = MachineState::stripConfig;
+        }
+        break;
 
-    // case MachineState::stripConfig:
-    //     if (_rotaryEncoder.switchLongPress())
-    //     {
-    //         _rotaryEncoder.resetTimePressed();
-    //         _machineState = MachineState::running;
-    //         _stripConfigState = StripConfigState::brightness;
-    //     }
-    //     break;
+    case MachineState::stripConfig:
+        if (_modeSwitching.switchLongPress())
+        {
+            _modeSwitching.resetTimePressed();
+            _machineState = MachineState::running;
+            _stripConfigState = StripConfigState::brightness;
+        }
+        break;
 
     default:
         break;
@@ -90,21 +92,36 @@ void Coordinator::running(void)
             Consumer.write(MEDIA_VOL_DOWN);
     }
 
-    // Encoder switch reading //
-    // if (_rotaryEncoder.switchPress())
-    //     Consumer.write(MEDIA_PLAY_PAUSE);
+    // Virtual switch reading //
+    if (_modeSwitching.switchPress())
+        Consumer.write(MEDIA_PLAY_PAUSE);
 
-    // // Keyboard matrix reading //
-    // KeyboardData keyboardData = _keyboardMatrix.keypress();
-    // for (uint8_t i = 0; i < keyboardData.getNumElem(); i++)
-    // {
-    //     Keyboard.write(keyboardData[i]);
-    // }
+    // Keyboard matrix reading //
     _keyboardMatrix.keypress();
+    static uint16_t buffer = 0;
+    if (_keyboardMatrix.getLastData().size() != 0)
+    {
+        for (uint8_t i = 0; i < _keyboardMatrix.getLastData().size(); i++)
+        {
+            buffer = _keyboardMatrix.getLastData()[i];
+
+            if (_keyboardMatrix.getLastData()[i] < KeyCodes::THRESHOLD)
+                Keyboard.press(static_cast<KeyboardKeycode>(_keyboardMatrix.getLastData()[i]));
+            else 
+                _modeSwitching.activate(); /*activateFromKeycode(_keyboardMatrix.getLastData()[i])*/;
+        }
+    }
+    else
+    {
+        Keyboard.release(static_cast<KeyboardKeycode>(buffer));
+        _modeSwitching.deactivate();
+    }
+       
 }
 
 void Coordinator::stripConfig(void)
 {
+    Serial.println("Strip config.");
     // LCD Update //
     static string bottomLine = "";
     switch (_stripConfigState)
@@ -153,26 +170,67 @@ void Coordinator::stripConfig(void)
         }
     }
 
-    // Encoder switch reading //
-    // if (_rotaryEncoder.switchPress())
-    // {
-    //     switch (_stripConfigState)
-    //     {
-    //     case StripConfigState::brightness:
-    //         _stripConfigState = StripConfigState::length;
-    //         break;
+    // Keyboard matrix reading //
+    _keyboardMatrix.keypress();
+    if (_keyboardMatrix.getLastData().size() != 0)
+    {
+        for (uint8_t i = 0; i < _keyboardMatrix.getLastData().size(); i++)
+        {
+            if (_keyboardMatrix.getLastData()[i] == KeyCodes::KEY_ENCODER_0)
+                _modeSwitching.activate();
+        }
+    }
+    else
+    {
+        _modeSwitching.deactivate();
+    }
 
-    //     case StripConfigState::length:
-    //         _stripConfigState = StripConfigState::speed;
-    //         break;
+    // Virtual switch reading //
+    if (_modeSwitching.switchPress())
+    {
+        switch (_stripConfigState)
+        {
+        case StripConfigState::brightness:
+            _stripConfigState = StripConfigState::length;
+            break;
+
+        case StripConfigState::length:
+            _stripConfigState = StripConfigState::speed;
+            break;
         
-    //     case StripConfigState::speed:
-    //         _stripConfigState = StripConfigState::brightness;
-    //         _machineState = MachineState::running;
-    //         break;
+        case StripConfigState::speed:
+            _stripConfigState = StripConfigState::brightness;
+            _machineState = MachineState::running;
+            break;
 
-    //     default:
-    //         break;
-    //     }
-    // }
+        default:
+            break;
+        }
+    }
+}
+
+void Coordinator::activateFromKeycode(uint16_t keycode)
+{
+    switch (keycode)
+    {
+    case KeyCodes::KEY_ENCODER_0:
+        _modeSwitching.activate();
+        break;
+
+    default:
+        break;
+    }
+}
+
+void Coordinator::deactivateFromKeycode(uint16_t keycode)
+{
+    switch (keycode)
+    {
+    case KeyCodes::KEY_ENCODER_0:
+        _modeSwitching.deactivate();
+        break;
+
+    default:
+        break;
+    }
 }

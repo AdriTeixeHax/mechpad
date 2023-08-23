@@ -6,6 +6,7 @@
 #include "ShiftRegister.h"
 #include "LCDScreen.hpp"
 #include "RGBStrip.h"
+#include "VirtualSwitch.hpp"
 
 class Coordinator
 {
@@ -18,6 +19,8 @@ private:
     RGBStrip       _RGBStrip;
     KeyboardMatrix _keyboardMatrix;
 
+    VirtualSwitch  _modeSwitching;
+
 public:
     Coordinator(void);
 
@@ -25,6 +28,8 @@ public:
     void stateTransitions(void);
     void running(void);
     void stripConfig(void);
+    void activateFromKeycode(uint16_t keycode);
+    void deactivateFromKeycode(uint16_t keycode);
 
     static const uint16_t STARTUP_TIMEOUT = 2000;
 };

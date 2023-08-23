@@ -33,8 +33,8 @@ public:
 	RotaryEncoder(uint8_t pinA, uint8_t pinB);
 
 	/* GETTERS */
-	uint16_t	getResolution   (void) { return _resolution; }
-	EncoderData getLastData	    (void) { return _lastReadData; }
+	uint16_t	getResolution (void) { return _resolution; }
+	EncoderData getLastData	  (void) { return _lastReadData; }
 
 	/* SETTERS */
 	bool setMaxResolution(uint16_t maxResolution) { _maxResolution = maxResolution; return true;}

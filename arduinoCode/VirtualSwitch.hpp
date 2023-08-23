@@ -1,11 +1,10 @@
-#ifndef _SWITCH__HPP_
-#define _SWITCH__HPP_
+#ifndef _VIRTUALSWITCH__HPP_
+#define _VIRTUALSWITCH__HPP_
 
-class Switch
+class VirtualSwitch
 {
 private:
-    // Reading pin
-    const uint8_t _pin;
+    bool _state = false;
 
     bool _switchPressed = false;
 
@@ -14,42 +13,45 @@ private:
 
     // Time variables for debouncing and counting how much time since the switch was pressed.
     unsigned long _elapsedTime = 0;
-    unsigned long _timePressed = 0;
+    uint32_t      _timePressed = 0;
 
 public:
     /* CONSTRUCTOR */
-    Switch(void) = delete;
-    Switch(const uint8_t pin) : _pin(pin) {}
+    VirtualSwitch(void) {}
 
 	/* GETTERS */
 	bool          getSwitchPressed(void) { return _switchPressed; }
     unsigned long getTimePressed  (void) { return _timePressed; }
 
     /* SETTERS */
+    void activate          (void) { _state = true; }
+    void deactivate        (void) { _state = false; }
     void resetSwitchPressed(void) { _switchPressed = false; }
     void resetTimePressed  (void) { _timePressed = 0; }
 
     /* FUNCTIONS */
     bool switchUpdate(void)
     {
+        static unsigned long tempPressed = 0;
         // Stores the time the switch has been pressed.
-        if (!digitalRead(_pin))
+        if (_state) // If the switch is pressed
         {
-            if (!_timeFlag)
+            if (!_timeFlag) // and the time flag is not active
             {
-                _timePressed = millis();
-                _timeFlag = !_timeFlag;
+                _timePressed = 0; // resets the time the switch has been pressed for,
+                tempPressed = millis(); // sets a temporary variable to millis() -to compare it later and know the time the switch has been pressed for-
+                _timeFlag = true; // and activates the time flag so that the function doesn't repeat until the switch is released.
             }
-            _timePressed = millis() - _timePressed;
+            _timePressed = millis() - tempPressed; // Updates the time the switch has been pressed for.
         }
         else _timeFlag = false;
         
         // Reads and stores the state of the switch.
-        if (digitalRead(_pin) != _readingFlag && millis() - _elapsedTime > PRESET_DELAY)
+        if (_state != _readingFlag && millis() - _elapsedTime > PRESET_DELAY)
         {
             _readingFlag = !_readingFlag;
 
-            if (!digitalRead(_pin)) _switchPressed = true;
+            if (_state) _switchPressed = true;
             else _switchPressed = false;
 
             _elapsedTime = millis();
@@ -65,17 +67,17 @@ public:
         (
             this->switchUpdate()
             && 
-            this->getTimePressed() > MIN_SWITCH_TIME
+            _timePressed > MIN_SWITCH_TIME
             && 
-            this->getTimePressed() < MAX_SWITCH_TIME
+            _timePressed < MAX_SWITCH_TIME
         );
     }
 
-    bool switchLongPress(void) { return (this->getSwitchPressed() && this->getTimePressed() > MAX_SWITCH_TIME); }
+    bool switchLongPress(void) { return (_switchPressed && _timePressed > MAX_SWITCH_TIME); }
 
     /* STATICS */
     static const uint16_t MAX_SWITCH_TIME = 500;
-    static const uint8_t  MIN_SWITCH_TIME = 50;
+    static const uint8_t  MIN_SWITCH_TIME = 20;
     static const uint8_t  PRESET_DELAY    = 20;
 };
 
