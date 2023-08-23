@@ -1,6 +1,8 @@
 #ifndef _VIRTUALSWITCH__HPP_
 #define _VIRTUALSWITCH__HPP_
 
+#include "ParamList.hpp"
+
 class VirtualSwitch
 {
 private:
@@ -17,7 +19,7 @@ private:
 
 public:
     /* CONSTRUCTOR */
-    VirtualSwitch(void) {}
+    VirtualSwitch(ParamList<VirtualSwitch*>* list) { list->addElem(this); }
 
 	/* GETTERS */
 	bool          getSwitchPressed(void) { return _switchPressed; }

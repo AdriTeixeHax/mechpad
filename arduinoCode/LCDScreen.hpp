@@ -13,13 +13,20 @@ private:
     const uint8_t  _columns;
     LiquidCrystal_I2C _screen;
 
+    uint8_t _numBuffer;
+    string  _strBuffer1;
+    string  _strBuffer2;
+
 public:
     /* CONSTRUCTOR */
     LCDScreen(uint16_t address, uint8_t columns, uint8_t rows) :
         _address(address),
         _rows(rows),
         _columns(columns),
-        _screen(LiquidCrystal_I2C(_address, _columns, _rows))
+        _screen(LiquidCrystal_I2C(_address, _columns, _rows)),
+        _numBuffer(0),
+        _strBuffer1(""),
+        _strBuffer2("")
     {
         _screen.init();
         _screen.backlight();
@@ -27,7 +34,14 @@ public:
     }
 
     /* FUNCTIONS */
-    void clear(void) { this->_screen.setCursor(0, 0); this->_screen.clear(); }
+    void clear(void)
+    {
+        _screen.setCursor(0, 0);
+        _screen.clear();
+        _numBuffer = 0;
+        _strBuffer1 = "";
+        _strBuffer2 = "";
+    }
 
     void print(string topLine, string bottomLine)
     {
@@ -38,31 +52,33 @@ public:
         _screen.print(bottomLine); 
     }
 
-    void print(string message, int column, int row)
+    void print(string topLine, uint8_t bottomLine)
     {
         _screen.clear();
-        _screen.setCursor(column, row);
-        _screen.print(message);
-    }
-
-    void printOnce(string message, int column, int row)
-    {
-        static string temp = "";
-        if (temp == message) return;
-        this->print(message, column, row);
-        temp = message;
+        _screen.setCursor(0, 0);
+        _screen.print(topLine);
+        _screen.setCursor(0, 1);
+        _screen.print(bottomLine); 
     }
 
     void printOnce(string topLine, string bottomLine)
     {
-        static string tempTop = "";
-        static string tempBot = "";
-        if (tempTop == topLine && tempBot == bottomLine) return;
+        if (_strBuffer1 == topLine && _strBuffer2 == bottomLine) return;
         
         this->print(topLine, bottomLine);
 
-        tempTop = topLine;
-        tempBot = bottomLine;
+        _strBuffer1 = topLine;
+        _strBuffer2 = bottomLine;
+    }
+
+    void printOnce(string topLine, uint8_t bottomLine)
+    {
+        if (_strBuffer1 == topLine && _numBuffer == bottomLine) return;
+        
+        this->print(topLine, bottomLine);
+
+        _strBuffer1 = topLine;
+        _numBuffer  = bottomLine;
     }
 };
 

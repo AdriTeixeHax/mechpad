@@ -19,7 +19,8 @@ private:
     RGBStrip       _RGBStrip;
     KeyboardMatrix _keyboardMatrix;
 
-    VirtualSwitch  _modeSwitching;
+    ParamList<VirtualSwitch*> _virtualSwitchList;
+    VirtualSwitch  _modeSwitch;
 
 public:
     Coordinator(void);
@@ -29,6 +30,7 @@ public:
     void running(void);
     void stripConfig(void);
     void activateFromKeycode(uint16_t keycode);
+    void deactivateAll(void);
     void deactivateFromKeycode(uint16_t keycode);
 
     static const uint16_t STARTUP_TIMEOUT = 2000;

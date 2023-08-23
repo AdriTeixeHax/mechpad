@@ -5,7 +5,7 @@ template<typename Type>
 class ParamList
 {
 private:
-    Type* _dataArray;
+    Type*    _dataArray;
     uint8_t  _numElem;
     uint8_t  _maxElem;
 
@@ -13,17 +13,17 @@ public:
     /* CONSTRUCTOR and DESTRUCTOR */
     ParamList(void) : _dataArray(nullptr), _numElem(0), _maxElem(0) { }
     ParamList(const uint8_t maxElem) : _dataArray(new Type), _numElem(0), _maxElem(maxElem) { }
-    ~ParamList(void)
-    {
-        for (int i = 0; i < _numElem; i++)
-            delete _dataArray[i];
-
-        delete[] _dataArray;
-    }
+    ~ParamList(void) { for (int i = 0; i < _numElem; i++) delete _dataArray[i]; delete[] _dataArray; }
 
     /* ELEMENT MANAGEMENT */
-    void addElem(const Type& elem) { if (_numElem < _maxElem) _dataArray[++_numElem] = elem; }
-
+    void addElem(const Type& elem)
+    { 
+        if ((_numElem + 1) <= _maxElem)
+        {
+            _dataArray[_numElem] = elem;
+            _numElem++;
+        }
+    }
     void deleteElem(const uint8_t index)
     {
         if (index <= _numElem)
@@ -34,34 +34,12 @@ public:
             _numElem--;
         }
     }
+    void clear(void) { for (int i = 0; i < _numElem; i++) this->deleteElem(i); _numElem = 0; }
 
-    void setMaxElem(const uint8_t maxElem) { _maxElem = maxElem; }
-
-    void increaseValue(const String& st, const Type increment)
-    {
-        for (int i = 0; i < _numElem; i++)
-        {
-            if (st == _dataArray[i]->_name) _dataArray[i]._value += increment;
-            break;
-        }
-    }
-
-    void clear(void) { for (int i = 0; i < _numElem; i++) this->deleteElem(i); }
-
-    Type getElem(const uint8_t index) { return _dataArray[index]; }
-    
-    Type getElemValue(const String& st)
-    {
-        for (int i = 0; i < _numElem; i++)
-        {
-            if (st == _dataArray[i]->_name)
-                return _dataArray[i]._value;
-        }
-        return nullptr;
-    }
-
-    Type  operator[](const uint8_t i)       { return _dataArray[i]; }
-    Type& operator[](const uint8_t i) const { return _dataArray[i]; }
+    /* GETTERS */
+    uint8_t size      (void)            const { return _numElem; }
+    Type    operator[](const uint8_t i)       { return _dataArray[i]; }
+    Type&   operator[](const uint8_t i) const { return _dataArray[i]; }
 };
 
 #endif
