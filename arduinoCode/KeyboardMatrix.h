@@ -25,33 +25,20 @@ public:
             _numElem++;
         }
     }
+    bool pressed(void) const { return _pressed; }
     uint16_t size(void) { return _numElem; }
     uint16_t operator[](uint8_t i) { return _keypresses[i]; }
-    KeyboardData& operator= (const KeyboardData& kd)
-    {
-        _maxElem = kd._maxElem;
-        _numElem = kd._numElem;
-        for (uint16_t i = 0; i < kd._numElem; i++) _keypresses[i] = kd._keypresses[i];
-    }
-    bool pressed(void) const { return _pressed; }
 };
 
 class KeyboardMatrix
 {
 private:
+    bool _hasShiftRegister;
     ShiftRegister _shiftRegister;
     KeyboardData  _lastData;
 
 public:
-    KeyboardMatrix(uint8_t SRPinLoad, uint8_t SRPinEnable, uint8_t SRPinData, uint8_t SRPinCLK) :
-        _shiftRegister(SRPinLoad, SRPinEnable, SRPinData, SRPinCLK), _lastData()
-    {
-        for (uint8_t i = 0; i < COL_COUNT; i++)
-            pinMode(BASE_COL_PIN + i, INPUT);
-
-        for (uint8_t i = 0; i < ROW_COUNT; i++)
-            pinMode(BASE_ROW_PIN + i, OUTPUT);
-    }
+    KeyboardMatrix(bool hasShiftRegister, uint8_t SRPinLoad = 0, uint8_t SRPinEnable = 0, uint8_t SRPinData = 0, uint8_t SRPinCLK = 0);
 
     void keypress(void);
     KeyboardData getLastData(void) const { return _lastData; }

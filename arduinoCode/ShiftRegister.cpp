@@ -1,29 +1,22 @@
 #include "ShiftRegister.h"
 
-constexpr uint8_t SHIFT_REGISTER_DELAY = 20;
-
-uint8_t ShiftRegister::reading(void)
+void ShiftRegister::reading(void)
 {
-    static unsigned long elapsedTime = millis();
+    this->clear();
+
+    // Writes a pulse to the load pin.
+    digitalWrite(_pinLoad, LOW);
+    delayMicroseconds(MICROSECOND_DELAY);
+    digitalWrite(_pinLoad, HIGH);
+    delayMicroseconds(MICROSECOND_DELAY);
     
-    if (millis() - elapsedTime > SHIFT_REGISTER_DELAY)
-    {       
-        // Writes a pulse to the load pin.
-        digitalWrite(_pinLoad, LOW);
-        //delayMicroseconds(1);
-        digitalWrite(_pinLoad, HIGH);
-        //delayMicroseconds(1);
-        
-        // Gets data from the Shift Register.
-        digitalWrite(_pinClk, HIGH);
-        digitalWrite(_pinEnable, LOW);
-        uint8_t incoming = shiftIn(_pinData, _pinClk, LSBFIRST);
-        digitalWrite(_pinEnable, HIGH);
-        
-        // Returns the read code.
-        Serial.print("Pin States:\r\n");
-        Serial.println(incoming, BIN);
-        elapsedTime = millis();
-        return incoming;
-    }
+    // Gets data from the Shift Register.
+    digitalWrite(_pinClk, HIGH);
+    digitalWrite(_pinEnable, LOW);
+    _lastValueByte = shiftIn(_pinData, _pinClk, LSBFIRST);
+    digitalWrite(_pinEnable, HIGH);
+
+    // Casts the value to a bool array
+    for(uint8_t i = 0; i < 8; i++)
+        _lastValueBin[7 - i] = (_lastValueByte >> i) & 1;
 }

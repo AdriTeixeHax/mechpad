@@ -16,21 +16,6 @@ using string = const char*;
 enum class MachineState { startup, running, stripConfig, encoderConfig, error };
 enum class StripConfigState { none, speed, length, brightness };
 
-constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
-
-constexpr uint8_t ENCODER_PIN_A = 6;
-constexpr uint8_t ENCODER_PIN_B = 7;
-
-constexpr uint8_t STRIP_PIN     = 5;
-
-constexpr uint8_t SR_PIN_LOAD   = 8;
-constexpr uint8_t SR_PIN_EN     = 9;
-constexpr uint8_t SR_PIN_DATA   = 10;
-constexpr uint8_t SR_PIN_CLK    = 11;
-
-constexpr uint8_t BASE_COL_PIN  = 8;
-constexpr uint8_t BASE_ROW_PIN  = A0;
-
 struct KeyCodes
 {
     static const uint16_t KEY_RESERVED     = 0U;
@@ -141,6 +126,21 @@ struct KeyCodes
 };
 
 #ifdef RIGHT_LAYOUT
+constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
+
+constexpr uint8_t ENCODER_PIN_A = 6;
+constexpr uint8_t ENCODER_PIN_B = 7;
+
+constexpr uint8_t STRIP_PIN     = 5;
+
+constexpr uint8_t SR_PIN_LOAD   = 8;
+constexpr uint8_t SR_PIN_EN     = 9;
+constexpr uint8_t SR_PIN_DATA   = 10;
+constexpr uint8_t SR_PIN_CLK    = 11;
+
+constexpr uint8_t BASE_COL_PIN  = 8;
+constexpr uint8_t BASE_ROW_PIN  = A0;
+
 constexpr uint8_t ROW_COUNT = 6;
 constexpr uint8_t COL_COUNT = 9;
 
@@ -158,6 +158,21 @@ static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 #endif
 
 #ifdef LEFT_LAYOUT
+constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
+
+constexpr uint8_t ENCODER_PIN_A = 6;
+constexpr uint8_t ENCODER_PIN_B = 7;
+
+constexpr uint8_t STRIP_PIN     = 5;
+
+constexpr uint8_t SR_PIN_LOAD   = 8;
+constexpr uint8_t SR_PIN_EN     = 9;
+constexpr uint8_t SR_PIN_DATA   = 10;
+constexpr uint8_t SR_PIN_CLK    = 11;
+
+constexpr uint8_t BASE_COL_PIN  = 8;
+constexpr uint8_t BASE_ROW_PIN  = A0;
+
 constexpr uint8_t ROW_COUNT = 6;
 constexpr uint8_t COL_COUNT = 7;
 
@@ -175,6 +190,21 @@ static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 #endif
 
 #ifdef NUMPAD_LAYOUT
+constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
+
+constexpr uint8_t ENCODER_PIN_A = 6;
+constexpr uint8_t ENCODER_PIN_B = 7;
+
+constexpr uint8_t STRIP_PIN     = 5;
+
+constexpr uint8_t SR_PIN_LOAD   = 8;
+constexpr uint8_t SR_PIN_EN     = 9;
+constexpr uint8_t SR_PIN_DATA   = 10;
+constexpr uint8_t SR_PIN_CLK    = 11;
+
+constexpr uint8_t BASE_COL_PIN  = 8;
+constexpr uint8_t BASE_ROW_PIN  = A0;
+
 constexpr uint8_t ROW_COUNT = 6;
 constexpr uint8_t COL_COUNT = 4;
 
@@ -192,8 +222,23 @@ static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
 #endif
 
 #ifdef TESTING_LAYOUT
-constexpr uint8_t ROW_COUNT = 3;
-constexpr uint8_t COL_COUNT = 4;
+constexpr uint8_t PWM_PINS[7] = { 3, 5, 6, 9, 10, 11, 13 };
+
+constexpr uint8_t ENCODER_PIN_A = 6;
+constexpr uint8_t ENCODER_PIN_B = 7;
+
+constexpr uint8_t STRIP_PIN     = 5;
+
+constexpr uint8_t SR_PIN_LOAD   = 8;
+constexpr uint8_t SR_PIN_EN     = 9;
+constexpr uint8_t SR_PIN_DATA   = 10;
+constexpr uint8_t SR_PIN_CLK    = 11;
+
+constexpr uint8_t BASE_COL_PIN  = 8;
+constexpr uint8_t BASE_ROW_PIN  = A0;
+
+constexpr uint8_t ROW_COUNT     = 3;
+constexpr uint8_t COL_COUNT     = 4;
 
 static uint8_t ROW_PINS[ROW_COUNT] = { A0, A1, A2 };
 
@@ -204,14 +249,5 @@ static uint16_t KEYCODE_MATRIX[ROW_COUNT][COL_COUNT] =
     { KeyCodes::KEY_I, KeyCodes::KEY_J, KeyCodes::KEY_K, KeyCodes::KEY_L }
 };
 #endif
-
-inline bool* charToBoolArray(const uint8_t incomingByte)
-{
-    bool result[8] = { 0 };
-    for (int i = 0; i < 8; i++)
-        result[i] = (incomingByte & (1 << i)) != 0;
-
-    return result;
-}
 
 #endif

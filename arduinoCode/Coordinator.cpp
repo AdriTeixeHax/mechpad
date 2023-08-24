@@ -9,7 +9,7 @@ Coordinator::Coordinator(void) :
     _LCDScreen(0x27, 16, 2),
     _rotaryEncoder(ENCODER_PIN_A, ENCODER_PIN_B),
     _RGBStrip(STRIP_PIN, 6, 4),
-    _keyboardMatrix(SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK),
+    _keyboardMatrix(true, SR_PIN_LOAD, SR_PIN_EN, SR_PIN_DATA, SR_PIN_CLK),
     _virtualSwitchList(30),
     _modeSwitch(&_virtualSwitchList)
 {
@@ -182,7 +182,10 @@ void Coordinator::stripConfig(void)
     if (_keyboardMatrix.getLastData().size() != 0)
     {
         for (uint8_t i = 0; i < _keyboardMatrix.getLastData().size(); i++)
-            _modeSwitch.activate();
+        {
+            uint16_t buffer = _keyboardMatrix.getLastData()[i];
+            activateFromKeycode(buffer);
+        }   
     }
     else deactivateAll();
 
