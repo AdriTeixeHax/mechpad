@@ -362,6 +362,14 @@
     [
       "c38bb0a6-c0de-42d5-8b44-d8a8437996f0",
       "Shift Register2"
+    ],
+    [
+      "8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9",
+      "USB Hub"
+    ],
+    [
+      "0f61d57d-7083-4e3b-b040-dc8971ea63c8",
+      "Li-Po Charge Boost"
     ]
   ],
   "text_variables": {}

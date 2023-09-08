@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mechpadLibrary")(type "KiCad")(uri "${KIPRJMOD}/mechpadLibrary.kicad_sym")(options "")(descr ""))
+)

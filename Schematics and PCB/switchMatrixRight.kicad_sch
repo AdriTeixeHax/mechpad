@@ -2897,7 +2897,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C59") (unit 1)
+          (reference "C67") (unit 1)
         )
       )
     )
@@ -2928,7 +2928,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW70") (unit 1)
+          (reference "SW71") (unit 1)
         )
       )
     )
@@ -2959,7 +2959,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R25") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2990,7 +2990,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW83") (unit 1)
+          (reference "SW84") (unit 1)
         )
       )
     )
@@ -3021,7 +3021,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C47") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -3052,7 +3052,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW61") (unit 1)
+          (reference "SW62") (unit 1)
         )
       )
     )
@@ -3082,7 +3082,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -3113,7 +3113,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C55") (unit 1)
+          (reference "C63") (unit 1)
         )
       )
     )
@@ -3143,7 +3143,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0163") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
@@ -3174,7 +3174,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D47") (unit 1)
+          (reference "D50") (unit 1)
         )
       )
     )
@@ -3204,7 +3204,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0144") (unit 1)
         )
       )
     )
@@ -3235,7 +3235,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C66") (unit 1)
+          (reference "C74") (unit 1)
         )
       )
     )
@@ -3265,7 +3265,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -3296,7 +3296,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW41") (unit 1)
+          (reference "SW42") (unit 1)
         )
       )
     )
@@ -3326,7 +3326,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0156") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -3357,7 +3357,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D76") (unit 1)
+          (reference "D79") (unit 1)
         )
       )
     )
@@ -3420,7 +3420,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0188") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -3451,7 +3451,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R21") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -3481,7 +3481,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -3511,7 +3511,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -3542,7 +3542,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C63") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -3572,7 +3572,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -3635,7 +3635,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR0194") (unit 1)
         )
       )
     )
@@ -3699,7 +3699,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C50") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
     )
@@ -3762,7 +3762,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0200") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -3859,7 +3859,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D84") (unit 1)
+          (reference "D87") (unit 1)
         )
       )
     )
@@ -3890,7 +3890,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C64") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
@@ -3921,7 +3921,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW56") (unit 1)
+          (reference "SW57") (unit 1)
         )
       )
     )
@@ -3951,7 +3951,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -3981,7 +3981,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0141") (unit 1)
         )
       )
     )
@@ -4045,7 +4045,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D82") (unit 1)
+          (reference "D85") (unit 1)
         )
       )
     )
@@ -4076,7 +4076,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C83") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -4107,7 +4107,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D50") (unit 1)
+          (reference "D53") (unit 1)
         )
       )
     )
@@ -4138,7 +4138,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R26") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -4168,7 +4168,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -4232,7 +4232,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW53") (unit 1)
+          (reference "SW54") (unit 1)
         )
       )
     )
@@ -4263,7 +4263,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D77") (unit 1)
+          (reference "D80") (unit 1)
         )
       )
     )
@@ -4294,7 +4294,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW74") (unit 1)
+          (reference "SW75") (unit 1)
         )
       )
     )
@@ -4325,7 +4325,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW48") (unit 1)
+          (reference "SW49") (unit 1)
         )
       )
     )
@@ -4356,7 +4356,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D40") (unit 1)
+          (reference "D43") (unit 1)
         )
       )
     )
@@ -4387,7 +4387,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C78") (unit 1)
+          (reference "C86") (unit 1)
         )
       )
     )
@@ -4417,7 +4417,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0153") (unit 1)
+          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -4447,7 +4447,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0198") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -4478,7 +4478,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C60") (unit 1)
+          (reference "C68") (unit 1)
         )
       )
     )
@@ -4509,7 +4509,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW65") (unit 1)
+          (reference "SW66") (unit 1)
         )
       )
     )
@@ -4540,7 +4540,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D53") (unit 1)
+          (reference "D56") (unit 1)
         )
       )
     )
@@ -4571,7 +4571,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D60") (unit 1)
+          (reference "D63") (unit 1)
         )
       )
     )
@@ -4601,7 +4601,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -4632,7 +4632,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D59") (unit 1)
+          (reference "D62") (unit 1)
         )
       )
     )
@@ -4696,7 +4696,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R17") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4726,7 +4726,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -4757,7 +4757,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW63") (unit 1)
+          (reference "SW64") (unit 1)
         )
       )
     )
@@ -4788,7 +4788,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C65") (unit 1)
+          (reference "C73") (unit 1)
         )
       )
     )
@@ -4818,7 +4818,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -4849,7 +4849,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW77") (unit 1)
+          (reference "SW78") (unit 1)
         )
       )
     )
@@ -4880,7 +4880,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D56") (unit 1)
+          (reference "D59") (unit 1)
         )
       )
     )
@@ -4911,7 +4911,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D69") (unit 1)
+          (reference "D72") (unit 1)
         )
       )
     )
@@ -4975,7 +4975,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW76") (unit 1)
+          (reference "SW77") (unit 1)
         )
       )
     )
@@ -5005,7 +5005,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -5036,7 +5036,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D52") (unit 1)
+          (reference "D55") (unit 1)
         )
       )
     )
@@ -5067,7 +5067,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW80") (unit 1)
+          (reference "SW81") (unit 1)
         )
       )
     )
@@ -5097,7 +5097,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0139") (unit 1)
         )
       )
     )
@@ -5128,7 +5128,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D83") (unit 1)
+          (reference "D86") (unit 1)
         )
       )
     )
@@ -5158,7 +5158,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -5189,7 +5189,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW82") (unit 1)
+          (reference "SW83") (unit 1)
         )
       )
     )
@@ -5219,7 +5219,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0149") (unit 1)
         )
       )
     )
@@ -5250,7 +5250,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW69") (unit 1)
+          (reference "SW70") (unit 1)
         )
       )
     )
@@ -5281,7 +5281,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R18") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -5312,7 +5312,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D51") (unit 1)
+          (reference "D54") (unit 1)
         )
       )
     )
@@ -5342,7 +5342,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -5372,7 +5372,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -5403,7 +5403,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R19") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -5434,7 +5434,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D68") (unit 1)
+          (reference "D71") (unit 1)
         )
       )
     )
@@ -5465,7 +5465,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D54") (unit 1)
+          (reference "D57") (unit 1)
         )
       )
     )
@@ -5496,7 +5496,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C89") (unit 1)
+          (reference "C97") (unit 1)
         )
       )
     )
@@ -5527,7 +5527,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D65") (unit 1)
+          (reference "D68") (unit 1)
         )
       )
     )
@@ -5557,7 +5557,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -5587,7 +5587,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -5617,7 +5617,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -5648,7 +5648,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW72") (unit 1)
+          (reference "SW73") (unit 1)
         )
       )
     )
@@ -5679,7 +5679,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D44") (unit 1)
+          (reference "D47") (unit 1)
         )
       )
     )
@@ -5709,7 +5709,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR0193") (unit 1)
         )
       )
     )
@@ -5740,7 +5740,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C49") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
     )
@@ -5770,7 +5770,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -5801,7 +5801,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D74") (unit 1)
+          (reference "D77") (unit 1)
         )
       )
     )
@@ -5831,7 +5831,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -5894,7 +5894,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -5925,7 +5925,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C85") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -5956,7 +5956,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D70") (unit 1)
+          (reference "D73") (unit 1)
         )
       )
     )
@@ -5987,7 +5987,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D75") (unit 1)
+          (reference "D78") (unit 1)
         )
       )
     )
@@ -6018,7 +6018,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D57") (unit 1)
+          (reference "D60") (unit 1)
         )
       )
     )
@@ -6049,7 +6049,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D66") (unit 1)
+          (reference "D69") (unit 1)
         )
       )
     )
@@ -6080,7 +6080,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C44") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
     )
@@ -6176,7 +6176,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0172") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
     )
@@ -6240,7 +6240,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C91") (unit 1)
+          (reference "C99") (unit 1)
         )
       )
     )
@@ -6270,7 +6270,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -6301,7 +6301,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C67") (unit 1)
+          (reference "C75") (unit 1)
         )
       )
     )
@@ -6331,7 +6331,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -6361,7 +6361,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -6391,7 +6391,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -6421,7 +6421,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -6451,7 +6451,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0143") (unit 1)
         )
       )
     )
@@ -6481,7 +6481,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -6511,7 +6511,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -6575,7 +6575,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW37") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
@@ -6605,7 +6605,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -6636,7 +6636,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D79") (unit 1)
+          (reference "D82") (unit 1)
         )
       )
     )
@@ -6667,7 +6667,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C82") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -6698,7 +6698,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C70") (unit 1)
+          (reference "C78") (unit 1)
         )
       )
     )
@@ -6729,7 +6729,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C93") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -6759,7 +6759,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0196") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -6790,7 +6790,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D63") (unit 1)
+          (reference "D66") (unit 1)
         )
       )
     )
@@ -6854,7 +6854,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D49") (unit 1)
+          (reference "D52") (unit 1)
         )
       )
     )
@@ -6918,7 +6918,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW52") (unit 1)
+          (reference "SW53") (unit 1)
         )
       )
     )
@@ -6948,7 +6948,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -6978,7 +6978,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -7008,7 +7008,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0197") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -7071,7 +7071,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -7102,7 +7102,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D73") (unit 1)
+          (reference "D76") (unit 1)
         )
       )
     )
@@ -7199,7 +7199,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C72") (unit 1)
+          (reference "C80") (unit 1)
         )
       )
     )
@@ -7230,7 +7230,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C73") (unit 1)
+          (reference "C81") (unit 1)
         )
       )
     )
@@ -7260,7 +7260,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0146") (unit 1)
         )
       )
     )
@@ -7290,7 +7290,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0160") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -7321,7 +7321,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D78") (unit 1)
+          (reference "D81") (unit 1)
         )
       )
     )
@@ -7352,7 +7352,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW84") (unit 1)
+          (reference "SW85") (unit 1)
         )
       )
     )
@@ -7383,7 +7383,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D46") (unit 1)
+          (reference "D49") (unit 1)
         )
       )
     )
@@ -7413,7 +7413,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -7444,7 +7444,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C62") (unit 1)
+          (reference "C70") (unit 1)
         )
       )
     )
@@ -7474,7 +7474,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -7505,7 +7505,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW73") (unit 1)
+          (reference "SW74") (unit 1)
         )
       )
     )
@@ -7536,7 +7536,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D67") (unit 1)
+          (reference "D70") (unit 1)
         )
       )
     )
@@ -7567,7 +7567,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C87") (unit 1)
+          (reference "C95") (unit 1)
         )
       )
     )
@@ -7598,7 +7598,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D45") (unit 1)
+          (reference "D48") (unit 1)
         )
       )
     )
@@ -7629,7 +7629,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D55") (unit 1)
+          (reference "D58") (unit 1)
         )
       )
     )
@@ -7660,7 +7660,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R24") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -7723,7 +7723,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0158") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -7754,7 +7754,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW54") (unit 1)
+          (reference "SW55") (unit 1)
         )
       )
     )
@@ -7784,7 +7784,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0140") (unit 1)
         )
       )
     )
@@ -7848,7 +7848,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C48") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
     )
@@ -7878,7 +7878,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -7909,7 +7909,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R20") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -7939,7 +7939,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -7970,7 +7970,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R22") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -8034,7 +8034,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C88") (unit 1)
+          (reference "C96") (unit 1)
         )
       )
     )
@@ -8065,7 +8065,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D58") (unit 1)
+          (reference "D61") (unit 1)
         )
       )
     )
@@ -8096,7 +8096,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW68") (unit 1)
+          (reference "SW69") (unit 1)
         )
       )
     )
@@ -8126,7 +8126,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -8190,7 +8190,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C58") (unit 1)
+          (reference "C66") (unit 1)
         )
       )
     )
@@ -8253,7 +8253,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -8284,7 +8284,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW38") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
@@ -8348,7 +8348,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C77") (unit 1)
+          (reference "C85") (unit 1)
         )
       )
     )
@@ -8379,7 +8379,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D42") (unit 1)
+          (reference "D45") (unit 1)
         )
       )
     )
@@ -8409,7 +8409,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0199") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -8473,7 +8473,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C51") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
     )
@@ -8503,7 +8503,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -8566,7 +8566,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -8596,7 +8596,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -8626,7 +8626,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -8657,7 +8657,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C71") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
     )
@@ -8688,7 +8688,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW58") (unit 1)
+          (reference "SW59") (unit 1)
         )
       )
     )
@@ -8718,7 +8718,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0187") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -8782,7 +8782,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW40") (unit 1)
+          (reference "SW41") (unit 1)
         )
       )
     )
@@ -8813,7 +8813,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D88") (unit 1)
+          (reference "D91") (unit 1)
         )
       )
     )
@@ -8844,7 +8844,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D43") (unit 1)
+          (reference "D46") (unit 1)
         )
       )
     )
@@ -8875,7 +8875,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW46") (unit 1)
+          (reference "SW47") (unit 1)
         )
       )
     )
@@ -8906,7 +8906,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C80") (unit 1)
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -8937,7 +8937,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C68") (unit 1)
+          (reference "C76") (unit 1)
         )
       )
     )
@@ -8968,7 +8968,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R23") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -8998,7 +8998,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0138") (unit 1)
         )
       )
     )
@@ -9062,7 +9062,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C84") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -9092,7 +9092,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -9123,7 +9123,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW47") (unit 1)
+          (reference "SW48") (unit 1)
         )
       )
     )
@@ -9153,7 +9153,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -9184,7 +9184,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C74") (unit 1)
+          (reference "C82") (unit 1)
         )
       )
     )
@@ -9215,7 +9215,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW50") (unit 1)
+          (reference "SW51") (unit 1)
         )
       )
     )
@@ -9245,7 +9245,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0145") (unit 1)
         )
       )
     )
@@ -9276,7 +9276,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C86") (unit 1)
+          (reference "C94") (unit 1)
         )
       )
     )
@@ -9306,7 +9306,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0148") (unit 1)
         )
       )
     )
@@ -9336,7 +9336,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
@@ -9367,7 +9367,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C75") (unit 1)
+          (reference "C83") (unit 1)
         )
       )
     )
@@ -9398,7 +9398,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C79") (unit 1)
+          (reference "C87") (unit 1)
         )
       )
     )
@@ -9428,7 +9428,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0190") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -9459,7 +9459,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D81") (unit 1)
+          (reference "D84") (unit 1)
         )
       )
     )
@@ -9490,7 +9490,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW66") (unit 1)
+          (reference "SW67") (unit 1)
         )
       )
     )
@@ -9520,7 +9520,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -9551,7 +9551,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C61") (unit 1)
+          (reference "C69") (unit 1)
         )
       )
     )
@@ -9581,7 +9581,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -9612,7 +9612,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D86") (unit 1)
+          (reference "D89") (unit 1)
         )
       )
     )
@@ -9643,7 +9643,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW81") (unit 1)
+          (reference "SW82") (unit 1)
         )
       )
     )
@@ -9674,7 +9674,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW43") (unit 1)
+          (reference "SW44") (unit 1)
         )
       )
     )
@@ -9705,7 +9705,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW71") (unit 1)
+          (reference "SW72") (unit 1)
         )
       )
     )
@@ -9736,7 +9736,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C45") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
     )
@@ -9766,7 +9766,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -9796,7 +9796,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -9826,7 +9826,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0157") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -9857,7 +9857,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D41") (unit 1)
+          (reference "D44") (unit 1)
         )
       )
     )
@@ -9887,7 +9887,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -9918,7 +9918,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R15") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -9981,7 +9981,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0194") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -10012,7 +10012,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C52") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
     )
@@ -10077,7 +10077,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW45") (unit 1)
+          (reference "SW46") (unit 1)
         )
       )
     )
@@ -10140,7 +10140,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0195") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -10171,7 +10171,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C90") (unit 1)
+          (reference "C98") (unit 1)
         )
       )
     )
@@ -10202,7 +10202,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D72") (unit 1)
+          (reference "D75") (unit 1)
         )
       )
     )
@@ -10232,7 +10232,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -10262,7 +10262,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -10292,7 +10292,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
     )
@@ -10323,7 +10323,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R27") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -10353,7 +10353,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0142") (unit 1)
         )
       )
     )
@@ -10383,7 +10383,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR0192") (unit 1)
         )
       )
     )
@@ -10414,7 +10414,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW44") (unit 1)
+          (reference "SW45") (unit 1)
         )
       )
     )
@@ -10445,7 +10445,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW60") (unit 1)
+          (reference "SW61") (unit 1)
         )
       )
     )
@@ -10476,7 +10476,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW78") (unit 1)
+          (reference "SW79") (unit 1)
         )
       )
     )
@@ -10507,7 +10507,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D85") (unit 1)
+          (reference "D88") (unit 1)
         )
       )
     )
@@ -10538,7 +10538,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C92") (unit 1)
+          (reference "C100") (unit 1)
         )
       )
     )
@@ -10569,7 +10569,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW49") (unit 1)
+          (reference "SW50") (unit 1)
         )
       )
     )
@@ -10599,7 +10599,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0183") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -10630,7 +10630,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C46") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
     )
@@ -10661,7 +10661,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D71") (unit 1)
+          (reference "D74") (unit 1)
         )
       )
     )
@@ -10692,7 +10692,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D80") (unit 1)
+          (reference "D83") (unit 1)
         )
       )
     )
@@ -10723,7 +10723,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "R16") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -10754,7 +10754,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C54") (unit 1)
+          (reference "C62") (unit 1)
         )
       )
     )
@@ -10785,7 +10785,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW62") (unit 1)
+          (reference "SW63") (unit 1)
         )
       )
     )
@@ -10815,7 +10815,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -10846,7 +10846,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C69") (unit 1)
+          (reference "C77") (unit 1)
         )
       )
     )
@@ -10876,7 +10876,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -10940,7 +10940,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW57") (unit 1)
+          (reference "SW58") (unit 1)
         )
       )
     )
@@ -11004,7 +11004,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C56") (unit 1)
+          (reference "C64") (unit 1)
         )
       )
     )
@@ -11068,7 +11068,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C57") (unit 1)
+          (reference "C65") (unit 1)
         )
       )
     )
@@ -11099,7 +11099,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW75") (unit 1)
+          (reference "SW76") (unit 1)
         )
       )
     )
@@ -11130,7 +11130,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW42") (unit 1)
+          (reference "SW43") (unit 1)
         )
       )
     )
@@ -11161,7 +11161,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C53") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
     )
@@ -11192,7 +11192,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW39") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
@@ -11223,7 +11223,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW64") (unit 1)
+          (reference "SW65") (unit 1)
         )
       )
     )
@@ -11253,7 +11253,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -11283,7 +11283,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0173") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )
@@ -11314,7 +11314,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW59") (unit 1)
+          (reference "SW60") (unit 1)
         )
       )
     )
@@ -11344,7 +11344,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0162") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -11375,7 +11375,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C81") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -11405,7 +11405,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -11435,7 +11435,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -11466,7 +11466,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D48") (unit 1)
+          (reference "D51") (unit 1)
         )
       )
     )
@@ -11496,7 +11496,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0159") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -11527,7 +11527,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "C76") (unit 1)
+          (reference "C84") (unit 1)
         )
       )
     )
@@ -11557,7 +11557,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -11587,7 +11587,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -11651,7 +11651,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D61") (unit 1)
+          (reference "D64") (unit 1)
         )
       )
     )
@@ -11715,7 +11715,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D62") (unit 1)
+          (reference "D65") (unit 1)
         )
       )
     )
@@ -11745,7 +11745,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -11841,7 +11841,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0192") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -11905,7 +11905,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D87") (unit 1)
+          (reference "D90") (unit 1)
         )
       )
     )
@@ -11968,7 +11968,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -11999,7 +11999,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "D64") (unit 1)
+          (reference "D67") (unit 1)
         )
       )
     )
@@ -12029,7 +12029,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0169") (unit 1)
         )
       )
     )
@@ -12060,7 +12060,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW51") (unit 1)
+          (reference "SW52") (unit 1)
         )
       )
     )
@@ -12090,7 +12090,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
     )
@@ -12153,7 +12153,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -12183,7 +12183,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -12214,7 +12214,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW79") (unit 1)
+          (reference "SW80") (unit 1)
         )
       )
     )
@@ -12277,7 +12277,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -12307,7 +12307,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR0147") (unit 1)
         )
       )
     )
@@ -12337,7 +12337,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -12367,7 +12367,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -12397,7 +12397,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -12427,7 +12427,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0165") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -12490,7 +12490,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
     )
@@ -12586,7 +12586,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0191") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -12617,7 +12617,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW55") (unit 1)
+          (reference "SW56") (unit 1)
         )
       )
     )
@@ -12647,7 +12647,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR0191") (unit 1)
         )
       )
     )
@@ -12744,7 +12744,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/18ec04d3-184c-42f7-a65e-8fbb8fb3c3a8"
-          (reference "SW67") (unit 1)
+          (reference "SW68") (unit 1)
         )
       )
     )
