@@ -1995,7 +1995,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0247") (unit 1)
+          (reference "#PWR0255") (unit 1)
         )
       )
     )
@@ -2056,7 +2056,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0270") (unit 1)
         )
       )
     )
@@ -2245,7 +2245,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0245") (unit 1)
+          (reference "#PWR0253") (unit 1)
         )
       )
     )
@@ -2399,7 +2399,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0244") (unit 1)
+          (reference "#PWR0252") (unit 1)
         )
       )
     )
@@ -2429,7 +2429,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR0240") (unit 1)
         )
       )
     )
@@ -2567,7 +2567,7 @@
     (property "Reference" "C120" (at 347.98 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 347.98 166.37 0)
+    (property "Value" "10n" (at 347.98 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 355.9302 168.91 0)
@@ -2629,7 +2629,7 @@
     (property "Reference" "C119" (at 300.355 163.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 300.355 166.3699 0)
+    (property "Value" "10n" (at 300.355 166.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 298.1452 168.91 0)
@@ -2835,7 +2835,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0272") (unit 1)
+          (reference "#PWR0280") (unit 1)
         )
       )
     )
@@ -2896,7 +2896,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0238") (unit 1)
+          (reference "#PWR0246") (unit 1)
         )
       )
     )
@@ -3147,7 +3147,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0274") (unit 1)
+          (reference "#PWR0282") (unit 1)
         )
       )
     )
@@ -3363,7 +3363,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0249") (unit 1)
+          (reference "#PWR0257") (unit 1)
         )
       )
     )
@@ -3393,7 +3393,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0260") (unit 1)
+          (reference "#PWR0268") (unit 1)
         )
       )
     )
@@ -3516,7 +3516,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR0273") (unit 1)
         )
       )
     )
@@ -3772,7 +3772,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0270") (unit 1)
+          (reference "#PWR0278") (unit 1)
         )
       )
     )
@@ -3833,7 +3833,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0256") (unit 1)
+          (reference "#PWR0264") (unit 1)
         )
       )
     )
@@ -3863,7 +3863,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0282") (unit 1)
+          (reference "#PWR0290") (unit 1)
         )
       )
     )
@@ -3893,7 +3893,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0267") (unit 1)
+          (reference "#PWR0275") (unit 1)
         )
       )
     )
@@ -3923,7 +3923,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0263") (unit 1)
+          (reference "#PWR0271") (unit 1)
         )
       )
     )
@@ -3953,7 +3953,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR0277") (unit 1)
         )
       )
     )
@@ -4076,7 +4076,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0284") (unit 1)
+          (reference "#PWR0292") (unit 1)
         )
       )
     )
@@ -4137,7 +4137,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR0242") (unit 1)
         )
       )
     )
@@ -4149,7 +4149,7 @@
     (property "Reference" "C117" (at 240.03 163.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 240.03 166.3699 0)
+    (property "Value" "10n" (at 240.03 166.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 237.8202 168.91 0)
@@ -4198,7 +4198,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0252") (unit 1)
+          (reference "#PWR0260") (unit 1)
         )
       )
     )
@@ -4259,7 +4259,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0276") (unit 1)
+          (reference "#PWR0284") (unit 1)
         )
       )
     )
@@ -4289,7 +4289,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0271") (unit 1)
+          (reference "#PWR0279") (unit 1)
         )
       )
     )
@@ -4319,7 +4319,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0258") (unit 1)
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0236") (unit 1)
+          (reference "#PWR0244") (unit 1)
         )
       )
     )
@@ -4539,7 +4539,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0231") (unit 1)
+          (reference "#PWR0239") (unit 1)
         )
       )
     )
@@ -4698,7 +4698,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0239") (unit 1)
+          (reference "#PWR0247") (unit 1)
         )
       )
     )
@@ -4728,7 +4728,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0253") (unit 1)
+          (reference "#PWR0261") (unit 1)
         )
       )
     )
@@ -4833,7 +4833,7 @@
     (property "Reference" "C116" (at 222.25 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 222.25 166.37 0)
+    (property "Value" "10n" (at 222.25 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 230.2002 168.91 0)
@@ -4944,7 +4944,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR0238") (unit 1)
         )
       )
     )
@@ -5005,7 +5005,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0283") (unit 1)
+          (reference "#PWR0291") (unit 1)
         )
       )
     )
@@ -5035,7 +5035,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0235") (unit 1)
+          (reference "#PWR0243") (unit 1)
         )
       )
     )
@@ -5096,7 +5096,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0243") (unit 1)
+          (reference "#PWR0251") (unit 1)
         )
       )
     )
@@ -5126,7 +5126,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0229") (unit 1)
+          (reference "#PWR0237") (unit 1)
         )
       )
     )
@@ -5187,7 +5187,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR0272") (unit 1)
         )
       )
     )
@@ -5376,7 +5376,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0275") (unit 1)
+          (reference "#PWR0283") (unit 1)
         )
       )
     )
@@ -5437,7 +5437,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR0274") (unit 1)
         )
       )
     )
@@ -5498,7 +5498,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0278") (unit 1)
+          (reference "#PWR0286") (unit 1)
         )
       )
     )
@@ -5541,7 +5541,7 @@
     (property "Reference" "C115" (at 176.53 163.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 176.53 166.3699 0)
+    (property "Value" "10n" (at 176.53 166.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.3202 168.91 0)
@@ -5621,7 +5621,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR0276") (unit 1)
         )
       )
     )
@@ -5744,7 +5744,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0251") (unit 1)
+          (reference "#PWR0259") (unit 1)
         )
       )
     )
@@ -5805,7 +5805,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0248") (unit 1)
+          (reference "#PWR0256") (unit 1)
         )
       )
     )
@@ -5910,7 +5910,7 @@
     (property "Reference" "C121" (at 365.76 163.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 365.76 166.3699 0)
+    (property "Value" "10n" (at 365.76 166.3699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 363.5502 168.91 0)
@@ -6054,7 +6054,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR0236") (unit 1)
         )
       )
     )
@@ -6115,7 +6115,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0241") (unit 1)
+          (reference "#PWR0249") (unit 1)
         )
       )
     )
@@ -6145,7 +6145,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0280") (unit 1)
+          (reference "#PWR0288") (unit 1)
         )
       )
     )
@@ -6237,7 +6237,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0240") (unit 1)
+          (reference "#PWR0248") (unit 1)
         )
       )
     )
@@ -6267,7 +6267,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0250") (unit 1)
+          (reference "#PWR0258") (unit 1)
         )
       )
     )
@@ -6297,7 +6297,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0257") (unit 1)
+          (reference "#PWR0265") (unit 1)
         )
       )
     )
@@ -6361,7 +6361,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0281") (unit 1)
+          (reference "#PWR0289") (unit 1)
         )
       )
     )
@@ -6391,7 +6391,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0227") (unit 1)
+          (reference "#PWR0235") (unit 1)
         )
       )
     )
@@ -6454,7 +6454,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0233") (unit 1)
+          (reference "#PWR0241") (unit 1)
         )
       )
     )
@@ -6484,7 +6484,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0246") (unit 1)
+          (reference "#PWR0254") (unit 1)
         )
       )
     )
@@ -6640,7 +6640,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0277") (unit 1)
+          (reference "#PWR0285") (unit 1)
         )
       )
     )
@@ -6703,7 +6703,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0273") (unit 1)
+          (reference "#PWR0281") (unit 1)
         )
       )
     )
@@ -6764,7 +6764,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0259") (unit 1)
+          (reference "#PWR0267") (unit 1)
         )
       )
     )
@@ -6825,7 +6825,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0237") (unit 1)
+          (reference "#PWR0245") (unit 1)
         )
       )
     )
@@ -6886,7 +6886,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0255") (unit 1)
+          (reference "#PWR0263") (unit 1)
         )
       )
     )
@@ -6898,7 +6898,7 @@
     (property "Reference" "C118" (at 282.575 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 282.575 166.37 0)
+    (property "Value" "10n" (at 282.575 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 290.5252 168.91 0)
@@ -7042,7 +7042,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0279") (unit 1)
+          (reference "#PWR0287") (unit 1)
         )
       )
     )
@@ -7072,7 +7072,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0242") (unit 1)
+          (reference "#PWR0250") (unit 1)
         )
       )
     )
@@ -7197,7 +7197,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0269") (unit 1)
         )
       )
     )
@@ -7242,7 +7242,7 @@
     (property "Reference" "C114" (at 158.75 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (at 158.75 166.37 0)
+    (property "Value" "10n" (at 158.75 166.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 166.7002 168.91 0)
@@ -7291,7 +7291,7 @@
       )
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/49ae9564-dada-4eff-be1a-eb92a1665887"
-          (reference "#PWR0254") (unit 1)
+          (reference "#PWR0262") (unit 1)
         )
       )
     )
