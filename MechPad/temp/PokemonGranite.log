@@ -1,0 +1,57 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  IndexBuffer.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Input.h
+  main.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Model.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Renderer.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Shader.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Test.cpp
+  TestClearColor.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  TestTexture2D.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(3465,56): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+D:\dev\mechpad\MechPad\src\tests\TestTexture2D.cpp(29,21): message : see reference to function template instantiation 'std::unique_ptr<VertexBuffer,std::default_delete<VertexBuffer>> std::make_unique<VertexBuffer,float(&)[16],size_t,0>(float (&)[16],size_t &&)' being compiled
+  Texture.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  glm.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  Vertex.cpp
+  Generating Code...
+  Compiling...
+  VertexArray.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+D:\dev\mechpad\MechPad\src\VertexArray.cpp(25,3): warning C4312: 'type cast': conversion from 'uint32_t' to 'const void *' of greater size
+  VertexBuffer.cpp
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  VertexBufferLayout.h
+D:\dev\mechpad\MechPad\src\Renderer.h(14,1): warning C4005: 'assert': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\assert.h(42,1): message : see previous definition of 'assert'
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  PokemonGranite.vcxproj -> D:\dev\mechpad\MechPad\bin\PokemonGranite.exe
