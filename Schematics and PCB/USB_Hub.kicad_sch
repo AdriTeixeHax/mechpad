@@ -2875,7 +2875,7 @@
   (symbol (lib_id "Device:R_US") (at 75.565 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00a32762-276c-4156-a6cb-5e79c37acb80)
-    (property "Reference" "R87" (at 77.47 103.505 0)
+    (property "Reference" "R85" (at 77.47 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "9.53kΩ ±1%" (at 77.47 105.41 0)
@@ -2892,7 +2892,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R87") (unit 1)
+          (reference "R85") (unit 1)
         )
       )
     )
@@ -2929,7 +2929,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0401") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
       )
     )
@@ -2938,7 +2938,7 @@
   (symbol (lib_id "power:GND") (at 182.245 42.545 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04ec4674-f3a7-4882-a001-614e2b5051c6)
-    (property "Reference" "#PWR0364" (at 188.595 42.545 0)
+    (property "Reference" "#PWR0472" (at 188.595 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 42.545 90)
@@ -2954,7 +2954,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0364") (unit 1)
+          (reference "#PWR0472") (unit 1)
         )
       )
     )
@@ -2991,7 +2991,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0388") (unit 1)
+          (reference "#PWR0491") (unit 1)
         )
       )
     )
@@ -3000,7 +3000,7 @@
   (symbol (lib_id "Device:R_US") (at 116.205 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06daa04d-bc1e-440d-b645-785b681f9af6)
-    (property "Reference" "R80" (at 118.11 29.21 0)
+    (property "Reference" "R78" (at 118.11 29.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 118.11 27.305 0)
@@ -3017,7 +3017,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R80") (unit 1)
+          (reference "R78") (unit 1)
         )
       )
     )
@@ -3090,7 +3090,7 @@
   (symbol (lib_id "power:GND") (at 169.545 45.085 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a4e0969-bc65-4c38-862d-9a13ada6238d)
-    (property "Reference" "#PWR0365" (at 175.895 45.085 0)
+    (property "Reference" "#PWR0473" (at 175.895 45.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 45.085 90)
@@ -3106,7 +3106,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0365") (unit 1)
+          (reference "#PWR0473") (unit 1)
         )
       )
     )
@@ -3115,7 +3115,7 @@
   (symbol (lib_id "power:GND") (at 72.39 24.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0b0e20d5-b71b-4814-820f-1dfc645f9f8f)
-    (property "Reference" "#PWR0363" (at 78.74 24.13 0)
+    (property "Reference" "#PWR0467" (at 78.74 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.565 24.13 90)
@@ -3131,7 +3131,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0363") (unit 1)
+          (reference "#PWR0467") (unit 1)
         )
       )
     )
@@ -3140,7 +3140,7 @@
   (symbol (lib_id "Regulator_Linear:ADP7182AUJZ-1.8") (at 258.445 219.075 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10095a5f-efb0-463b-9c19-73d6b02e2bb6)
-    (property "Reference" "U21" (at 258.445 210.82 0)
+    (property "Reference" "U19" (at 258.445 210.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV70033DDCR" (at 258.445 212.725 0)
@@ -3160,7 +3160,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "U21") (unit 1)
+          (reference "U19") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "U23") (unit 1)
@@ -3210,7 +3210,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 142.875 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 152724f3-581e-4fb6-ac67-43c0fde19df1)
-    (property "Reference" "R95" (at 182.88 145.415 90)
+    (property "Reference" "R93" (at 182.88 145.415 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 147.32 90)
@@ -3227,7 +3227,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R95") (unit 1)
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -3236,7 +3236,7 @@
   (symbol (lib_id "power:GND") (at 105.41 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1969b0e0-4a17-46b2-87eb-f4afa416b84d)
-    (property "Reference" "#PWR0380" (at 105.41 114.3 0)
+    (property "Reference" "#PWR0484" (at 105.41 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 111.76 0)
@@ -3252,7 +3252,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0380") (unit 1)
+          (reference "#PWR0484") (unit 1)
         )
       )
     )
@@ -3261,7 +3261,7 @@
   (symbol (lib_id "power:+3V3") (at 116.205 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a005c30-06ae-4feb-9e99-f340f2b93e99)
-    (property "Reference" "#PWR0371" (at 116.205 27.94 0)
+    (property "Reference" "#PWR0471" (at 116.205 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 116.205 20.32 0)
@@ -3277,7 +3277,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0371") (unit 1)
+          (reference "#PWR0471") (unit 1)
         )
       )
     )
@@ -3286,7 +3286,7 @@
   (symbol (lib_id "Device:R_US") (at 105.41 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bfe7fe3-2bb9-4e73-9197-b5f3a70a3d64)
-    (property "Reference" "R90" (at 107.315 103.505 0)
+    (property "Reference" "R88" (at 107.315 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 107.315 105.41 0)
@@ -3303,7 +3303,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R90") (unit 1)
+          (reference "R88") (unit 1)
         )
       )
     )
@@ -3340,7 +3340,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0402") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
       )
     )
@@ -3349,7 +3349,7 @@
   (symbol (lib_id "power:GND") (at 186.69 139.065 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e59ae86-279e-4efc-950a-20201ef0b9a9)
-    (property "Reference" "#PWR0394" (at 193.04 139.065 0)
+    (property "Reference" "#PWR0497" (at 193.04 139.065 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 139.065 90)
@@ -3365,7 +3365,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0394") (unit 1)
+          (reference "#PWR0497") (unit 1)
         )
       )
     )
@@ -3403,7 +3403,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C201") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -3412,7 +3412,7 @@
   (symbol (lib_id "power:GND") (at 169.545 126.365 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2473aa9d-e5bf-4a07-9f8a-9b94edf6d95b)
-    (property "Reference" "#PWR0384" (at 175.895 126.365 0)
+    (property "Reference" "#PWR0488" (at 175.895 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.895 126.365 90)
@@ -3428,7 +3428,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0384") (unit 1)
+          (reference "#PWR0488") (unit 1)
         )
       )
     )
@@ -3465,7 +3465,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0433") (unit 1)
+          (reference "#PWR0528") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0442") (unit 1)
@@ -3515,7 +3515,7 @@
   (symbol (lib_id "power:GND") (at 92.075 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 258146aa-c7c2-4ffa-ab89-7359bc520fa5)
-    (property "Reference" "#PWR0426" (at 92.075 251.46 0)
+    (property "Reference" "#PWR0534" (at 92.075 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.075 248.92 0)
@@ -3531,7 +3531,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0534") (unit 1)
         )
       )
     )
@@ -3540,7 +3540,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 102.87 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 26c2c059-eb9d-4ea5-8611-ae698487ffca)
-    (property "Reference" "C197" (at 106.045 197.485 0)
+    (property "Reference" "C199" (at 106.045 197.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150u" (at 106.045 200.025 0)
@@ -3557,7 +3557,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C197") (unit 1)
+          (reference "C199") (unit 1)
         )
       )
     )
@@ -3566,7 +3566,7 @@
   (symbol (lib_id "Device:R_US") (at 65.405 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2932c06b-c627-4db9-8d8a-0c90e24f4b32)
-    (property "Reference" "R96" (at 67.31 175.8949 0)
+    (property "Reference" "R94" (at 67.31 175.8949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 67.31 178.4349 0)
@@ -3583,7 +3583,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R96") (unit 1)
+          (reference "R94") (unit 1)
         )
       )
     )
@@ -3592,7 +3592,7 @@
   (symbol (lib_id "power:+3V3") (at 107.95 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b1dc7e8-ee66-4dc4-a314-a4072168c5bf)
-    (property "Reference" "#PWR0370" (at 107.95 27.94 0)
+    (property "Reference" "#PWR0470" (at 107.95 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 107.95 20.32 0)
@@ -3608,7 +3608,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0370") (unit 1)
+          (reference "#PWR0470") (unit 1)
         )
       )
     )
@@ -3617,7 +3617,7 @@
   (symbol (lib_id "Device:R_US") (at 67.31 198.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c40741d-d982-459c-a738-930604e9f71d)
-    (property "Reference" "R98" (at 67.31 200.66 90)
+    (property "Reference" "R96" (at 67.31 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "25.5k" (at 67.31 202.565 90)
@@ -3634,7 +3634,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R98") (unit 1)
+          (reference "R96") (unit 1)
         )
       )
     )
@@ -3643,7 +3643,7 @@
   (symbol (lib_id "Device:C") (at 203.2 226.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2da08879-0567-4429-9140-1138ac1589e5)
-    (property "Reference" "C200" (at 203.2 220.345 90)
+    (property "Reference" "C204" (at 203.2 220.345 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 203.2 222.25 90)
@@ -3660,7 +3660,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C200") (unit 1)
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -3697,7 +3697,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0375") (unit 1)
+          (reference "#PWR0479") (unit 1)
         )
       )
     )
@@ -3706,7 +3706,7 @@
   (symbol (lib_id "power:GND") (at 113.665 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3033c894-44fc-46ef-a7c5-a85ae1fbfb63)
-    (property "Reference" "#PWR0428" (at 113.665 251.46 0)
+    (property "Reference" "#PWR0536" (at 113.665 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 248.92 0)
@@ -3722,7 +3722,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0536") (unit 1)
         )
       )
     )
@@ -3824,7 +3824,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C196") (unit 1)
+          (reference "C198") (unit 1)
         )
       )
     )
@@ -3862,7 +3862,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C199") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -3909,7 +3909,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 102.87 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 365df1e6-d9ab-4c0b-9eae-526785f6d7a3)
-    (property "Reference" "C205" (at 106.045 240.03 0)
+    (property "Reference" "C209" (at 106.045 240.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150u" (at 106.045 242.57 0)
@@ -3926,7 +3926,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C205") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
@@ -3935,7 +3935,7 @@
   (symbol (lib_id "power:+3V3") (at 73.025 173.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 388a9562-db69-4b61-a820-9e6530d953f8)
-    (property "Reference" "#PWR0406" (at 73.025 177.165 0)
+    (property "Reference" "#PWR0509" (at 73.025 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 73.025 169.545 0)
@@ -3951,7 +3951,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0406") (unit 1)
+          (reference "#PWR0509") (unit 1)
         )
       )
     )
@@ -3988,7 +3988,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0403") (unit 1)
+          (reference "#PWR0505") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
   (symbol (lib_id "Device:R_US") (at 99.695 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aa95359-868c-43cc-96f2-159ba62ce00f)
-    (property "Reference" "R82" (at 101.6 29.21 0)
+    (property "Reference" "R76" (at 101.6 29.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 101.6 27.305 0)
@@ -4014,7 +4014,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R82") (unit 1)
+          (reference "R76") (unit 1)
         )
       )
     )
@@ -4125,7 +4125,7 @@
   (symbol (lib_id "power:GND") (at 102.87 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 449d733e-47b5-4477-bcc1-d3d2d32546f7)
-    (property "Reference" "#PWR0427" (at 102.87 251.46 0)
+    (property "Reference" "#PWR0535" (at 102.87 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 248.92 0)
@@ -4141,7 +4141,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0535") (unit 1)
         )
       )
     )
@@ -4301,7 +4301,7 @@
   (symbol (lib_id "Device:R_US") (at 113.03 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c67f34f-8244-486d-ba26-e9379e7f0b2e)
-    (property "Reference" "R91" (at 114.935 103.505 0)
+    (property "Reference" "R89" (at 114.935 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 114.935 105.41 0)
@@ -4318,7 +4318,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R91") (unit 1)
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -4327,7 +4327,7 @@
   (symbol (lib_id "Device:R_US") (at 65.405 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d2981de-e326-4202-9bc2-1ad25bd3a8aa)
-    (property "Reference" "R101" (at 67.31 218.4399 0)
+    (property "Reference" "R99" (at 67.31 218.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 67.31 220.9799 0)
@@ -4344,7 +4344,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R101") (unit 1)
+          (reference "R99") (unit 1)
         )
       )
     )
@@ -4381,7 +4381,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0391") (unit 1)
+          (reference "#PWR0494") (unit 1)
         )
       )
     )
@@ -4419,7 +4419,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C198") (unit 1)
+          (reference "C200") (unit 1)
         )
       )
     )
@@ -4428,7 +4428,7 @@
   (symbol (lib_id "Device:C") (at 203.2 232.41 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fd6a502-99ff-4d6a-a230-3a45aa7d3893)
-    (property "Reference" "C202" (at 203.2 236.22 90)
+    (property "Reference" "C205" (at 203.2 236.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 203.2 238.125 90)
@@ -4445,7 +4445,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C202") (unit 1)
+          (reference "C205") (unit 1)
         )
       )
     )
@@ -4480,7 +4480,7 @@
   (symbol (lib_id "power:GND") (at 186.69 57.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5311cc8d-87df-4550-85a2-0c47be5a78b3)
-    (property "Reference" "#PWR0372" (at 193.04 57.785 0)
+    (property "Reference" "#PWR0476" (at 193.04 57.785 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 57.785 90)
@@ -4496,7 +4496,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0372") (unit 1)
+          (reference "#PWR0476") (unit 1)
         )
       )
     )
@@ -4505,7 +4505,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 81.28 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5341339f-5a08-49f1-8854-4557dfbfa2ee)
-    (property "Reference" "C195" (at 84.455 197.485 0)
+    (property "Reference" "C197" (at 84.455 197.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150u" (at 84.455 200.025 0)
@@ -4522,7 +4522,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C195") (unit 1)
+          (reference "C197") (unit 1)
         )
       )
     )
@@ -4585,7 +4585,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0389") (unit 1)
+          (reference "#PWR0492") (unit 1)
         )
       )
     )
@@ -4622,7 +4622,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0397") (unit 1)
+          (reference "#PWR0499") (unit 1)
         )
       )
     )
@@ -4631,7 +4631,7 @@
   (symbol (lib_id "power:GND") (at 169.545 203.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cea51aa-5e07-4018-a6a4-8777ef1cb146)
-    (property "Reference" "#PWR0417" (at 175.895 203.2 0)
+    (property "Reference" "#PWR0522" (at 175.895 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.895 203.2 90)
@@ -4647,7 +4647,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0522") (unit 1)
         )
       )
     )
@@ -4685,7 +4685,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C204") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -4830,7 +4830,7 @@
   (symbol (lib_id "power:GND") (at 220.98 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 655dc4e0-5dde-4e49-b33f-dd44c77e69bd)
-    (property "Reference" "#PWR0366" (at 227.33 47.625 0)
+    (property "Reference" "#PWR0474" (at 227.33 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.155 47.625 90)
@@ -4846,7 +4846,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0366") (unit 1)
+          (reference "#PWR0474") (unit 1)
         )
       )
     )
@@ -4883,7 +4883,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0399") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
       )
     )
@@ -4892,7 +4892,7 @@
   (symbol (lib_id "Device:R_US") (at 73.025 177.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69a34f3d-a505-475a-b48f-564dfacf7d82)
-    (property "Reference" "R97" (at 74.93 175.8949 0)
+    (property "Reference" "R95" (at 74.93 175.8949 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 74.93 178.4349 0)
@@ -4909,7 +4909,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R97") (unit 1)
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -4918,7 +4918,7 @@
   (symbol (lib_id "power:GND") (at 75.565 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69f4f4fb-8ef6-4968-8354-92333fbc27d8)
-    (property "Reference" "#PWR0377" (at 75.565 114.3 0)
+    (property "Reference" "#PWR0481" (at 75.565 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.565 111.76 0)
@@ -4934,7 +4934,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0377") (unit 1)
+          (reference "#PWR0481") (unit 1)
         )
       )
     )
@@ -4943,7 +4943,7 @@
   (symbol (lib_id "Device:R_US") (at 245.11 123.825 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69f5d362-214d-4cdf-a40c-fb83aa57508c)
-    (property "Reference" "R93" (at 245.11 119.38 90)
+    (property "Reference" "R91" (at 245.11 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 245.11 121.285 90)
@@ -4960,7 +4960,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R93") (unit 1)
+          (reference "R91") (unit 1)
         )
       )
     )
@@ -4995,7 +4995,7 @@
   (symbol (lib_id "power:GND") (at 90.17 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b02258c-ef6c-40db-835e-87d7637a78eb)
-    (property "Reference" "#PWR0378" (at 90.17 114.3 0)
+    (property "Reference" "#PWR0482" (at 90.17 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 111.76 0)
@@ -5011,7 +5011,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0378") (unit 1)
+          (reference "#PWR0482") (unit 1)
         )
       )
     )
@@ -5020,7 +5020,7 @@
   (symbol (lib_id "power:+3V3") (at 91.44 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6de41714-68d1-4b9c-aa33-27966116e50e)
-    (property "Reference" "#PWR0368" (at 91.44 27.94 0)
+    (property "Reference" "#PWR0468" (at 91.44 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 91.44 20.32 0)
@@ -5036,7 +5036,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0368") (unit 1)
+          (reference "#PWR0468") (unit 1)
         )
       )
     )
@@ -5045,7 +5045,7 @@
   (symbol (lib_id "power:GND") (at 48.26 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 719f8f94-7d95-434d-a752-a04f263b1742)
-    (property "Reference" "#PWR0414" (at 48.26 209.55 0)
+    (property "Reference" "#PWR0520" (at 48.26 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 207.01 0)
@@ -5061,7 +5061,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0520") (unit 1)
         )
       )
     )
@@ -5163,7 +5163,7 @@
           (reference "R62") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R86") (unit 1)
+          (reference "R84") (unit 1)
         )
       )
     )
@@ -5198,7 +5198,7 @@
   (symbol (lib_id "Regulator_Linear:ADP7182AUJZ-1.8") (at 258.445 194.945 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a757555-42c2-41be-b1d7-6be79c971ea2)
-    (property "Reference" "U16" (at 258.445 186.69 0)
+    (property "Reference" "U18" (at 258.445 186.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV71311PDBVR" (at 258.445 188.595 0)
@@ -5218,7 +5218,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "U16") (unit 1)
+          (reference "U18") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "U21") (unit 1)
@@ -5258,7 +5258,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0523") (unit 1)
         )
       )
     )
@@ -5267,7 +5267,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 139.065 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f7814b0-5f6d-4459-b017-ba6f444123cd)
-    (property "Reference" "R94" (at 182.88 134.62 90)
+    (property "Reference" "R92" (at 182.88 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 136.525 90)
@@ -5284,7 +5284,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R94") (unit 1)
+          (reference "R92") (unit 1)
         )
       )
     )
@@ -5293,7 +5293,7 @@
   (symbol (lib_id "power:GND") (at 71.12 240.665 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8272b494-f748-4a0c-9896-8e2c8b22c4d9)
-    (property "Reference" "#PWR0424" (at 77.47 240.665 0)
+    (property "Reference" "#PWR0532" (at 77.47 240.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.295 240.665 90)
@@ -5309,7 +5309,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0532") (unit 1)
         )
       )
     )
@@ -5318,7 +5318,7 @@
   (symbol (lib_id "power:GND") (at 182.245 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84e6d006-896d-4d51-9ab1-a10a8470b166)
-    (property "Reference" "#PWR0416" (at 188.595 200.66 0)
+    (property "Reference" "#PWR0514" (at 188.595 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 200.66 90)
@@ -5334,7 +5334,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0514") (unit 1)
         )
       )
     )
@@ -5343,7 +5343,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8792f176-6fd9-4659-a819-6f64bdcfd4bb)
-    (property "Reference" "R100" (at 182.88 211.455 90)
+    (property "Reference" "R98" (at 182.88 211.455 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 213.36 90)
@@ -5360,7 +5360,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R100") (unit 1)
+          (reference "R98") (unit 1)
         )
       )
     )
@@ -5397,7 +5397,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0443") (unit 1)
+          (reference "#PWR0529") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0443") (unit 1)
@@ -5486,7 +5486,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0435") (unit 1)
+          (reference "#PWR0530") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0444") (unit 1)
@@ -5524,7 +5524,7 @@
   (symbol (lib_id "power:+3V3") (at 65.405 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f726785-7239-4183-9b8b-937ebbdfe91f)
-    (property "Reference" "#PWR0418" (at 65.405 219.71 0)
+    (property "Reference" "#PWR0524" (at 65.405 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 65.405 212.09 0)
@@ -5540,7 +5540,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0524") (unit 1)
         )
       )
     )
@@ -5549,7 +5549,7 @@
   (symbol (lib_id "power:GND") (at 113.03 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fe3abb5-efed-4d31-b1ec-19a36b3b7839)
-    (property "Reference" "#PWR0381" (at 113.03 114.3 0)
+    (property "Reference" "#PWR0485" (at 113.03 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 111.76 0)
@@ -5565,7 +5565,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0381") (unit 1)
+          (reference "#PWR0485") (unit 1)
         )
       )
     )
@@ -5574,7 +5574,7 @@
   (symbol (lib_id "Device:R_US") (at 107.95 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 905b908a-7268-454e-8b98-1431944b8d78)
-    (property "Reference" "R81" (at 109.855 29.21 0)
+    (property "Reference" "R77" (at 109.855 29.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 109.855 27.305 0)
@@ -5591,7 +5591,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R81") (unit 1)
+          (reference "R77") (unit 1)
         )
       )
     )
@@ -5600,7 +5600,7 @@
   (symbol (lib_id "Device:R_US") (at 175.895 200.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9447c4ef-8690-4ef8-9a9a-af6380f5e793)
-    (property "Reference" "R99" (at 175.895 196.215 90)
+    (property "Reference" "R97" (at 175.895 196.215 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 175.895 198.12 90)
@@ -5617,7 +5617,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R99") (unit 1)
+          (reference "R97") (unit 1)
         )
       )
     )
@@ -5652,7 +5652,7 @@
   (symbol (lib_id "power:GND") (at 186.69 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9623d6c6-1805-4dec-8c97-93b566a1b198)
-    (property "Reference" "#PWR0421" (at 193.04 215.9 0)
+    (property "Reference" "#PWR0526" (at 193.04 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 215.9 90)
@@ -5668,7 +5668,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0526") (unit 1)
         )
       )
     )
@@ -5677,7 +5677,7 @@
   (symbol (lib_id "power:GND") (at 186.69 61.595 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 963f23aa-d894-4a86-83c7-71132a5effdd)
-    (property "Reference" "#PWR0373" (at 193.04 61.595 0)
+    (property "Reference" "#PWR0477" (at 193.04 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 61.595 90)
@@ -5693,7 +5693,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0373") (unit 1)
+          (reference "#PWR0477") (unit 1)
         )
       )
     )
@@ -5794,7 +5794,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0434") (unit 1)
+          (reference "#PWR0519") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0435") (unit 1)
@@ -5806,7 +5806,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 57.785 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9de27559-f28d-4214-94ab-e6ef229c72eb)
-    (property "Reference" "R84" (at 182.88 53.34 90)
+    (property "Reference" "R82" (at 182.88 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 55.245 90)
@@ -5823,7 +5823,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R84") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
@@ -5832,7 +5832,7 @@
   (symbol (lib_id "power:GND") (at 81.28 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a40fde17-c965-447d-83bf-2c7b8dca89cf)
-    (property "Reference" "#PWR0425" (at 81.28 251.46 0)
+    (property "Reference" "#PWR0533" (at 81.28 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 248.92 0)
@@ -5848,7 +5848,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0425") (unit 1)
+          (reference "#PWR0533") (unit 1)
         )
       )
     )
@@ -5857,7 +5857,7 @@
   (symbol (lib_id "Interface_USB:TPS2561") (at 50.8 233.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a47d03e8-64b3-4690-82a6-a8a750c2d10a)
-    (property "Reference" "U19" (at 50.8 218.44 0)
+    (property "Reference" "U20" (at 50.8 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2561" (at 50.8 220.98 0)
@@ -5883,7 +5883,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "U19") (unit 1)
+          (reference "U20") (unit 1)
         )
       )
     )
@@ -5920,7 +5920,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR0512") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0433") (unit 1)
@@ -5998,7 +5998,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0404") (unit 1)
+          (reference "#PWR0506") (unit 1)
         )
       )
     )
@@ -6007,7 +6007,7 @@
   (symbol (lib_id "Device:R_US") (at 175.895 123.825 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8d984a2-15c8-414e-8aa0-551edb0bb222)
-    (property "Reference" "R92" (at 175.895 119.38 90)
+    (property "Reference" "R90" (at 175.895 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 175.895 121.285 90)
@@ -6024,7 +6024,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R92") (unit 1)
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -6071,7 +6071,7 @@
   (symbol (lib_id "Device:R_US") (at 97.79 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid afe02978-4bec-4a1d-9205-37e2be46be63)
-    (property "Reference" "R89" (at 99.695 103.505 0)
+    (property "Reference" "R87" (at 99.695 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7k" (at 99.695 105.41 0)
@@ -6088,7 +6088,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R89") (unit 1)
+          (reference "R87") (unit 1)
         )
       )
     )
@@ -6125,7 +6125,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0387") (unit 1)
+          (reference "#PWR0490") (unit 1)
         )
       )
     )
@@ -6134,7 +6134,7 @@
   (symbol (lib_id "power:GND") (at 87.63 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b509f095-f786-4fce-bacb-4a452b38e810)
-    (property "Reference" "#PWR0376" (at 87.63 102.87 0)
+    (property "Reference" "#PWR0480" (at 87.63 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 100.33 0)
@@ -6150,7 +6150,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0376") (unit 1)
+          (reference "#PWR0480") (unit 1)
         )
       )
     )
@@ -6159,7 +6159,7 @@
   (symbol (lib_id "power:+3V3") (at 73.025 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5d5bf67-631d-41f5-a9fd-a943d4b19d64)
-    (property "Reference" "#PWR0419" (at 73.025 219.71 0)
+    (property "Reference" "#PWR0525" (at 73.025 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 73.025 212.09 0)
@@ -6175,7 +6175,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0525") (unit 1)
         )
       )
     )
@@ -6248,7 +6248,7 @@
   (symbol (lib_id "mechpadLibrary:TUSB8042A") (at 27.94 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b97334bc-0757-4cfa-8c5d-e10ecfbc8fb3)
-    (property "Reference" "U17" (at 50.165 19.05 0)
+    (property "Reference" "U16" (at 50.165 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TUSB8042A" (at 50.165 20.955 0)
@@ -6328,7 +6328,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "U17") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -6337,7 +6337,7 @@
   (symbol (lib_id "power:GND") (at 182.245 123.825 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba3ae7e1-b3e8-4f29-a0f6-94733cd1f73c)
-    (property "Reference" "#PWR0382" (at 188.595 123.825 0)
+    (property "Reference" "#PWR0486" (at 188.595 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 185.42 123.825 90)
@@ -6353,7 +6353,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0382") (unit 1)
+          (reference "#PWR0486") (unit 1)
         )
       )
     )
@@ -6388,7 +6388,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 219.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be5486d4-1e70-4e8b-8cb3-635ba3b877c6)
-    (property "Reference" "R103" (at 182.88 222.25 90)
+    (property "Reference" "R101" (at 182.88 222.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 224.155 90)
@@ -6405,7 +6405,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R103") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -6452,7 +6452,7 @@
   (symbol (lib_id "power:GND") (at 102.87 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c43b7b00-e14a-4271-930e-74b963350405)
-    (property "Reference" "#PWR0412" (at 102.87 208.915 0)
+    (property "Reference" "#PWR0517" (at 102.87 208.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 206.375 0)
@@ -6468,7 +6468,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0412") (unit 1)
+          (reference "#PWR0517") (unit 1)
         )
       )
     )
@@ -6505,7 +6505,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0393") (unit 1)
+          (reference "#PWR0496") (unit 1)
         )
       )
     )
@@ -6580,7 +6580,7 @@
           (reference "#PWR0318") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0374") (unit 1)
+          (reference "#PWR0478") (unit 1)
         )
       )
     )
@@ -6618,7 +6618,7 @@
           (reference "C141") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C206") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -6627,7 +6627,7 @@
   (symbol (lib_id "power:GND") (at 53.34 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8d0fc69-b4b5-49cd-be30-f9de17c2c2f6)
-    (property "Reference" "#PWR0415" (at 53.34 209.55 0)
+    (property "Reference" "#PWR0521" (at 53.34 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 207.01 0)
@@ -6643,7 +6643,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0521") (unit 1)
         )
       )
     )
@@ -6701,7 +6701,7 @@
   (symbol (lib_id "Device:C") (at 271.145 220.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c980e408-4c47-493e-89a7-46f30a56ae4e)
-    (property "Reference" "C212" (at 274.955 219.0749 0)
+    (property "Reference" "C203" (at 274.955 219.0749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X5R" (at 274.955 221.6149 0)
@@ -6718,7 +6718,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C212") (unit 1)
+          (reference "C203") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "C213") (unit 1)
@@ -6730,7 +6730,7 @@
   (symbol (lib_id "power:GND") (at 251.46 123.825 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cbf62bf4-d3b8-47ef-8d6c-a5b23ad0b2e0)
-    (property "Reference" "#PWR0383" (at 257.81 123.825 0)
+    (property "Reference" "#PWR0487" (at 257.81 123.825 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 254.635 123.825 90)
@@ -6746,7 +6746,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0383") (unit 1)
+          (reference "#PWR0487") (unit 1)
         )
       )
     )
@@ -6783,7 +6783,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0442") (unit 1)
+          (reference "#PWR0513") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "#PWR0434") (unit 1)
@@ -6795,7 +6795,7 @@
   (symbol (lib_id "Device:R_US") (at 67.31 240.665 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd45679c-fc9b-462b-88d4-1d75346475f5)
-    (property "Reference" "R104" (at 67.31 243.205 90)
+    (property "Reference" "R102" (at 67.31 243.205 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "25.5k" (at 67.31 245.11 90)
@@ -6812,7 +6812,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R104") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -6821,7 +6821,7 @@
   (symbol (lib_id "power:GND") (at 186.69 142.875 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd91b4c4-38f0-4708-8d18-e77db46b40fa)
-    (property "Reference" "#PWR0395" (at 193.04 142.875 0)
+    (property "Reference" "#PWR0498" (at 193.04 142.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 142.875 90)
@@ -6837,7 +6837,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0395") (unit 1)
+          (reference "#PWR0498") (unit 1)
         )
       )
     )
@@ -6846,7 +6846,7 @@
   (symbol (lib_id "Device:C") (at 271.145 196.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce661b7a-29e8-4692-a9e8-fa02653412a8)
-    (property "Reference" "C209" (at 274.955 194.9449 0)
+    (property "Reference" "C196" (at 274.955 194.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X5R" (at 274.955 197.4849 0)
@@ -6863,7 +6863,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C209") (unit 1)
+          (reference "C196") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "C209") (unit 1)
@@ -6875,7 +6875,7 @@
   (symbol (lib_id "Interface_USB:TPS2561") (at 50.8 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cee435ad-329f-413c-b600-998b7fc0131c)
-    (property "Reference" "U18" (at 50.8 175.895 0)
+    (property "Reference" "U17" (at 50.8 175.895 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2561" (at 50.8 178.435 0)
@@ -6901,7 +6901,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "U18") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -6964,7 +6964,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0400") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
       )
     )
@@ -7001,7 +7001,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0398") (unit 1)
+          (reference "#PWR0500") (unit 1)
         )
       )
     )
@@ -7010,7 +7010,7 @@
   (symbol (lib_id "power:GND") (at 113.665 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d70faecd-5d9c-4358-a934-4191c2e18ff6)
-    (property "Reference" "#PWR0413" (at 113.665 208.915 0)
+    (property "Reference" "#PWR0518" (at 113.665 208.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.665 206.375 0)
@@ -7026,7 +7026,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0518") (unit 1)
         )
       )
     )
@@ -7101,7 +7101,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0367") (unit 1)
+          (reference "#PWR0475") (unit 1)
         )
       )
     )
@@ -7138,7 +7138,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0390") (unit 1)
+          (reference "#PWR0493") (unit 1)
         )
       )
     )
@@ -7147,7 +7147,7 @@
   (symbol (lib_id "power:GND") (at 186.69 219.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbe94c4d-d9a5-42bc-b9a5-5cf54e440c3f)
-    (property "Reference" "#PWR0422" (at 193.04 219.71 0)
+    (property "Reference" "#PWR0527" (at 193.04 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.865 219.71 90)
@@ -7163,7 +7163,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0527") (unit 1)
         )
       )
     )
@@ -7198,7 +7198,7 @@
   (symbol (lib_id "Device:R_US") (at 73.025 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd35f81c-c0ba-4872-8123-fd5dcf169d50)
-    (property "Reference" "R102" (at 74.93 218.4399 0)
+    (property "Reference" "R100" (at 74.93 218.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 74.93 220.9799 0)
@@ -7215,7 +7215,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R102") (unit 1)
+          (reference "R100") (unit 1)
         )
       )
     )
@@ -7252,7 +7252,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0407") (unit 1)
+          (reference "#PWR0507") (unit 1)
         )
       )
     )
@@ -7339,7 +7339,7 @@
   (symbol (lib_id "Device:R_US") (at 175.895 42.545 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3362fb5-b4a1-4e08-a254-5ce31c4e79ae)
-    (property "Reference" "R77" (at 175.895 38.1 90)
+    (property "Reference" "R79" (at 175.895 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1M" (at 175.895 40.005 90)
@@ -7356,7 +7356,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R77") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
     )
@@ -7365,7 +7365,7 @@
   (symbol (lib_id "power:+3V3") (at 99.695 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5453a2f-89ff-4ae2-8b26-24b20b79a53d)
-    (property "Reference" "#PWR0369" (at 99.695 27.94 0)
+    (property "Reference" "#PWR0469" (at 99.695 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 99.695 20.32 0)
@@ -7381,7 +7381,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0369") (unit 1)
+          (reference "#PWR0469") (unit 1)
         )
       )
     )
@@ -7390,7 +7390,7 @@
   (symbol (lib_id "power:GND") (at 81.28 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e54e8e60-75c8-48ce-802a-eb27f34ab2f0)
-    (property "Reference" "#PWR0410" (at 81.28 208.915 0)
+    (property "Reference" "#PWR0515" (at 81.28 208.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 206.375 0)
@@ -7406,7 +7406,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0410") (unit 1)
+          (reference "#PWR0515") (unit 1)
         )
       )
     )
@@ -7415,7 +7415,7 @@
   (symbol (lib_id "power:+3V3") (at 65.405 173.355 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7853d09-2140-47de-85fa-b233e384736d)
-    (property "Reference" "#PWR0405" (at 65.405 177.165 0)
+    (property "Reference" "#PWR0508" (at 65.405 177.165 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 65.405 169.545 0)
@@ -7431,7 +7431,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0405") (unit 1)
+          (reference "#PWR0508") (unit 1)
         )
       )
     )
@@ -7440,7 +7440,7 @@
   (symbol (lib_id "Device:R_US") (at 204.47 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e85358ec-19ca-41b6-b28d-87b70eb566b8)
-    (property "Reference" "R78" (at 204.47 43.18 90)
+    (property "Reference" "R80" (at 204.47 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "90.9kΩ ±1%" (at 204.47 45.085 90)
@@ -7457,7 +7457,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R78") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
     )
@@ -7466,7 +7466,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 81.28 241.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8d9d772-0ae8-4b1a-adf3-a70f24563605)
-    (property "Reference" "C203" (at 84.455 240.03 0)
+    (property "Reference" "C207" (at 84.455 240.03 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150u" (at 84.455 242.57 0)
@@ -7483,7 +7483,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C203") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -7492,7 +7492,7 @@
   (symbol (lib_id "power:GND") (at 53.34 245.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb048b5e-9036-4b49-ba64-235a2660ef85)
-    (property "Reference" "#PWR0430" (at 53.34 252.095 0)
+    (property "Reference" "#PWR0538" (at 53.34 252.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 249.555 0)
@@ -7508,7 +7508,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0430") (unit 1)
+          (reference "#PWR0538") (unit 1)
         )
       )
     )
@@ -7517,7 +7517,7 @@
   (symbol (lib_id "Device:R_US") (at 182.88 61.595 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb8d8b43-e360-497f-b453-44e1dee8042c)
-    (property "Reference" "R85" (at 182.88 64.135 90)
+    (property "Reference" "R83" (at 182.88 64.135 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 182.88 66.04 90)
@@ -7534,7 +7534,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R85") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
     )
@@ -7543,7 +7543,7 @@
   (symbol (lib_id "Device:R_US") (at 91.44 27.94 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebf788c6-002d-415a-ad3b-dfecfbeb85bb)
-    (property "Reference" "R83" (at 93.345 29.21 0)
+    (property "Reference" "R75" (at 93.345 29.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7k" (at 93.345 27.305 0)
@@ -7560,7 +7560,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R83") (unit 1)
+          (reference "R75") (unit 1)
         )
       )
     )
@@ -7597,7 +7597,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0408") (unit 1)
+          (reference "#PWR0510") (unit 1)
         )
       )
     )
@@ -7606,7 +7606,7 @@
   (symbol (lib_id "power:GND") (at 48.26 245.745 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed8d5556-4712-4788-8eb6-ca2051920601)
-    (property "Reference" "#PWR0429" (at 48.26 252.095 0)
+    (property "Reference" "#PWR0537" (at 48.26 252.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 249.555 0)
@@ -7622,7 +7622,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0537") (unit 1)
         )
       )
     )
@@ -7631,7 +7631,7 @@
   (symbol (lib_id "Device:C") (at 228.6 220.345 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeeaf589-287c-49a8-8c0b-74e4d7a1ee38)
-    (property "Reference" "C208" (at 232.41 219.0749 0)
+    (property "Reference" "C202" (at 232.41 219.0749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X5R" (at 232.41 221.6149 0)
@@ -7648,7 +7648,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C208") (unit 1)
+          (reference "C202") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "C212") (unit 1)
@@ -7736,7 +7736,7 @@
   (symbol (lib_id "power:GND") (at 240.03 131.445 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f43dc8a1-c8d2-4c3c-b23e-959e3bd3f313)
-    (property "Reference" "#PWR0386" (at 246.38 131.445 0)
+    (property "Reference" "#PWR0489" (at 246.38 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 131.445 90)
@@ -7752,7 +7752,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0386") (unit 1)
+          (reference "#PWR0489") (unit 1)
         )
       )
     )
@@ -7761,7 +7761,7 @@
   (symbol (lib_id "power:GND") (at 97.79 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f660d53b-d991-47ea-aeeb-d8bc13dcffeb)
-    (property "Reference" "#PWR0379" (at 97.79 114.3 0)
+    (property "Reference" "#PWR0483" (at 97.79 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 111.76 0)
@@ -7777,7 +7777,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0379") (unit 1)
+          (reference "#PWR0483") (unit 1)
         )
       )
     )
@@ -7812,7 +7812,7 @@
   (symbol (lib_id "Device:R_US") (at 90.17 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8bb4c98-32e2-450b-97c1-ddb5709b5bc1)
-    (property "Reference" "R88" (at 92.075 103.505 0)
+    (property "Reference" "R86" (at 92.075 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 92.075 105.41 0)
@@ -7829,7 +7829,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R88") (unit 1)
+          (reference "R86") (unit 1)
         )
       )
     )
@@ -7838,7 +7838,7 @@
   (symbol (lib_id "Device:C") (at 228.6 196.215 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9161a0b-2e32-4f06-9c69-d52593a72f2e)
-    (property "Reference" "C101" (at 232.41 194.9449 0)
+    (property "Reference" "C195" (at 232.41 194.9449 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X5R" (at 232.41 197.4849 0)
@@ -7855,7 +7855,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "C101") (unit 1)
+          (reference "C195") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/0f61d57d-7083-4e3b-b040-dc8971ea63c8"
           (reference "C208") (unit 1)
@@ -7895,7 +7895,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0392") (unit 1)
+          (reference "#PWR0495") (unit 1)
         )
       )
     )
@@ -7904,7 +7904,7 @@
   (symbol (lib_id "power:GND") (at 92.075 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa331206-06d8-4d1e-9b14-1bedf8f7ea75)
-    (property "Reference" "#PWR0411" (at 92.075 208.915 0)
+    (property "Reference" "#PWR0516" (at 92.075 208.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.075 206.375 0)
@@ -7920,7 +7920,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0411") (unit 1)
+          (reference "#PWR0516") (unit 1)
         )
       )
     )
@@ -7929,7 +7929,7 @@
   (symbol (lib_id "Device:R_US") (at 217.17 47.625 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa541258-b88d-4b75-aac9-805fecb1ff16)
-    (property "Reference" "R79" (at 217.17 43.18 90)
+    (property "Reference" "R81" (at 217.17 43.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kΩ ±1%" (at 217.17 45.085 90)
@@ -7946,7 +7946,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "R79") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
     )
@@ -7983,7 +7983,7 @@
           (reference "#PWR0316") (unit 1)
         )
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0531") (unit 1)
         )
       )
     )
@@ -8030,7 +8030,7 @@
   (symbol (lib_id "power:GND") (at 71.12 198.12 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffd09dcb-25c1-47b0-9e14-8f4f422b1cb7)
-    (property "Reference" "#PWR0409" (at 77.47 198.12 0)
+    (property "Reference" "#PWR0511" (at 77.47 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.295 198.12 90)
@@ -8046,7 +8046,7 @@
     (instances
       (project "Schematics and PCB"
         (path "/e4b186e2-256b-418b-b9a4-327a6681c2f1/8c37ee3d-25d1-4c2c-ab3c-fab92c9b18c9"
-          (reference "#PWR0409") (unit 1)
+          (reference "#PWR0511") (unit 1)
         )
       )
     )
