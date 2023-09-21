@@ -621,7 +621,7 @@
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "A9" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin input line (at 8.89 -2.54 180) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
@@ -633,7 +633,7 @@
         (name "RX1+" (effects (font (size 1.27 1.27))))
         (number "B11" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 7.62 -2.54 180) (length 2.54) hide
+      (pin input line (at 8.89 -2.54 180) (length 3.81) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "B12" (effects (font (size 1.27 1.27))))
       )
@@ -645,7 +645,7 @@
         (name "TX2-" (effects (font (size 1.27 1.27))))
         (number "B3" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin input line (at 8.89 -5.08 180) (length 3.81) hide
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "B4" (effects (font (size 1.27 1.27))))
       )
@@ -657,7 +657,7 @@
         (name "D+" (effects (font (size 1.27 1.27))))
         (number "B6" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 7.62 -12.065 180) (length 2.54) hide
+      (pin input line (at 8.89 -12.065 180) (length 3.81) hide
         (name "D-" (effects (font (size 1.27 1.27))))
         (number "B7" (effects (font (size 1.27 1.27))))
       )
@@ -665,7 +665,7 @@
         (name "SBU2" (effects (font (size 1.27 1.27))))
         (number "B8" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at 7.62 -5.08 180) (length 2.54) hide
+      (pin input line (at 8.89 -5.08 180) (length 3.81) hide
         (name "VBUS" (effects (font (size 1.27 1.27))))
         (number "B9" (effects (font (size 1.27 1.27))))
       )
