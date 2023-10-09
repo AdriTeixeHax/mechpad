@@ -671,7 +671,7 @@
       )
       (pin input line (at 8.89 0 180) (length 3.81)
         (name "Shield" (effects (font (size 1.27 1.27))))
-        (number "S" (effects (font (size 1.27 1.27))))
+        (number "S1" (effects (font (size 1.27 1.27))))
       )
     )
   )
