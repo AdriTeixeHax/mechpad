@@ -1,0 +1,18 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python",
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "arduino.useArduinoCli": true,
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.port": "/dev/ttyACM0",
+    "idf.espIdfPath": "/home/ateixeira/esp/esp-idf",
+    "idf.toolsPath": "/home/ateixeira/.espressif",
+    "idf.flashType": "JTAG"
+}

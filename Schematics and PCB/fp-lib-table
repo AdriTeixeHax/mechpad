@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESC-TFG-KiCad")(type "KiCad")(uri "/home/ateixeira/dev/TFG-Brushless-ESC/ESC-TFG-KiCad/librerías/ESC-TFG-KiCad.pretty")(options "")(descr ""))
+)
